@@ -28,9 +28,23 @@ struct MainContentView : View {
                     NavigationButton(destination: ButtonExampleView()) {
                         MainContentCellView(title: "Button", subtitle: "A control that performs an action when triggered.")
                     }
+                    NavigationButton(destination: NavigationButtonExampleView()) {
+                        MainContentCellView(title: "NavigationButton", subtitle: "A button that triggers a navigation presentation when pressed.")
+                    }
+                    NavigationButton(destination: PresentationButtonExampleView()) {
+                        MainContentCellView(title: "PresentationButton", subtitle: "A button that triggers a navigation presentation when pressed.")
+                    }
+                    NavigationButton(destination: EditButtonExampleView()) {
+                        MainContentCellView(title: "EditButton", subtitle: "A button that triggers a navigation presentation when pressed.")
+                    }
                 }
                 Section(header: Text("View Layout and Presentation")) {
                     MainContentCellView(title: "HStack", subtitle: "A view that arranges its children in a horizontal line.")
+                    MainContentCellView(title: "VStack", subtitle: "A view that arranges its children in a vertical line.")
+                    MainContentCellView(title: "ZStack", subtitle: "A view that overlays its children, aligning them in both axes.")
+                    MainContentCellView(title: "List", subtitle: "A container that presents rows of data arranged in a single column.")
+                    MainContentCellView(title: "ScrollView", subtitle: "A scroll view.")
+                    MainContentCellView(title: "ForEach", subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
                 }
 
             }

@@ -20,6 +20,9 @@
 		F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */; };
 		F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */; };
 		F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA922BADE28009E3C48 /* ButtonExampleView.swift */; };
+		F6F47CAE22BAE571009E3C48 /* NavigationButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CAD22BAE571009E3C48 /* NavigationButtonExampleView.swift */; };
+		F6F47CB222BAE593009E3C48 /* PresentationButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CB122BAE593009E3C48 /* PresentationButtonExampleView.swift */; };
+		F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CB322BAE656009E3C48 /* EditButtonExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA922BADE28009E3C48 /* ButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleView.swift; sourceTree = "<group>"; };
+		F6F47CAD22BAE571009E3C48 /* NavigationButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonExampleView.swift; sourceTree = "<group>"; };
+		F6F47CB122BAE593009E3C48 /* PresentationButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationButtonExampleView.swift; sourceTree = "<group>"; };
+		F6F47CB322BAE656009E3C48 /* EditButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,9 @@
 				F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */,
 				F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */,
 				F6F47CA922BADE28009E3C48 /* ButtonExampleView.swift */,
+				F6F47CAD22BAE571009E3C48 /* NavigationButtonExampleView.swift */,
+				F6F47CB122BAE593009E3C48 /* PresentationButtonExampleView.swift */,
+				F6F47CB322BAE656009E3C48 /* EditButtonExampleView.swift */,
 			);
 			path = ViewsAndControls;
 			sourceTree = "<group>";
@@ -193,8 +202,11 @@
 			files = (
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
 				F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */,
+				F6F47CAE22BAE571009E3C48 /* NavigationButtonExampleView.swift in Sources */,
 				F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
+				F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */,
+				F6F47CB222BAE593009E3C48 /* PresentationButtonExampleView.swift in Sources */,
 				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
 				F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */,
 				F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */,
