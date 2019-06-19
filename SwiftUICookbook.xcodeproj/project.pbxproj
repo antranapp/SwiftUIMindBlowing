@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
-		F6F47C8722BABEF7009E3C48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* ContentView.swift */; };
+		F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* MainContentView.swift */; };
 		F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
 		F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */; };
 		F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8D22BABEF8009E3C48 /* LaunchScreen.storyboard */; };
+		F6F47C9922BAC0AB009E3C48 /* MainContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9822BAC0AB009E3C48 /* MainContentCellView.swift */; };
+		F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */; };
+		F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */; };
+		F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F6F47C8622BABEF7009E3C48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6F47C8622BABEF7009E3C48 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		F6F47C8822BABEF8009E3C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6F47C8E22BABEF8009E3C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F47C9022BABEF8009E3C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F47C9822BAC0AB009E3C48 /* MainContentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentCellView.swift; sourceTree = "<group>"; };
+		F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
+		F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleView.swift; sourceTree = "<group>"; };
+		F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,9 @@
 		F6F47C8122BABEF7009E3C48 /* SwiftUICookbook */ = {
 			isa = PBXGroup;
 			children = (
+				F6F47C9622BAC00D009E3C48 /* Scenes */,
 				F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */,
 				F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */,
-				F6F47C8622BABEF7009E3C48 /* ContentView.swift */,
 				F6F47C8822BABEF8009E3C48 /* Assets.xcassets */,
 				F6F47C8D22BABEF8009E3C48 /* LaunchScreen.storyboard */,
 				F6F47C9022BABEF8009E3C48 /* Info.plist */,
@@ -73,6 +81,34 @@
 				F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6F47C9622BAC00D009E3C48 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F6F47C9722BAC017009E3C48 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F6F47C9722BAC017009E3C48 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F6F47C9E22BAC954009E3C48 /* ViewsAndControls */,
+				F6F47C8622BABEF7009E3C48 /* MainContentView.swift */,
+				F6F47C9822BAC0AB009E3C48 /* MainContentCellView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F6F47C9E22BAC954009E3C48 /* ViewsAndControls */ = {
+			isa = PBXGroup;
+			children = (
+				F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */,
+				F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */,
+				F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */,
+			);
+			path = ViewsAndControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
+				F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */,
+				F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
-				F6F47C8722BABEF7009E3C48 /* ContentView.swift in Sources */,
+				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
+				F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */,
+				F6F47C9922BAC0AB009E3C48 /* MainContentCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
