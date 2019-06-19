@@ -17,6 +17,8 @@
 		F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */; };
 		F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */; };
 		F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */; };
+		F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */; };
+		F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExampleView.swift; sourceTree = "<group>"; };
+		F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExampleView.swift; sourceTree = "<group>"; };
+		F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */,
 				F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */,
 				F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */,
+				F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */,
+				F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */,
 			);
 			path = ViewsAndControls;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
 				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
 				F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */,
+				F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */,
+				F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */,
 				F6F47C9922BAC0AB009E3C48 /* MainContentCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,6 +19,12 @@ struct MainContentView : View {
                     NavigationButton(destination: SecureFieldExampleView()) {
                         MainContentCellView(title: "SecureTextField", subtitle: "A control into which the user securely enters private text.")
                     }
+                    NavigationButton(destination: FontExampleView()) {
+                        MainContentCellView(title: "Font", subtitle: "An environment-dependent font.")
+                    }
+                    NavigationButton(destination: ImageExampleView()) {
+                        MainContentCellView(title: "Image", subtitle: "A view that displays an environment-dependent image.")
+                    }
                 }
                 Section(header: Text("View Layout and Presentation")) {
                     MainContentCellView(title: "Text", subtitle: "A view that displays one or more lines of read-only text.")
