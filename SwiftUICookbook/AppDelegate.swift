@@ -1,8 +1,4 @@
 //
-//  AppDelegate.swift
-//  SwiftUICookbook
-//
-//  Created by An Tran on 19.06.19.
 //  Copyright © 2019 An Tran. All rights reserved.
 //
 

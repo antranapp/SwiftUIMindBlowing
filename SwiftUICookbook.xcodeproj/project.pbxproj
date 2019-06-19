@@ -19,6 +19,7 @@
 		F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */; };
 		F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */; };
 		F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */; };
+		F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA922BADE28009E3C48 /* ButtonExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
+		F6F47CA922BADE28009E3C48 /* ButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				F6F47C9722BAC017009E3C48 /* Main */,
+				F6F47C9E22BAC954009E3C48 /* ViewsAndControls */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -98,7 +101,6 @@
 		F6F47C9722BAC017009E3C48 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				F6F47C9E22BAC954009E3C48 /* ViewsAndControls */,
 				F6F47C8622BABEF7009E3C48 /* MainContentView.swift */,
 				F6F47C9822BAC0AB009E3C48 /* MainContentCellView.swift */,
 			);
@@ -113,6 +115,7 @@
 				F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */,
 				F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */,
 				F6F47CA722BADD24009E3C48 /* ImageExampleView.swift */,
+				F6F47CA922BADE28009E3C48 /* ButtonExampleView.swift */,
 			);
 			path = ViewsAndControls;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
 				F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */,
 				F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */,
+				F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */,
 				F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */,
 				F6F47C9922BAC0AB009E3C48 /* MainContentCellView.swift in Sources */,
 			);

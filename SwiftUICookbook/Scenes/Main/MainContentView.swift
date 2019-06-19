@@ -25,12 +25,12 @@ struct MainContentView : View {
                     NavigationButton(destination: ImageExampleView()) {
                         MainContentCellView(title: "Image", subtitle: "A view that displays an environment-dependent image.")
                     }
+                    NavigationButton(destination: ButtonExampleView()) {
+                        MainContentCellView(title: "Button", subtitle: "A control that performs an action when triggered.")
+                    }
                 }
                 Section(header: Text("View Layout and Presentation")) {
-                    MainContentCellView(title: "Text", subtitle: "A view that displays one or more lines of read-only text.")
-                        
-                    MainContentCellView(title: "TextField", subtitle: "A control that displays an editable text interface.")
-                    MainContentCellView(title: "SecureTextField", subtitle: "A control into which the user securely enters private text.")
+                    MainContentCellView(title: "HStack", subtitle: "A view that arranges its children in a horizontal line.")
                 }
 
             }
