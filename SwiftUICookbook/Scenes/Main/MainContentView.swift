@@ -10,33 +10,46 @@ struct MainContentView : View {
         NavigationView {
             List {
                 Section(header: Text("Views and Controls")) {
-                    NavigationButton(destination: TextExampleView()) {
-                        MainContentCellView(title: "Text", subtitle: "A view that displays one or more lines of read-only text.")
+                    Group {
+                        NavigationButton(destination: TextExampleView()) {
+                            MainContentCellView(title: "Text", subtitle: "A view that displays one or more lines of read-only text.")
+                        }
+                        NavigationButton(destination: TextFieldExampleView()) {
+                            MainContentCellView(title: "TextField", subtitle: "A control that displays an editable text interface.")
+                        }
+                        NavigationButton(destination: SecureFieldExampleView()) {
+                            MainContentCellView(title: "SecureTextField", subtitle: "A control into which the user securely enters private text.")
+                        }
+                        NavigationButton(destination: FontExampleView()) {
+                            MainContentCellView(title: "Font", subtitle: "An environment-dependent font.")
+                        }
+                        NavigationButton(destination: ImageExampleView()) {
+                            MainContentCellView(title: "Image", subtitle: "A view that displays an environment-dependent image.")
+                        }
+                        NavigationButton(destination: ButtonExampleView()) {
+                            MainContentCellView(title: "Button", subtitle: "A control that performs an action when triggered.")
+                        }
+                        NavigationButton(destination: NavigationButtonExampleView()) {
+                            MainContentCellView(title: "NavigationButton", subtitle: "A button that triggers a navigation presentation when pressed.")
+                        }
+                        NavigationButton(destination: PresentationButtonExampleView()) {
+                            MainContentCellView(title: "PresentationButton", subtitle: "A button that triggers a navigation presentation when pressed.")
+                        }
+                        NavigationButton(destination: EditButtonExampleView()) {
+                            MainContentCellView(title: "EditButton", subtitle: "A button that triggers a navigation presentation when pressed.")
+                        }
+                        NavigationButton(destination: ToggleExampleView()) {
+                            MainContentCellView(title: "Toggle", subtitle: "A control that toggles between on and off states.")
+                        }
                     }
-                    NavigationButton(destination: TextFieldExampleView()) {
-                        MainContentCellView(title: "TextField", subtitle: "A control that displays an editable text interface.")
+                    Group {
+                        MainContentCellView(title: "Picker", subtitle: "A control for selecting from a set of mutually exclusive values.")
+                        MainContentCellView(title: "DatePicker", subtitle: "A control for selecting an absolute date.")
+                        MainContentCellView(title: "Slider", subtitle: "A control for selecting a value from a bounded linear range of values.")
+                        MainContentCellView(title: "Stepper", subtitle: "A control used to perform semantic increment and decrement actions.")
+                        MainContentCellView(title: "SegmentedControl", subtitle: "A control for selecting from a set of options.")
                     }
-                    NavigationButton(destination: SecureFieldExampleView()) {
-                        MainContentCellView(title: "SecureTextField", subtitle: "A control into which the user securely enters private text.")
-                    }
-                    NavigationButton(destination: FontExampleView()) {
-                        MainContentCellView(title: "Font", subtitle: "An environment-dependent font.")
-                    }
-                    NavigationButton(destination: ImageExampleView()) {
-                        MainContentCellView(title: "Image", subtitle: "A view that displays an environment-dependent image.")
-                    }
-                    NavigationButton(destination: ButtonExampleView()) {
-                        MainContentCellView(title: "Button", subtitle: "A control that performs an action when triggered.")
-                    }
-                    NavigationButton(destination: NavigationButtonExampleView()) {
-                        MainContentCellView(title: "NavigationButton", subtitle: "A button that triggers a navigation presentation when pressed.")
-                    }
-                    NavigationButton(destination: PresentationButtonExampleView()) {
-                        MainContentCellView(title: "PresentationButton", subtitle: "A button that triggers a navigation presentation when pressed.")
-                    }
-                    NavigationButton(destination: EditButtonExampleView()) {
-                        MainContentCellView(title: "EditButton", subtitle: "A button that triggers a navigation presentation when pressed.")
-                    }
+
                 }
                 Section(header: Text("View Layout and Presentation")) {
                     MainContentCellView(title: "HStack", subtitle: "A view that arranges its children in a horizontal line.")

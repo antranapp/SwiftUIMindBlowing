@@ -23,6 +23,7 @@
 		F6F47CAE22BAE571009E3C48 /* NavigationButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CAD22BAE571009E3C48 /* NavigationButtonExampleView.swift */; };
 		F6F47CB222BAE593009E3C48 /* PresentationButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CB122BAE593009E3C48 /* PresentationButtonExampleView.swift */; };
 		F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CB322BAE656009E3C48 /* EditButtonExampleView.swift */; };
+		F6F47CB822BAED77009E3C48 /* ToggleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CB722BAED77009E3C48 /* ToggleExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		F6F47CAD22BAE571009E3C48 /* NavigationButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonExampleView.swift; sourceTree = "<group>"; };
 		F6F47CB122BAE593009E3C48 /* PresentationButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationButtonExampleView.swift; sourceTree = "<group>"; };
 		F6F47CB322BAE656009E3C48 /* EditButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonExampleView.swift; sourceTree = "<group>"; };
+		F6F47CB722BAED77009E3C48 /* ToggleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				F6F47CAD22BAE571009E3C48 /* NavigationButtonExampleView.swift */,
 				F6F47CB122BAE593009E3C48 /* PresentationButtonExampleView.swift */,
 				F6F47CB322BAE656009E3C48 /* EditButtonExampleView.swift */,
+				F6F47CB722BAED77009E3C48 /* ToggleExampleView.swift */,
 			);
 			path = ViewsAndControls;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */,
 				F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */,
 				F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */,
+				F6F47CB822BAED77009E3C48 /* ToggleExampleView.swift in Sources */,
 				F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */,
 				F6F47C9922BAC0AB009E3C48 /* MainContentCellView.swift in Sources */,
 			);
