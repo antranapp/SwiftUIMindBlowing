@@ -18,6 +18,10 @@ struct DasboardView : View {
             SFSymbolsContentView()
                 .tabItemLabel(Text("SFSymbols"))
                 .tag(2)
+
+            SFSymbolsContentView()
+                .tabItemLabel(Text("MindBlowing"))
+                .tag(3)
         }
     }
 }

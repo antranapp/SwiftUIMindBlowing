@@ -17,6 +17,7 @@
 		F63E6F4A22BB7E8800B600C4 /* AnimationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4922BB7E8800B600C4 /* AnimationContentView.swift */; };
 		F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4C22BB825500B600C4 /* SFSymbolsContentView.swift */; };
 		F63E6F5122BB830200B600C4 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5022BB830200B600C4 /* SFSymbols.swift */; };
+		F63E6F5422BB97FF00B600C4 /* MindBlowingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5322BB97FF00B600C4 /* MindBlowingContentView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */; };
@@ -47,6 +48,7 @@
 		F63E6F4922BB7E8800B600C4 /* AnimationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContentView.swift; sourceTree = "<group>"; };
 		F63E6F4C22BB825500B600C4 /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
 		F63E6F5022BB830200B600C4 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		F63E6F5322BB97FF00B600C4 /* MindBlowingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindBlowingContentView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,14 @@
 			path = SFSymbols;
 			sourceTree = "<group>";
 		};
+		F63E6F5222BB891B00B600C4 /* MindBlowing */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F5322BB97FF00B600C4 /* MindBlowingContentView.swift */,
+			);
+			path = MindBlowing;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -158,8 +168,7 @@
 				F6F47C9722BAC017009E3C48 /* Basic */,
 				F63E6F4822BB7DCB00B600C4 /* Animation */,
 				F63E6F4B22BB824100B600C4 /* SFSymbols */,
-				F6F47C9E22BAC954009E3C48 /* ViewsAndControls */,
-				F63E6F4022BB78F600B600C4 /* ViewLayoutAndPresentation */,
+				F63E6F5222BB891B00B600C4 /* MindBlowing */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -169,6 +178,8 @@
 			children = (
 				F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */,
 				F6F47C9822BAC0AB009E3C48 /* BasicContentCellView.swift */,
+				F6F47C9E22BAC954009E3C48 /* ViewsAndControls */,
+				F63E6F4022BB78F600B600C4 /* ViewLayoutAndPresentation */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -286,6 +297,7 @@
 				F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */,
 				F6F47CB822BAED77009E3C48 /* ToggleExampleView.swift in Sources */,
 				F63E6F5122BB830200B600C4 /* SFSymbols.swift in Sources */,
+				F63E6F5422BB97FF00B600C4 /* MindBlowingContentView.swift in Sources */,
 				F63E6F4A22BB7E8800B600C4 /* AnimationContentView.swift in Sources */,
 				F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */,
 				F6F47C9922BAC0AB009E3C48 /* BasicContentCellView.swift in Sources */,

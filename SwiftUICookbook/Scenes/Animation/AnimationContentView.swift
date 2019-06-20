@@ -6,7 +6,7 @@ import SwiftUI
 
 struct AnimationContentView : View {
     var body: some View {
-        Text("Animation comming soon!")
+        Text("Animation examples ares comming soon!")
     }
 }
 
