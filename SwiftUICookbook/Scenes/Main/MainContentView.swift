@@ -46,7 +46,9 @@ struct MainContentView : View {
                         NavigationButton(destination: PickerExampleView()) {
                             MainContentCellView(title: "Picker", subtitle: "A control for selecting from a set of mutually exclusive values.")
                         }
-                        MainContentCellView(title: "DatePicker", subtitle: "A control for selecting an absolute date.")
+                        NavigationButton(destination: DatePickerExampleView()) {
+                            MainContentCellView(title: "DatePicker", subtitle: "A control for selecting an absolute date.")
+                        }
                         MainContentCellView(title: "Slider", subtitle: "A control for selecting a value from a bounded linear range of values.")
                         MainContentCellView(title: "Stepper", subtitle: "A control used to perform semantic increment and decrement actions.")
                         MainContentCellView(title: "SegmentedControl", subtitle: "A control for selecting from a set of options.")
