@@ -6,7 +6,7 @@ import SwiftUI
 
 struct PickerExampleView : View {
 
-    @State var pickerValue: String = "UIKit"
+    @State var pickerValue = "UIKit"
     let uiStacks = ["UIKit", "UIKit for Mac", "SwiftUI"]
 
     var body: some View {

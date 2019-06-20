@@ -5,6 +5,7 @@
 import SwiftUI
 
 struct FontExampleView : View {
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text("Large title font").font(.largeTitle)

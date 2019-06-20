@@ -6,7 +6,7 @@ import SwiftUI
 
 struct ToggleExampleView : View {
 
-    @State var isTextVisible: Bool = true
+    @State var isTextVisible = true
 
     var body: some View {
         VStack {

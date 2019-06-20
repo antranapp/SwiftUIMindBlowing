@@ -6,7 +6,7 @@ import SwiftUI
 
 struct SecureFieldExampleView : View {
 
-    @State var textValue: String = ""
+    @State var textValue = ""
 
     var body: some View {
         VStack(alignment: .leading) {

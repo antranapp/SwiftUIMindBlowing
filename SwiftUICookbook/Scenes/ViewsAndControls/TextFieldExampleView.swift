@@ -6,8 +6,8 @@ import SwiftUI
 
 struct TextFieldExampleView : View {
 
-    @State var textValue: String = ""
-    @State var finalTextValue: String = ""
+    @State var textValue = ""
+    @State var finalTextValue = ""
 
     var body: some View {
         VStack(alignment: .leading) {

@@ -5,6 +5,7 @@
 import SwiftUI
 
 struct NavigationButtonExampleView : View {
+    
     var body: some View {
         NavigationButton(destination: PushedView()) {
             Text("Push a new view")

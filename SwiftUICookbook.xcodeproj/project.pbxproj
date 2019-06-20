@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		F63E6F3922BB695E00B600C4 /* PickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F3822BB695E00B600C4 /* PickerExampleView.swift */; };
 		F63E6F3B22BB737500B600C4 /* DatePickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F3A22BB737500B600C4 /* DatePickerExampleView.swift */; };
+		F63E6F3D22BB754000B600C4 /* StepperExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F3C22BB754000B600C4 /* StepperExampleView.swift */; };
+		F63E6F3F22BB76A600B600C4 /* SegmentedControlExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F3E22BB76A600B600C4 /* SegmentedControlExampleView.swift */; };
+		F63E6F4222BB790E00B600C4 /* HStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4122BB790E00B600C4 /* HStackExampleView.swift */; };
+		F63E6F4422BB791C00B600C4 /* VStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4322BB791C00B600C4 /* VStackExampleView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* MainContentView.swift */; };
@@ -31,6 +35,10 @@
 /* Begin PBXFileReference section */
 		F63E6F3822BB695E00B600C4 /* PickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExampleView.swift; sourceTree = "<group>"; };
 		F63E6F3A22BB737500B600C4 /* DatePickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExampleView.swift; sourceTree = "<group>"; };
+		F63E6F3C22BB754000B600C4 /* StepperExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleView.swift; sourceTree = "<group>"; };
+		F63E6F3E22BB76A600B600C4 /* SegmentedControlExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlExampleView.swift; sourceTree = "<group>"; };
+		F63E6F4122BB790E00B600C4 /* HStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExampleView.swift; sourceTree = "<group>"; };
+		F63E6F4322BB791C00B600C4 /* VStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExampleView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F63E6F4022BB78F600B600C4 /* ViewLayoutAndPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F4122BB790E00B600C4 /* HStackExampleView.swift */,
+				F63E6F4322BB791C00B600C4 /* VStackExampleView.swift */,
+			);
+			path = ViewLayoutAndPresentation;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +123,7 @@
 			children = (
 				F6F47C9722BAC017009E3C48 /* Main */,
 				F6F47C9E22BAC954009E3C48 /* ViewsAndControls */,
+				F63E6F4022BB78F600B600C4 /* ViewLayoutAndPresentation */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -134,6 +152,8 @@
 				F6F47CB722BAED77009E3C48 /* ToggleExampleView.swift */,
 				F63E6F3822BB695E00B600C4 /* PickerExampleView.swift */,
 				F63E6F3A22BB737500B600C4 /* DatePickerExampleView.swift */,
+				F63E6F3C22BB754000B600C4 /* StepperExampleView.swift */,
+				F63E6F3E22BB76A600B600C4 /* SegmentedControlExampleView.swift */,
 			);
 			path = ViewsAndControls;
 			sourceTree = "<group>";
@@ -214,13 +234,17 @@
 				F6F47CAE22BAE571009E3C48 /* NavigationButtonExampleView.swift in Sources */,
 				F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
+				F63E6F4422BB791C00B600C4 /* VStackExampleView.swift in Sources */,
 				F63E6F3922BB695E00B600C4 /* PickerExampleView.swift in Sources */,
 				F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */,
 				F6F47CB222BAE593009E3C48 /* PresentationButtonExampleView.swift in Sources */,
 				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
 				F63E6F3B22BB737500B600C4 /* DatePickerExampleView.swift in Sources */,
+				F63E6F3D22BB754000B600C4 /* StepperExampleView.swift in Sources */,
 				F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */,
+				F63E6F3F22BB76A600B600C4 /* SegmentedControlExampleView.swift in Sources */,
 				F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */,
+				F63E6F4222BB790E00B600C4 /* HStackExampleView.swift in Sources */,
 				F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */,
 				F6F47CB822BAED77009E3C48 /* ToggleExampleView.swift in Sources */,
 				F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */,

@@ -23,6 +23,9 @@ struct DatePickerExampleView : View {
                        maximumDate: Date(),
                        displayedComponents: .date)
         }
+        .navigationBarTitle(Text("DatePicker"))
+        .padding()
+
     }
 }
 

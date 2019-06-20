@@ -10,7 +10,7 @@ struct MainContentView : View {
         NavigationView {
             List {
                 Section(header: Text("Views and Controls")) {
-                    Group {
+                    Group { // Group is used to overcome limitation of 10 Subviews in a ViewBuilder
                         NavigationButton(destination: TextExampleView()) {
                             MainContentCellView(title: "Text", subtitle: "A view that displays one or more lines of read-only text.")
                         }
@@ -49,15 +49,25 @@ struct MainContentView : View {
                         NavigationButton(destination: DatePickerExampleView()) {
                             MainContentCellView(title: "DatePicker", subtitle: "A control for selecting an absolute date.")
                         }
-                        MainContentCellView(title: "Slider", subtitle: "A control for selecting a value from a bounded linear range of values.")
-                        MainContentCellView(title: "Stepper", subtitle: "A control used to perform semantic increment and decrement actions.")
-                        MainContentCellView(title: "SegmentedControl", subtitle: "A control for selecting from a set of options.")
+                        NavigationButton(destination: DatePickerExampleView()) {
+                            MainContentCellView(title: "Slider", subtitle: "A control for selecting a value from a bounded linear range of values.")
+                        }
+                        NavigationButton(destination: StepperExampleView()) {
+                            MainContentCellView(title: "Stepper", subtitle: "A control used to perform semantic increment and decrement actions.")
+                        }
+                        NavigationButton(destination: SegmentedControlExampleView()) {
+                            MainContentCellView(title: "SegmentedControl", subtitle: "A control for selecting from a set of options.")
+                        }
                     }
 
                 }
                 Section(header: Text("View Layout and Presentation")) {
-                    MainContentCellView(title: "HStack", subtitle: "A view that arranges its children in a horizontal line.")
-                    MainContentCellView(title: "VStack", subtitle: "A view that arranges its children in a vertical line.")
+                    NavigationButton(destination: HStackExampleView()) {
+                        MainContentCellView(title: "HStack", subtitle: "A view that arranges its children in a horizontal line.")
+                    }
+                    NavigationButton(destination: VStackExampleView()) {
+                        MainContentCellView(title: "VStack", subtitle: "A view that arranges its children in a vertical line.")
+                    }
                     MainContentCellView(title: "ZStack", subtitle: "A view that overlays its children, aligning them in both axes.")
                     MainContentCellView(title: "List", subtitle: "A container that presents rows of data arranged in a single column.")
                     MainContentCellView(title: "ScrollView", subtitle: "A scroll view.")

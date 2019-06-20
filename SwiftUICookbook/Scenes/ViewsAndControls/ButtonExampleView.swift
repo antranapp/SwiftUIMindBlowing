@@ -6,7 +6,7 @@ import SwiftUI
 
 struct ButtonExampleView : View {
 
-    @State var randomValue: Int = 0
+    @State var randomValue = 0
 
     var body: some View {
         VStack(alignment: .leading) {

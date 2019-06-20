@@ -5,6 +5,7 @@
 import SwiftUI
 
 struct TextExampleView : View {
+
     var body: some View {
         VStack {
             Text("Simple Text")
