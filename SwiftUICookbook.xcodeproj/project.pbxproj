@@ -13,13 +13,17 @@
 		F63E6F3F22BB76A600B600C4 /* SegmentedControlExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F3E22BB76A600B600C4 /* SegmentedControlExampleView.swift */; };
 		F63E6F4222BB790E00B600C4 /* HStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4122BB790E00B600C4 /* HStackExampleView.swift */; };
 		F63E6F4422BB791C00B600C4 /* VStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4322BB791C00B600C4 /* VStackExampleView.swift */; };
+		F63E6F4722BB7DA100B600C4 /* DasboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4622BB7DA100B600C4 /* DasboardView.swift */; };
+		F63E6F4A22BB7E8800B600C4 /* AnimationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4922BB7E8800B600C4 /* AnimationContentView.swift */; };
+		F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4C22BB825500B600C4 /* SFSymbolsContentView.swift */; };
+		F63E6F5122BB830200B600C4 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5022BB830200B600C4 /* SFSymbols.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
-		F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* MainContentView.swift */; };
+		F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */; };
 		F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
 		F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */; };
 		F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8D22BABEF8009E3C48 /* LaunchScreen.storyboard */; };
-		F6F47C9922BAC0AB009E3C48 /* MainContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9822BAC0AB009E3C48 /* MainContentCellView.swift */; };
+		F6F47C9922BAC0AB009E3C48 /* BasicContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9822BAC0AB009E3C48 /* BasicContentCellView.swift */; };
 		F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */; };
 		F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */; };
 		F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */; };
@@ -39,15 +43,19 @@
 		F63E6F3E22BB76A600B600C4 /* SegmentedControlExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlExampleView.swift; sourceTree = "<group>"; };
 		F63E6F4122BB790E00B600C4 /* HStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExampleView.swift; sourceTree = "<group>"; };
 		F63E6F4322BB791C00B600C4 /* VStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExampleView.swift; sourceTree = "<group>"; };
+		F63E6F4622BB7DA100B600C4 /* DasboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasboardView.swift; sourceTree = "<group>"; };
+		F63E6F4922BB7E8800B600C4 /* AnimationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContentView.swift; sourceTree = "<group>"; };
+		F63E6F4C22BB825500B600C4 /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
+		F63E6F5022BB830200B600C4 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F6F47C8622BABEF7009E3C48 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		F6F47C8822BABEF8009E3C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6F47C8E22BABEF8009E3C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F47C9022BABEF8009E3C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6F47C9822BAC0AB009E3C48 /* MainContentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentCellView.swift; sourceTree = "<group>"; };
+		F6F47C9822BAC0AB009E3C48 /* BasicContentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentCellView.swift; sourceTree = "<group>"; };
 		F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExampleView.swift; sourceTree = "<group>"; };
@@ -78,6 +86,31 @@
 				F63E6F4322BB791C00B600C4 /* VStackExampleView.swift */,
 			);
 			path = ViewLayoutAndPresentation;
+			sourceTree = "<group>";
+		};
+		F63E6F4522BB7D8300B600C4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F4622BB7DA100B600C4 /* DasboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F63E6F4822BB7DCB00B600C4 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F4922BB7E8800B600C4 /* AnimationContentView.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		F63E6F4B22BB824100B600C4 /* SFSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F4C22BB825500B600C4 /* SFSymbolsContentView.swift */,
+				F63E6F5022BB830200B600C4 /* SFSymbols.swift */,
+			);
+			path = SFSymbols;
 			sourceTree = "<group>";
 		};
 		F6F47C7622BABEF7009E3C48 = {
@@ -121,20 +154,23 @@
 		F6F47C9622BAC00D009E3C48 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				F6F47C9722BAC017009E3C48 /* Main */,
+				F63E6F4522BB7D8300B600C4 /* Dashboard */,
+				F6F47C9722BAC017009E3C48 /* Basic */,
+				F63E6F4822BB7DCB00B600C4 /* Animation */,
+				F63E6F4B22BB824100B600C4 /* SFSymbols */,
 				F6F47C9E22BAC954009E3C48 /* ViewsAndControls */,
 				F63E6F4022BB78F600B600C4 /* ViewLayoutAndPresentation */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		F6F47C9722BAC017009E3C48 /* Main */ = {
+		F6F47C9722BAC017009E3C48 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				F6F47C8622BABEF7009E3C48 /* MainContentView.swift */,
-				F6F47C9822BAC0AB009E3C48 /* MainContentCellView.swift */,
+				F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */,
+				F6F47C9822BAC0AB009E3C48 /* BasicContentCellView.swift */,
 			);
-			path = Main;
+			path = Basic;
 			sourceTree = "<group>";
 		};
 		F6F47C9E22BAC954009E3C48 /* ViewsAndControls */ = {
@@ -234,6 +270,7 @@
 				F6F47CAE22BAE571009E3C48 /* NavigationButtonExampleView.swift in Sources */,
 				F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
+				F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */,
 				F63E6F4422BB791C00B600C4 /* VStackExampleView.swift in Sources */,
 				F63E6F3922BB695E00B600C4 /* PickerExampleView.swift in Sources */,
 				F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */,
@@ -241,14 +278,17 @@
 				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
 				F63E6F3B22BB737500B600C4 /* DatePickerExampleView.swift in Sources */,
 				F63E6F3D22BB754000B600C4 /* StepperExampleView.swift in Sources */,
-				F6F47C8722BABEF7009E3C48 /* MainContentView.swift in Sources */,
+				F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */,
 				F63E6F3F22BB76A600B600C4 /* SegmentedControlExampleView.swift in Sources */,
 				F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */,
+				F63E6F4722BB7DA100B600C4 /* DasboardView.swift in Sources */,
 				F63E6F4222BB790E00B600C4 /* HStackExampleView.swift in Sources */,
 				F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */,
 				F6F47CB822BAED77009E3C48 /* ToggleExampleView.swift in Sources */,
+				F63E6F5122BB830200B600C4 /* SFSymbols.swift in Sources */,
+				F63E6F4A22BB7E8800B600C4 /* AnimationContentView.swift in Sources */,
 				F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */,
-				F6F47C9922BAC0AB009E3C48 /* MainContentCellView.swift in Sources */,
+				F6F47C9922BAC0AB009E3C48 /* BasicContentCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

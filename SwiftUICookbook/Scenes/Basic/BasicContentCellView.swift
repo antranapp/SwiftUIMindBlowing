@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct MainContentCellView : View {
+struct BasicContentCellView : View {
 
     let title: String
     let subtitle: String
@@ -14,17 +14,18 @@ struct MainContentCellView : View {
             Text(title)
                 .font(.headline)
             Text(subtitle)
-                .lineLimit(2)
+                .lineLimit(nil)
                 .font(.subheadline)
+                .foregroundColor(Color.gray)
                 .minimumScaleFactor(0.5)
         }
     }
 }
 
 #if DEBUG
-struct MainContentCellView_Previews : PreviewProvider {
+struct BasicContentCellView_Previews : PreviewProvider {
     static var previews: some View {
-        MainContentCellView(title: "Title", subtitle: "Subtitle")
+        BasicContentCellView(title: "Title", subtitle: "Subtitle")
     }
 }
 #endif
