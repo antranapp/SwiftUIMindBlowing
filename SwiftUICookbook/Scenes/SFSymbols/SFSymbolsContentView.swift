@@ -31,7 +31,7 @@ struct SFSymbolDetail: View {
                 .scaleEffect(3.0)
                 .padding(.bottom, 100)
             Text(symbol).font(.headline)
-        }
+        }   
     }
 }
 

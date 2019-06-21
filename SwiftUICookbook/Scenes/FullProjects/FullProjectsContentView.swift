@@ -4,6 +4,8 @@
 
 import SwiftUI
 import GitHubSearchWithSwiftUIPackage
+import SwiftUICalculatorPackage
+import WeatherPackage
 
 struct FullProjectsContentView : View {
     var body: some View {
@@ -22,6 +24,21 @@ struct FullProjectsContentView : View {
                         subtitle: "GitHubSearchWithSwiftUI is an example that using Combine and SwiftUI.",
                         sourceCodeURL: "https://github.com/marty-suzuki/GitHubSearchWithSwiftUI")
                 }
+
+                PresentationButton(destination: SwiftUICalculatorPackage()) {
+                    ExampleCellView(
+                        title: "SwiftUICalculator",
+                        subtitle: "A calculator app using SwiftUI which is introduced in WWDC19.",
+                        sourceCodeURL: "https://github.com/hotchner/SwiftUICalculator")
+                }
+
+                PresentationButton(destination: WeatherPackage()) {
+                    ExampleCellView(
+                        title: "Weather",
+                        subtitle: "Weather is a simple app that displays weather in SwiftUI.",
+                        sourceCodeURL: "https://github.com/bpisano/Weather")
+                }
+
             }
             .listStyle(.grouped)
             .navigationBarTitle(Text("Full Projects"))

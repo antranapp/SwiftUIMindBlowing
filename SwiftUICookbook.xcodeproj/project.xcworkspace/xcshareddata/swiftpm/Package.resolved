@@ -9,6 +9,24 @@
           "revision": "4e3582284e90a598873afd2067c2038d22cb5ad1",
           "version": "1.0.0"
         }
+      },
+      {
+        "package": "SwiftUICalculatorPackage",
+        "repositoryURL": "https://github.com/peacemoon/SwiftUICalculatorPackage",
+        "state": {
+          "branch": null,
+          "revision": "d794f11f0cc5c46eded5e4d1ba75951f57c4410b",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "WeatherPackage",
+        "repositoryURL": "https://github.com/peacemoon/WeatherPackage",
+        "state": {
+          "branch": null,
+          "revision": "366c559f487758797c2493c38f2b6c2bc7385251",
+          "version": "1.0.0"
+        }
       }
     ]
   },
