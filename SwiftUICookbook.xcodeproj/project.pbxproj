@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,7 @@
 		F647A80122BD1C460022B8CA /* MoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A80022BD1C460022B8CA /* MoreContentView.swift */; };
 		F647A80922BD24E30022B8CA /* PureGeniusExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A80822BD24E30022B8CA /* PureGeniusExampleView.swift */; };
 		F647A80B22BD25630022B8CA /* SwiftUI2048ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A80A22BD25630022B8CA /* SwiftUI2048ExampleView.swift */; };
+		F66A502522BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A502422BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */; };
@@ -113,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66A502522BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +376,9 @@
 			dependencies = (
 			);
 			name = SwiftUICookbook;
+			packageProductDependencies = (
+				F66A502422BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage */,
+			);
 			productName = SwiftUICookbook;
 			productReference = F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */;
 			productType = "com.apple.product-type.application";
@@ -402,6 +407,9 @@
 				Base,
 			);
 			mainGroup = F6F47C7622BABEF7009E3C48;
+			packageReferences = (
+				F66A502322BD748D00CE0C3E /* XCRemoteSwiftPackageReference "GitHubSearchWithSwiftUIPackage" */,
+			);
 			productRefGroup = F6F47C8022BABEF7009E3C48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -666,6 +674,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F66A502322BD748D00CE0C3E /* XCRemoteSwiftPackageReference "GitHubSearchWithSwiftUIPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/peacemoon/GitHubSearchWithSwiftUIPackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F66A502422BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F66A502322BD748D00CE0C3E /* XCRemoteSwiftPackageReference "GitHubSearchWithSwiftUIPackage" */;
+			productName = GitHubSearchWithSwiftUIPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F6F47C7722BABEF7009E3C48 /* Project object */;
 }

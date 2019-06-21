@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GitHubSearchWithSwiftUIPackage",
+        "repositoryURL": "https://github.com/peacemoon/GitHubSearchWithSwiftUIPackage",
+        "state": {
+          "branch": null,
+          "revision": "4e3582284e90a598873afd2067c2038d22cb5ad1",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

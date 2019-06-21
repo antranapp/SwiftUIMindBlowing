@@ -10,7 +10,7 @@ struct ImageExampleView : View {
         VStack {
             Image("swiftui")
         }
-        .navigationBarTitle(Text("TextField"))
+        .navigationBarTitle(Text("Image"))
         .padding()
 
     }

@@ -17,7 +17,7 @@ struct FontExampleView : View {
             Text("Caption font").font(.caption)
             Text("Footnote font").font(.footnote)
         }
-        .navigationBarTitle(Text("TextField"))
+        .navigationBarTitle(Text("Font"))
         .padding()
     }
 }
