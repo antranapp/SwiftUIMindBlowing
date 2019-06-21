@@ -9,11 +9,11 @@ struct MindBlowingContentView : View {
     var body: some View {
         NavigationView {
             List {
-                NavigationButton(destination: GameView().environmentObject(GameLogic())) {
+                NavigationButton(destination: PureGeniusExampleView()) {
                     ExampleCellView(
-                        title: "SwiftUI2048",
-                        subtitle: "2048 Game implemented in SwiftUI.",
-                        sourceCodeURL: "https://github.com/unixzii/SwiftUI-2048")
+                        title: "PureGeniusExampleView",
+                        subtitle: "PureGenius.",
+                        sourceCodeURL: "https://github.com/joeynelson42/PureGenius")
                 }
             }
             .listStyle(.grouped)

@@ -115,7 +115,35 @@ struct BasicContentView : View {
                         title: "ForEach",
                         subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
                 }
-
+                Section(header: Text("Gestures")) {
+                    ExampleCellView(
+                        title: "TapGesture",
+                        subtitle: "")
+                    ExampleCellView(
+                        title: "LongPressGesture",
+                        subtitle: "")
+                    ExampleCellView(
+                        title: "DragGesture",
+                        subtitle: "")
+                    ExampleCellView(
+                        title: "MagnificationGesture",
+                        subtitle: "")
+                    ExampleCellView(
+                        title: "RotationGesture",
+                        subtitle: "")
+                    ExampleCellView(
+                        title: "SequenceGesture",
+                        subtitle: "")
+                    ExampleCellView(
+                        title: "SimultanousGesture",
+                        subtitle: "")
+                    ExampleCellView(
+                        title: "ExclusiveGesture",
+                        subtitle: "")
+                    ExampleCellView(
+                        title: "AnyGesture",
+                        subtitle: "")
+                }
             } // List
             .listStyle(.grouped)
             .navigationBarTitle(Text("Basic"))
