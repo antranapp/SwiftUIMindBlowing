@@ -16,6 +16,16 @@ struct ButtonExampleView : View {
             }) {
                 Text("Generate random number")
             }
+
+            Divider()
+
+            Button(action: {
+                print("Button clicked")
+            }) {
+                Text("This button is disabled")
+            }.disabled(true)
+
+            Divider()
         }
         .navigationBarTitle(Text("Button"))
         .padding()
