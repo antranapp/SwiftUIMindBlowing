@@ -118,7 +118,7 @@ struct BasicContentView : View {
 
             } // List
             .listStyle(.grouped)
-            .navigationBarTitle(Text("SwiftUI Cookbook"))
+            .navigationBarTitle(Text("Basic"))
         }
     }
 }

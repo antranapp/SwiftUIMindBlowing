@@ -30,6 +30,8 @@
 		F63E6F5D22BBB70600B600C4 /* WKWebViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5C22BBB70600B600C4 /* WKWebViewUI.swift */; };
 		F63E6F6222BC165700B600C4 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = F63E6F6022BC165700B600C4 /* style.css */; };
 		F63E6F6322BC165700B600C4 /* text_index.html in Resources */ = {isa = PBXBuildFile; fileRef = F63E6F6122BC165700B600C4 /* text_index.html */; };
+		F647A7F722BD10830022B8CA /* RotationEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A7F622BD10830022B8CA /* RotationEffectExampleView.swift */; };
+		F647A7F922BD135E0022B8CA /* ScaleEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A7F822BD135E0022B8CA /* ScaleEffectExampleView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */; };
@@ -73,6 +75,8 @@
 		F63E6F5C22BBB70600B600C4 /* WKWebViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUI.swift; sourceTree = "<group>"; };
 		F63E6F6022BC165700B600C4 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		F63E6F6122BC165700B600C4 /* text_index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = text_index.html; sourceTree = "<group>"; };
+		F647A7F622BD10830022B8CA /* RotationEffectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffectExampleView.swift; sourceTree = "<group>"; };
+		F647A7F822BD135E0022B8CA /* ScaleEffectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffectExampleView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				F63E6F4922BB7E8800B600C4 /* AnimationContentView.swift */,
+				F647A7F522BD106E0022B8CA /* Basic */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -228,6 +233,15 @@
 				F63E6F6122BC165700B600C4 /* text_index.html */,
 			);
 			path = html_sources;
+			sourceTree = "<group>";
+		};
+		F647A7F522BD106E0022B8CA /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				F647A7F622BD10830022B8CA /* RotationEffectExampleView.swift */,
+				F647A7F822BD135E0022B8CA /* ScaleEffectExampleView.swift */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 		F6F47C7622BABEF7009E3C48 = {
@@ -389,6 +403,7 @@
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
 				F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */,
 				F611C50C22BD05CD00E9F1A7 /* BlockMatrix.swift in Sources */,
+				F647A7F922BD135E0022B8CA /* ScaleEffectExampleView.swift in Sources */,
 				F6F47CAE22BAE571009E3C48 /* NavigationButtonExampleView.swift in Sources */,
 				F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
@@ -397,6 +412,7 @@
 				F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */,
 				F63E6F5B22BBA50700B600C4 /* BaseExampleView.swift in Sources */,
 				F63E6F4422BB791C00B600C4 /* VStackExampleView.swift in Sources */,
+				F647A7F722BD10830022B8CA /* RotationEffectExampleView.swift in Sources */,
 				F611C51522BD05D700E9F1A7 /* BlockView.swift in Sources */,
 				F63E6F3922BB695E00B600C4 /* PickerExampleView.swift in Sources */,
 				F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */,

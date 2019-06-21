@@ -5,8 +5,28 @@
 import SwiftUI
 
 struct AnimationContentView : View {
+
     var body: some View {
-        Text("Animation examples ares comming soon!")
+        NavigationView {
+            List {
+                Section(header: Text("Basic")) {
+                    Group {
+                        NavigationButton(destination: RotationEffectExampleView()) {
+                            ExampleCellView(
+                                title: "RotationEffect",
+                                subtitle: "Rotate a view.")
+                        }
+                        NavigationButton(destination: ScaleEffectExampleView()) {
+                            ExampleCellView(
+                                title: "ImageEffect",
+                                subtitle: "Scale an image.")
+                        }
+                    }
+                }
+            } // List
+            .listStyle(.grouped)
+            .navigationBarTitle(Text("Animation"))
+        }
     }
 }
 
