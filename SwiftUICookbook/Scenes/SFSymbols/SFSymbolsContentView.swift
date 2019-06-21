@@ -40,14 +40,12 @@ struct SFSymbolsContentView : View {
     var body: some View {
         let list = (0..<sfSymbols.count)
 
-        return NavigationView {
-            List(list) { index in
+        return List(list) { index in
                 NavigationButton(destination: SFSymbolDetail(symbol: sfSymbols[index])) {
                     SFSymbolCell(symbol: sfSymbols[index])
                 }
             }
             .navigationBarTitle(Text("SF Symbols"))
-        }
     }
 }
 

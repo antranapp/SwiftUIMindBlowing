@@ -32,6 +32,9 @@
 		F63E6F6322BC165700B600C4 /* text_index.html in Resources */ = {isa = PBXBuildFile; fileRef = F63E6F6122BC165700B600C4 /* text_index.html */; };
 		F647A7F722BD10830022B8CA /* RotationEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A7F622BD10830022B8CA /* RotationEffectExampleView.swift */; };
 		F647A7F922BD135E0022B8CA /* ScaleEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A7F822BD135E0022B8CA /* ScaleEffectExampleView.swift */; };
+		F647A7FC22BD1AC40022B8CA /* MiscContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A7FB22BD1AC40022B8CA /* MiscContentView.swift */; };
+		F647A7FF22BD1B8A0022B8CA /* MapKitExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A7FE22BD1B8A0022B8CA /* MapKitExampleView.swift */; };
+		F647A80122BD1C460022B8CA /* MoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647A80022BD1C460022B8CA /* MoreContentView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */; };
@@ -77,6 +80,9 @@
 		F63E6F6122BC165700B600C4 /* text_index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = text_index.html; sourceTree = "<group>"; };
 		F647A7F622BD10830022B8CA /* RotationEffectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffectExampleView.swift; sourceTree = "<group>"; };
 		F647A7F822BD135E0022B8CA /* ScaleEffectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffectExampleView.swift; sourceTree = "<group>"; };
+		F647A7FB22BD1AC40022B8CA /* MiscContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscContentView.swift; sourceTree = "<group>"; };
+		F647A7FE22BD1B8A0022B8CA /* MapKitExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitExampleView.swift; sourceTree = "<group>"; };
+		F647A80022BD1C460022B8CA /* MoreContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreContentView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				F63E6F4622BB7DA100B600C4 /* DasboardView.swift */,
+				F647A80022BD1C460022B8CA /* MoreContentView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -244,6 +251,23 @@
 			path = Basic;
 			sourceTree = "<group>";
 		};
+		F647A7FA22BD1A9B0022B8CA /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F647A7FB22BD1AC40022B8CA /* MiscContentView.swift */,
+				F647A7FD22BD1B740022B8CA /* UIKitIntegration */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		F647A7FD22BD1B740022B8CA /* UIKitIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				F647A7FE22BD1B8A0022B8CA /* MapKitExampleView.swift */,
+			);
+			path = UIKitIntegration;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +316,7 @@
 				F63E6F4B22BB824100B600C4 /* SFSymbols */,
 				F63E6F5222BB891B00B600C4 /* MindBlowing */,
 				F63E6F5522BB9F3C00B600C4 /* FullProjects */,
+				F647A7FA22BD1A9B0022B8CA /* Misc */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -401,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
+				F647A80122BD1C460022B8CA /* MoreContentView.swift in Sources */,
 				F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */,
 				F611C50C22BD05CD00E9F1A7 /* BlockMatrix.swift in Sources */,
 				F647A7F922BD135E0022B8CA /* ScaleEffectExampleView.swift in Sources */,
@@ -408,6 +434,7 @@
 				F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
 				F63E6F5722BB9F5500B600C4 /* FullProjectsContentView.swift in Sources */,
+				F647A7FF22BD1B8A0022B8CA /* MapKitExampleView.swift in Sources */,
 				F611C50D22BD05CD00E9F1A7 /* IdentifiedBlock.swift in Sources */,
 				F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */,
 				F63E6F5B22BBA50700B600C4 /* BaseExampleView.swift in Sources */,
@@ -416,6 +443,7 @@
 				F611C51522BD05D700E9F1A7 /* BlockView.swift in Sources */,
 				F63E6F3922BB695E00B600C4 /* PickerExampleView.swift in Sources */,
 				F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */,
+				F647A7FC22BD1AC40022B8CA /* MiscContentView.swift in Sources */,
 				F6F47CB222BAE593009E3C48 /* PresentationButtonExampleView.swift in Sources */,
 				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
 				F611C50722BD05C600E9F1A7 /* FunctionalUtils.swift in Sources */,
