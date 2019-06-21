@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F611C50722BD05C600E9F1A7 /* FunctionalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C50622BD05C600E9F1A7 /* FunctionalUtils.swift */; };
+		F611C50C22BD05CD00E9F1A7 /* BlockMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C50922BD05CD00E9F1A7 /* BlockMatrix.swift */; };
+		F611C50D22BD05CD00E9F1A7 /* IdentifiedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C50A22BD05CD00E9F1A7 /* IdentifiedBlock.swift */; };
+		F611C50E22BD05CD00E9F1A7 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C50B22BD05CD00E9F1A7 /* GameLogic.swift */; };
+		F611C51322BD05D700E9F1A7 /* BlockGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C51022BD05D700E9F1A7 /* BlockGridView.swift */; };
+		F611C51422BD05D700E9F1A7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C51122BD05D700E9F1A7 /* GameView.swift */; };
+		F611C51522BD05D700E9F1A7 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C51222BD05D700E9F1A7 /* BlockView.swift */; };
 		F63E6F3922BB695E00B600C4 /* PickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F3822BB695E00B600C4 /* PickerExampleView.swift */; };
 		F63E6F3B22BB737500B600C4 /* DatePickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F3A22BB737500B600C4 /* DatePickerExampleView.swift */; };
 		F63E6F3D22BB754000B600C4 /* StepperExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F3C22BB754000B600C4 /* StepperExampleView.swift */; };
@@ -29,7 +36,7 @@
 		F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
 		F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */; };
 		F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8D22BABEF8009E3C48 /* LaunchScreen.storyboard */; };
-		F6F47C9922BAC0AB009E3C48 /* BasicContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9822BAC0AB009E3C48 /* BasicContentCellView.swift */; };
+		F6F47C9922BAC0AB009E3C48 /* ContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9822BAC0AB009E3C48 /* ContentCellView.swift */; };
 		F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */; };
 		F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */; };
 		F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */; };
@@ -43,6 +50,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F611C50622BD05C600E9F1A7 /* FunctionalUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalUtils.swift; sourceTree = "<group>"; };
+		F611C50922BD05CD00E9F1A7 /* BlockMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockMatrix.swift; sourceTree = "<group>"; };
+		F611C50A22BD05CD00E9F1A7 /* IdentifiedBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiedBlock.swift; sourceTree = "<group>"; };
+		F611C50B22BD05CD00E9F1A7 /* GameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		F611C51022BD05D700E9F1A7 /* BlockGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockGridView.swift; sourceTree = "<group>"; };
+		F611C51122BD05D700E9F1A7 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F611C51222BD05D700E9F1A7 /* BlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
 		F63E6F3822BB695E00B600C4 /* PickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExampleView.swift; sourceTree = "<group>"; };
 		F63E6F3A22BB737500B600C4 /* DatePickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExampleView.swift; sourceTree = "<group>"; };
 		F63E6F3C22BB754000B600C4 /* StepperExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleView.swift; sourceTree = "<group>"; };
@@ -67,7 +81,7 @@
 		F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6F47C8E22BABEF8009E3C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F47C9022BABEF8009E3C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6F47C9822BAC0AB009E3C48 /* BasicContentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentCellView.swift; sourceTree = "<group>"; };
+		F6F47C9822BAC0AB009E3C48 /* ContentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCellView.swift; sourceTree = "<group>"; };
 		F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExampleView.swift; sourceTree = "<group>"; };
@@ -91,6 +105,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F603591F22BD005C006EC472 /* SwiftUI2048 */ = {
+			isa = PBXGroup;
+			children = (
+				F603593122BD01C1006EC472 /* Source */,
+			);
+			path = SwiftUI2048;
+			sourceTree = "<group>";
+		};
+		F603593122BD01C1006EC472 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F611C50622BD05C600E9F1A7 /* FunctionalUtils.swift */,
+				F611C50822BD05CD00E9F1A7 /* Models */,
+				F611C50F22BD05D700E9F1A7 /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F611C50822BD05CD00E9F1A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F611C50922BD05CD00E9F1A7 /* BlockMatrix.swift */,
+				F611C50A22BD05CD00E9F1A7 /* IdentifiedBlock.swift */,
+				F611C50B22BD05CD00E9F1A7 /* GameLogic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F611C50F22BD05D700E9F1A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F611C51022BD05D700E9F1A7 /* BlockGridView.swift */,
+				F611C51122BD05D700E9F1A7 /* GameView.swift */,
+				F611C51222BD05D700E9F1A7 /* BlockView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F63E6F4022BB78F600B600C4 /* ViewLayoutAndPresentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				F63E6F5322BB97FF00B600C4 /* MindBlowingContentView.swift */,
+				F603591F22BD005C006EC472 /* SwiftUI2048 */,
 			);
 			path = MindBlowing;
 			sourceTree = "<group>";
@@ -154,6 +207,7 @@
 			children = (
 				F63E6F5A22BBA50700B600C4 /* BaseExampleView.swift */,
 				F63E6F5C22BBB70600B600C4 /* WKWebViewUI.swift */,
+				F6F47C9822BAC0AB009E3C48 /* ContentCellView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -232,7 +286,6 @@
 			isa = PBXGroup;
 			children = (
 				F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */,
-				F6F47C9822BAC0AB009E3C48 /* BasicContentCellView.swift */,
 				F6F47C9E22BAC954009E3C48 /* ViewsAndControls */,
 				F63E6F4022BB78F600B600C4 /* ViewLayoutAndPresentation */,
 			);
@@ -335,32 +388,39 @@
 			files = (
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
 				F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */,
+				F611C50C22BD05CD00E9F1A7 /* BlockMatrix.swift in Sources */,
 				F6F47CAE22BAE571009E3C48 /* NavigationButtonExampleView.swift in Sources */,
 				F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
 				F63E6F5722BB9F5500B600C4 /* FullProjectsContentView.swift in Sources */,
+				F611C50D22BD05CD00E9F1A7 /* IdentifiedBlock.swift in Sources */,
 				F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */,
 				F63E6F5B22BBA50700B600C4 /* BaseExampleView.swift in Sources */,
 				F63E6F4422BB791C00B600C4 /* VStackExampleView.swift in Sources */,
+				F611C51522BD05D700E9F1A7 /* BlockView.swift in Sources */,
 				F63E6F3922BB695E00B600C4 /* PickerExampleView.swift in Sources */,
 				F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */,
 				F6F47CB222BAE593009E3C48 /* PresentationButtonExampleView.swift in Sources */,
 				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
+				F611C50722BD05C600E9F1A7 /* FunctionalUtils.swift in Sources */,
 				F63E6F3B22BB737500B600C4 /* DatePickerExampleView.swift in Sources */,
 				F63E6F3D22BB754000B600C4 /* StepperExampleView.swift in Sources */,
+				F611C50E22BD05CD00E9F1A7 /* GameLogic.swift in Sources */,
 				F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */,
 				F63E6F3F22BB76A600B600C4 /* SegmentedControlExampleView.swift in Sources */,
 				F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */,
+				F611C51422BD05D700E9F1A7 /* GameView.swift in Sources */,
 				F63E6F5D22BBB70600B600C4 /* WKWebViewUI.swift in Sources */,
 				F63E6F4722BB7DA100B600C4 /* DasboardView.swift in Sources */,
 				F63E6F4222BB790E00B600C4 /* HStackExampleView.swift in Sources */,
 				F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */,
 				F6F47CB822BAED77009E3C48 /* ToggleExampleView.swift in Sources */,
+				F611C51322BD05D700E9F1A7 /* BlockGridView.swift in Sources */,
 				F63E6F5122BB830200B600C4 /* SFSymbols.swift in Sources */,
 				F63E6F5422BB97FF00B600C4 /* MindBlowingContentView.swift in Sources */,
 				F63E6F4A22BB7E8800B600C4 /* AnimationContentView.swift in Sources */,
 				F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */,
-				F6F47C9922BAC0AB009E3C48 /* BasicContentCellView.swift in Sources */,
+				F6F47C9922BAC0AB009E3C48 /* ContentCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

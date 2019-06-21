@@ -4,10 +4,11 @@
 
 import SwiftUI
 
-struct BasicContentCellView : View {
+struct ContentCellView : View {
 
     let title: String
     let subtitle: String
+    var sourceCodeURL: String? = nil
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -25,7 +26,7 @@ struct BasicContentCellView : View {
 #if DEBUG
 struct BasicContentCellView_Previews : PreviewProvider {
     static var previews: some View {
-        BasicContentCellView(title: "Title", subtitle: "Subtitle")
+        ContentCellView(title: "Title", subtitle: "Subtitle", sourceCodeURL: "https://www.github.com")
     }
 }
 #endif

@@ -5,8 +5,20 @@
 import SwiftUI
 
 struct MindBlowingContentView : View {
+
     var body: some View {
-        Text("MindBlowing examples are comming soon!")
+        NavigationView {
+            List {
+                NavigationButton(destination: GameView().environmentObject(GameLogic())) {
+                    ContentCellView(
+                        title: "SwiftUI2048",
+                        subtitle: "2048 Game implemented in SwiftUI.",
+                        sourceCodeURL: "https://github.com/unixzii/SwiftUI-2048")
+                }
+            }
+            .listStyle(.grouped)
+            .navigationBarTitle(Text("Mind Blowing"))
+        }
     }
 }
 

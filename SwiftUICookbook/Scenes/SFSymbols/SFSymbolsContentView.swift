@@ -30,8 +30,6 @@ struct SFSymbolDetail: View {
                 .imageScale(.large)
                 .scaleEffect(3.0)
                 .padding(.bottom, 100)
-            Divider()
-            //                .animation(Animation.basic().delay(0.25))
             Text(symbol).font(.headline)
         }
     }
@@ -48,7 +46,8 @@ struct SFSymbolsContentView : View {
                     SFSymbolCell(symbol: sfSymbols[index])
                 }
             }
-        }.navigationBarTitle(Text("SF Symbols"))
+            .navigationBarTitle(Text("SF Symbols"))
+        }
     }
 }
 
