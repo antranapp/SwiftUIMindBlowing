@@ -19,9 +19,13 @@ struct DasboardView : View {
                 .tabItemLabel(Text("SFSymbols"))
                 .tag(2)
 
-            SFSymbolsContentView()
+            MindBlowingContentView()
                 .tabItemLabel(Text("MindBlowing"))
                 .tag(3)
+
+            FullProjectsContentView()
+                .tabItemLabel(Text("Projets"))
+                .tag(4)
         }
     }
 }

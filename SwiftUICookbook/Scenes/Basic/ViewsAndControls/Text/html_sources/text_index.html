@@ -1,0 +1,23 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <pre>
+            <code style="overflow-wrap: normal;">
+<span class="keyword">struct</span> TextExampleDemoView: <span class="type">View</span> {
+    <span class="keyword">var</span> body: some <span class="type">View</span> {
+        <span class="type">VStack</span> {
+            <span class="type">Text</span>(<span class="string">"Simple Text"</span>)
+            <span class="type">Text</span>(<span class="string">"Strikethrough Text"</span>).<span class="call">strikethrough</span>()
+            <span class="type">Text</span>(<span class="string">"Underline Text"</span>).<span class="call">underline</span>()
+            <span class="type">Text</span>(<span class="string">"Bold Text"</span>).<span class="call">bold</span>()
+            <span class="type">Text</span>(<span class="string">"This text"</span>) + <span class="type">Text</span>(<span class="string">" is on the same line"</span>)
+            <span class="type">Text</span>(<span class="string">"This is the first line\nThis is the secondline"</span>).<span class="call">lineLimit</span>(<span class="number">2</span>)
+            <span class="type">Text</span>(<span class="string">"This is a very long text. This is a very long text. This is a very long text. This is a very long text. This is a very long text. This is a very long text. This is a very long text. This is a very long text. "</span>).<span class="call">lineLimit</span>(<span class="number">3</span>).<span class="call">minimumScaleFactor</span>(<span class="number">0.5</span>)
+        }
+    }
+}
+            </code>
+        </pre>
+    </body>
+</html>

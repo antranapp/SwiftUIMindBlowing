@@ -18,6 +18,11 @@
 		F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F4C22BB825500B600C4 /* SFSymbolsContentView.swift */; };
 		F63E6F5122BB830200B600C4 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5022BB830200B600C4 /* SFSymbols.swift */; };
 		F63E6F5422BB97FF00B600C4 /* MindBlowingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5322BB97FF00B600C4 /* MindBlowingContentView.swift */; };
+		F63E6F5722BB9F5500B600C4 /* FullProjectsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5622BB9F5500B600C4 /* FullProjectsContentView.swift */; };
+		F63E6F5B22BBA50700B600C4 /* BaseExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5A22BBA50700B600C4 /* BaseExampleView.swift */; };
+		F63E6F5D22BBB70600B600C4 /* WKWebViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E6F5C22BBB70600B600C4 /* WKWebViewUI.swift */; };
+		F63E6F6222BC165700B600C4 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = F63E6F6022BC165700B600C4 /* style.css */; };
+		F63E6F6322BC165700B600C4 /* text_index.html in Resources */ = {isa = PBXBuildFile; fileRef = F63E6F6122BC165700B600C4 /* text_index.html */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */; };
@@ -49,6 +54,11 @@
 		F63E6F4C22BB825500B600C4 /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
 		F63E6F5022BB830200B600C4 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		F63E6F5322BB97FF00B600C4 /* MindBlowingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindBlowingContentView.swift; sourceTree = "<group>"; };
+		F63E6F5622BB9F5500B600C4 /* FullProjectsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullProjectsContentView.swift; sourceTree = "<group>"; };
+		F63E6F5A22BBA50700B600C4 /* BaseExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseExampleView.swift; sourceTree = "<group>"; };
+		F63E6F5C22BBB70600B600C4 /* WKWebViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUI.swift; sourceTree = "<group>"; };
+		F63E6F6022BC165700B600C4 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		F63E6F6122BC165700B600C4 /* text_index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = text_index.html; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +133,49 @@
 			path = MindBlowing;
 			sourceTree = "<group>";
 		};
+		F63E6F5522BB9F3C00B600C4 /* FullProjects */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F5622BB9F5500B600C4 /* FullProjectsContentView.swift */,
+			);
+			path = FullProjects;
+			sourceTree = "<group>";
+		};
+		F63E6F5822BBA4EF00B600C4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F5922BBA4F800B600C4 /* UI */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F63E6F5922BBA4F800B600C4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F5A22BBA50700B600C4 /* BaseExampleView.swift */,
+				F63E6F5C22BBB70600B600C4 /* WKWebViewUI.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F63E6F5E22BC10C500B600C4 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F5F22BC10CC00B600C4 /* html_sources */,
+				F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		F63E6F5F22BC10CC00B600C4 /* html_sources */ = {
+			isa = PBXGroup;
+			children = (
+				F63E6F6022BC165700B600C4 /* style.css */,
+				F63E6F6122BC165700B600C4 /* text_index.html */,
+			);
+			path = html_sources;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				F6F47C9622BAC00D009E3C48 /* Scenes */,
+				F63E6F5822BBA4EF00B600C4 /* Base */,
 				F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */,
 				F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */,
 				F6F47C8822BABEF8009E3C48 /* Assets.xcassets */,
@@ -169,6 +223,7 @@
 				F63E6F4822BB7DCB00B600C4 /* Animation */,
 				F63E6F4B22BB824100B600C4 /* SFSymbols */,
 				F63E6F5222BB891B00B600C4 /* MindBlowing */,
+				F63E6F5522BB9F3C00B600C4 /* FullProjects */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -187,7 +242,7 @@
 		F6F47C9E22BAC954009E3C48 /* ViewsAndControls */ = {
 			isa = PBXGroup;
 			children = (
-				F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */,
+				F63E6F5E22BC10C500B600C4 /* Text */,
 				F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */,
 				F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */,
 				F6F47CA522BADBD1009E3C48 /* FontExampleView.swift */,
@@ -264,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */,
+				F63E6F6222BC165700B600C4 /* style.css in Resources */,
+				F63E6F6322BC165700B600C4 /* text_index.html in Resources */,
 				F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */,
 				F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */,
 			);
@@ -281,7 +338,9 @@
 				F6F47CAE22BAE571009E3C48 /* NavigationButtonExampleView.swift in Sources */,
 				F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
+				F63E6F5722BB9F5500B600C4 /* FullProjectsContentView.swift in Sources */,
 				F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */,
+				F63E6F5B22BBA50700B600C4 /* BaseExampleView.swift in Sources */,
 				F63E6F4422BB791C00B600C4 /* VStackExampleView.swift in Sources */,
 				F63E6F3922BB695E00B600C4 /* PickerExampleView.swift in Sources */,
 				F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */,
@@ -292,6 +351,7 @@
 				F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */,
 				F63E6F3F22BB76A600B600C4 /* SegmentedControlExampleView.swift in Sources */,
 				F6F47CA822BADD24009E3C48 /* ImageExampleView.swift in Sources */,
+				F63E6F5D22BBB70600B600C4 /* WKWebViewUI.swift in Sources */,
 				F63E6F4722BB7DA100B600C4 /* DasboardView.swift in Sources */,
 				F63E6F4222BB790E00B600C4 /* HStackExampleView.swift in Sources */,
 				F6F47CAA22BADE28009E3C48 /* ButtonExampleView.swift in Sources */,
