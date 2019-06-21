@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct ContentCellView : View {
+struct ExampleCellView : View {
 
     let title: String
     let subtitle: String
@@ -19,14 +19,19 @@ struct ContentCellView : View {
                 .font(.subheadline)
                 .foregroundColor(Color.gray)
                 .minimumScaleFactor(0.5)
-        }
+        }.longPressAction(minimumDuration: 0.5, maximumDistance: 10, {
+            guard let sourceCodeURL = self.sourceCodeURL, let url = URL(string: sourceCodeURL) else {
+                return
+            }
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        })
     }
 }
 
 #if DEBUG
-struct BasicContentCellView_Previews : PreviewProvider {
+struct ExampleCellView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentCellView(title: "Title", subtitle: "Subtitle", sourceCodeURL: "https://www.github.com")
+        ExampleCellView(title: "Title", subtitle: "Subtitle", sourceCodeURL: "https://www.github.com")
     }
 }
 #endif

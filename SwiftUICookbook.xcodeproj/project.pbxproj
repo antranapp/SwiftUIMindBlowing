@@ -36,7 +36,7 @@
 		F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
 		F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */; };
 		F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8D22BABEF8009E3C48 /* LaunchScreen.storyboard */; };
-		F6F47C9922BAC0AB009E3C48 /* ContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9822BAC0AB009E3C48 /* ContentCellView.swift */; };
+		F6F47C9922BAC0AB009E3C48 /* ExampleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9822BAC0AB009E3C48 /* ExampleCellView.swift */; };
 		F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */; };
 		F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */; };
 		F6F47CA422BAD8B9009E3C48 /* SecureFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */; };
@@ -81,7 +81,7 @@
 		F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6F47C8E22BABEF8009E3C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F47C9022BABEF8009E3C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6F47C9822BAC0AB009E3C48 /* ContentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCellView.swift; sourceTree = "<group>"; };
+		F6F47C9822BAC0AB009E3C48 /* ExampleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCellView.swift; sourceTree = "<group>"; };
 		F6F47C9F22BAC96E009E3C48 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA122BACA96009E3C48 /* TextFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleView.swift; sourceTree = "<group>"; };
 		F6F47CA322BAD8B9009E3C48 /* SecureFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExampleView.swift; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 			children = (
 				F63E6F5A22BBA50700B600C4 /* BaseExampleView.swift */,
 				F63E6F5C22BBB70600B600C4 /* WKWebViewUI.swift */,
-				F6F47C9822BAC0AB009E3C48 /* ContentCellView.swift */,
+				F6F47C9822BAC0AB009E3C48 /* ExampleCellView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -420,7 +420,7 @@
 				F63E6F5422BB97FF00B600C4 /* MindBlowingContentView.swift in Sources */,
 				F63E6F4A22BB7E8800B600C4 /* AnimationContentView.swift in Sources */,
 				F6F47CA622BADBD1009E3C48 /* FontExampleView.swift in Sources */,
-				F6F47C9922BAC0AB009E3C48 /* ContentCellView.swift in Sources */,
+				F6F47C9922BAC0AB009E3C48 /* ExampleCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

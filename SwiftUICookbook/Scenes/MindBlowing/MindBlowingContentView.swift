@@ -10,7 +10,7 @@ struct MindBlowingContentView : View {
         NavigationView {
             List {
                 NavigationButton(destination: GameView().environmentObject(GameLogic())) {
-                    ContentCellView(
+                    ExampleCellView(
                         title: "SwiftUI2048",
                         subtitle: "2048 Game implemented in SwiftUI.",
                         sourceCodeURL: "https://github.com/unixzii/SwiftUI-2048")
