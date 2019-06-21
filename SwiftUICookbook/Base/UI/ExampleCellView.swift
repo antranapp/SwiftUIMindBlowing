@@ -19,12 +19,7 @@ struct ExampleCellView : View {
                 .font(.subheadline)
                 .foregroundColor(Color.gray)
                 .minimumScaleFactor(0.5)
-        }.longPressAction(minimumDuration: 0.5, maximumDistance: 10, {
-            guard let sourceCodeURL = self.sourceCodeURL, let url = URL(string: sourceCodeURL) else {
-                return
-            }
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        })
+        }
     }
 }
 

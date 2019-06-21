@@ -116,7 +116,7 @@ struct BasicContentView : View {
                         subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
                 }
 
-            }
+            } // List
             .listStyle(.grouped)
             .navigationBarTitle(Text("SwiftUI Cookbook"))
         }

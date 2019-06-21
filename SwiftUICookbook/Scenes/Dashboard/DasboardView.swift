@@ -24,7 +24,7 @@ struct DasboardView : View {
                 .tag(3)
 
             FullProjectsContentView()
-                .tabItemLabel(Text("Projets"))
+                .tabItemLabel(Text("Projects"))
                 .tag(4)
         }
     }
