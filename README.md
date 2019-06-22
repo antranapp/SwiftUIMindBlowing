@@ -11,7 +11,7 @@ Collections of mind-blowing SwiftUI snippets and projects.
 
 SwiftUI has come with a blast during and after WWDC 2019. The technology is so exciting so that the Swift Community has quickly come up with different tutorials, sample projects and experiments showing the potential of it.
 
-Since I am a big fan of learning by doing and from the others, I create this app for my own learning and the app serves as my effort to contribute to the community, to consolidate as many tips & tricks from the community, from basic to advanced SwiftUI usages, and also to showcase many cool mind-blowing projects, experiments from other developers.
+Since I am a big fan of learning by doing and from the others, I create this app for my own learning and the app serves as my effort to contribute to the community, to consolidate as many tips & tricks from the community as possible, from basic to advanced SwiftUI usages, and also to showcase many cool 🤯 projects, experiments from other developers.
 
 The app is organized in 5 main sections:
 
