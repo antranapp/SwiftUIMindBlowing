@@ -26,7 +26,7 @@ struct MindBlowingContentView : View {
                 NavigationButton(destination: ViewModifierCompositionExampleView()) {
                     ExampleCellView(
                         title: "View Modifier composition",
-                        sourceCodeURL: "https://twitter.com/jaeyoung_choi/status/1141277346969767942")
+                        sourceCodeURL: "https://twitter.com/alex_persian/status/1141880682840547328")
                 }
 
             }
