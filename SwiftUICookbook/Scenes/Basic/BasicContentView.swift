@@ -114,6 +114,25 @@ struct BasicContentView : View {
                     ExampleCellView(
                         title: "ForEach",
                         subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
+
+                    NavigationButton(destination: AlertExampleView()) {
+                        ExampleCellView(
+                            title: "Alert",
+                            subtitle: "A container for an alert presentation.")
+                    }
+
+                    NavigationButton(destination: ModalExampleView()) {
+                        ExampleCellView(
+                            title: "Modal",
+                            subtitle: "A storage type for a modal presentation.")
+                    }
+
+                    NavigationButton(destination: ActionSheetExampleView()) {
+                        ExampleCellView(
+                            title: "ActionSheet",
+                            subtitle: "A storage type for an action sheet presentation.")
+                    }
+
                 }
                 Section(header: Text("Gestures")) {
                     ExampleCellView(

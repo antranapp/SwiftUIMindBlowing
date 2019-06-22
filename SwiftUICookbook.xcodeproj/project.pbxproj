@@ -40,6 +40,9 @@
 		F66A502522BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A502422BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage */; };
 		F66A502C22BD980400CE0C3E /* SwiftUICalculatorPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A502B22BD980400CE0C3E /* SwiftUICalculatorPackage */; };
 		F66A503322BDA24500CE0C3E /* WeatherPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A503222BDA24500CE0C3E /* WeatherPackage */; };
+		F6B22DE322BE10BA001436D1 /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B22DE222BE10BA001436D1 /* AlertExampleView.swift */; };
+		F6B22DE522BE10C6001436D1 /* ModalExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B22DE422BE10C6001436D1 /* ModalExampleView.swift */; };
+		F6B22DE722BE10D3001436D1 /* ActionSheetExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B22DE622BE10D3001436D1 /* ActionSheetExampleView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */; };
@@ -90,6 +93,9 @@
 		F647A80022BD1C460022B8CA /* MoreContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreContentView.swift; sourceTree = "<group>"; };
 		F647A80822BD24E30022B8CA /* PureGeniusExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureGeniusExampleView.swift; sourceTree = "<group>"; };
 		F647A80A22BD25630022B8CA /* SwiftUI2048ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2048ExampleView.swift; sourceTree = "<group>"; };
+		F6B22DE222BE10BA001436D1 /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
+		F6B22DE422BE10C6001436D1 /* ModalExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalExampleView.swift; sourceTree = "<group>"; };
+		F6B22DE622BE10D3001436D1 /* ActionSheetExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExampleView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +175,9 @@
 			children = (
 				F63E6F4122BB790E00B600C4 /* HStackExampleView.swift */,
 				F63E6F4322BB791C00B600C4 /* VStackExampleView.swift */,
+				F6B22DE222BE10BA001436D1 /* AlertExampleView.swift */,
+				F6B22DE422BE10C6001436D1 /* ModalExampleView.swift */,
+				F6B22DE622BE10D3001436D1 /* ActionSheetExampleView.swift */,
 			);
 			path = ViewLayoutAndPresentation;
 			sourceTree = "<group>";
@@ -449,6 +458,7 @@
 			files = (
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
 				F647A80122BD1C460022B8CA /* MoreContentView.swift in Sources */,
+				F6B22DE722BE10D3001436D1 /* ActionSheetExampleView.swift in Sources */,
 				F6F47CA022BAC96E009E3C48 /* TextExampleView.swift in Sources */,
 				F611C50C22BD05CD00E9F1A7 /* BlockMatrix.swift in Sources */,
 				F647A7F922BD135E0022B8CA /* ScaleEffectExampleView.swift in Sources */,
@@ -458,6 +468,7 @@
 				F63E6F5722BB9F5500B600C4 /* FullProjectsContentView.swift in Sources */,
 				F647A7FF22BD1B8A0022B8CA /* MapKitExampleView.swift in Sources */,
 				F611C50D22BD05CD00E9F1A7 /* IdentifiedBlock.swift in Sources */,
+				F6B22DE322BE10BA001436D1 /* AlertExampleView.swift in Sources */,
 				F63E6F4D22BB825500B600C4 /* SFSymbolsContentView.swift in Sources */,
 				F63E6F5B22BBA50700B600C4 /* BaseExampleView.swift in Sources */,
 				F63E6F4422BB791C00B600C4 /* VStackExampleView.swift in Sources */,
@@ -467,6 +478,7 @@
 				F6F47CB422BAE656009E3C48 /* EditButtonExampleView.swift in Sources */,
 				F647A7FC22BD1AC40022B8CA /* MiscContentView.swift in Sources */,
 				F647A80922BD24E30022B8CA /* PureGeniusExampleView.swift in Sources */,
+				F6B22DE522BE10C6001436D1 /* ModalExampleView.swift in Sources */,
 				F6F47CB222BAE593009E3C48 /* PresentationButtonExampleView.swift in Sources */,
 				F6F47CA222BACA96009E3C48 /* TextFieldExampleView.swift in Sources */,
 				F611C50722BD05C600E9F1A7 /* FunctionalUtils.swift in Sources */,
