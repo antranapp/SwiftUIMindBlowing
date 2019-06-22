@@ -44,7 +44,7 @@ struct FullProjectsContentView : View {
 
                     PresentationButton(destination: WWDCPlayerPackage()) {
                         ExampleCellView(
-                            title: "Weather",
+                            title: "WWDCPlayer",
                             subtitle: "Watch WWDC19 sessions with WWDCPlayer🤖.",
                             sourceCodeURL: "https://github.com/yoonms/WWDCPlayer")
                     }
