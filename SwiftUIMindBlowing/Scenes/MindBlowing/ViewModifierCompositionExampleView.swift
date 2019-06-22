@@ -17,6 +17,8 @@ struct ViewModifierCompositionExampleView : View {
             .padding()
             .background(Color.purple, cornerRadius: 12)
             .padding()
+            .background(Color.yellow, cornerRadius: 12)
+            .padding()
             .background(Color.red, cornerRadius: 12)
     }
 }
