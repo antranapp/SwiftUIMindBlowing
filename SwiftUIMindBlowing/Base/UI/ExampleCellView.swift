@@ -7,14 +7,14 @@ import SwiftUI
 struct ExampleCellView : View {
 
     let title: String
-    let subtitle: String
+    var subtitle: String? = nil
     var sourceCodeURL: String? = nil
 
     var body: some View {
         VStack(alignment: .leading) {
             Text(title)
                 .font(.headline)
-            Text(subtitle)
+            Text(subtitle ?? "")
                 .lineLimit(nil)
                 .font(.subheadline)
                 .foregroundColor(Color.gray)

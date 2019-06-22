@@ -15,6 +15,12 @@ struct MiscContentView : View {
                             title: "MapKit",
                             subtitle: "Using MapKit with SwiftUI.")
                     }
+
+                    NavigationButton(destination: DispatchTimerExampleView()) {
+                        ExampleCellView(
+                            title: "Dispatch Timer",
+                            subtitle: "")
+                    }
                 }
             }
         } // List

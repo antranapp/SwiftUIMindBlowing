@@ -57,6 +57,9 @@
 		F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */; };
 		F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */; };
 		F6B22DEF22BE1A08001436D1 /* WWDCPlayerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F6B22DEE22BE1A08001436D1 /* WWDCPlayerPackage */; };
+		F6F41F5322BEC7B1004696C0 /* FacebookReactionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5222BEC7B1004696C0 /* FacebookReactionExampleView.swift */; };
+		F6F41F5622BEC999004696C0 /* FacebookReactionAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F41F5522BEC999004696C0 /* FacebookReactionAssets.xcassets */; };
+		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
@@ -111,6 +114,9 @@
 		F67794CB22BE3F7C005F1D0C /* DasboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DasboardView.swift; sourceTree = "<group>"; };
 		F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
+		F6F41F5222BEC7B1004696C0 /* FacebookReactionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookReactionExampleView.swift; sourceTree = "<group>"; };
+		F6F41F5522BEC999004696C0 /* FacebookReactionAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FacebookReactionAssets.xcassets; sourceTree = "<group>"; };
+		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUIMindBlowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMindBlowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SwiftUIMindBlowing/AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = SwiftUIMindBlowing/SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +179,7 @@
 			children = (
 				F677949322BE3F7C005F1D0C /* MiscContentView.swift */,
 				F677949422BE3F7C005F1D0C /* UIKitIntegration */,
+				F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -236,8 +243,9 @@
 		F67794A422BE3F7C005F1D0C /* MindBlowing */ = {
 			isa = PBXGroup;
 			children = (
-				F67794A522BE3F7C005F1D0C /* PureGeniusExampleView.swift */,
 				F67794A622BE3F7C005F1D0C /* MindBlowingContentView.swift */,
+				F67794A522BE3F7C005F1D0C /* PureGeniusExampleView.swift */,
+				F6F41F5422BEC980004696C0 /* FacebookReaction */,
 			);
 			path = MindBlowing;
 			sourceTree = "<group>";
@@ -347,6 +355,15 @@
 				F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */,
 			);
 			path = SFSymbols;
+			sourceTree = "<group>";
+		};
+		F6F41F5422BEC980004696C0 /* FacebookReaction */ = {
+			isa = PBXGroup;
+			children = (
+				F6F41F5222BEC7B1004696C0 /* FacebookReactionExampleView.swift */,
+				F6F41F5522BEC999004696C0 /* FacebookReactionAssets.xcassets */,
+			);
+			path = FacebookReaction;
 			sourceTree = "<group>";
 		};
 		F6F47C7622BABEF7009E3C48 = {
@@ -459,6 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */,
+				F6F41F5622BEC999004696C0 /* FacebookReactionAssets.xcassets in Resources */,
 				F67794E722BE3F7C005F1D0C /* style.css in Resources */,
 				F67794E822BE3F7C005F1D0C /* text_index.html in Resources */,
 				F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */,
@@ -474,6 +492,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F67794D022BE3F7C005F1D0C /* MapKitExampleView.swift in Sources */,
+				F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */,
 				F67794E122BE3F7C005F1D0C /* SecureFieldExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
@@ -497,6 +516,7 @@
 				F67794DC22BE3F7C005F1D0C /* FontExampleView.swift in Sources */,
 				F67794D822BE3F7C005F1D0C /* SwiftUI2048ExampleView.swift in Sources */,
 				F67794E422BE3F7C005F1D0C /* ToggleExampleView.swift in Sources */,
+				F6F41F5322BEC7B1004696C0 /* FacebookReactionExampleView.swift in Sources */,
 				F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */,
 				F67794D522BE3F7C005F1D0C /* BlockGridView.swift in Sources */,
 				F67794D122BE3F7C005F1D0C /* FunctionalUtils.swift in Sources */,

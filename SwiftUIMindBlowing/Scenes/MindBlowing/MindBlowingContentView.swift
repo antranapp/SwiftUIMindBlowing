@@ -11,9 +11,16 @@ struct MindBlowingContentView : View {
             List {
                 NavigationButton(destination: PureGeniusExampleView()) {
                     ExampleCellView(
-                        title: "PureGeniusExampleView",
+                        title: "Pure Genius Animation",
                         subtitle: "PureGenius.",
                         sourceCodeURL: "https://github.com/joeynelson42/PureGenius")
+                }
+
+                NavigationButton(destination: FacebookReactionExampleView()) {
+                    ExampleCellView(
+                        title: "Facebook Reaction",
+                        subtitle: "Facebook Reaction",
+                        sourceCodeURL: "https://twitter.com/fabiogiolito/status/1142226669471748096")
                 }
             }
             .listStyle(.grouped)
