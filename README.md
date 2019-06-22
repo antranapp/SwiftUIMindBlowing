@@ -38,4 +38,4 @@ Currently, I need some help to design a logo and a banner for the repo, if you h
 
 I try to integrate only MIT license friendly code. The code are copyrighted by their respective authors. I always attach the links to the original repos alongside the code.
 
-The app itself is also licensed under MIT license as stated in [LICENSE](LICENSE') :
+The app itself is also licensed under MIT license as stated in [LICENSE](LICENSE) 
