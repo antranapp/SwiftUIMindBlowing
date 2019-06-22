@@ -22,6 +22,13 @@ struct MindBlowingContentView : View {
                         subtitle: "Facebook Reaction",
                         sourceCodeURL: "https://twitter.com/fabiogiolito/status/1142226669471748096")
                 }
+
+                NavigationButton(destination: ViewModifierCompositionExampleView()) {
+                    ExampleCellView(
+                        title: "View Modifier composition",
+                        sourceCodeURL: "https://twitter.com/jaeyoung_choi/status/1141277346969767942")
+                }
+
             }
             .listStyle(.grouped)
             .navigationBarTitle(Text("Mind Blowing"))

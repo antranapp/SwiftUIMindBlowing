@@ -60,6 +60,7 @@
 		F6F41F5322BEC7B1004696C0 /* FacebookReactionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5222BEC7B1004696C0 /* FacebookReactionExampleView.swift */; };
 		F6F41F5622BEC999004696C0 /* FacebookReactionAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F41F5522BEC999004696C0 /* FacebookReactionAssets.xcassets */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
+		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
@@ -117,6 +118,7 @@
 		F6F41F5222BEC7B1004696C0 /* FacebookReactionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookReactionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5522BEC999004696C0 /* FacebookReactionAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FacebookReactionAssets.xcassets; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
+		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUIMindBlowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMindBlowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SwiftUIMindBlowing/AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = SwiftUIMindBlowing/SceneDelegate.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				F67794A622BE3F7C005F1D0C /* MindBlowingContentView.swift */,
 				F67794A522BE3F7C005F1D0C /* PureGeniusExampleView.swift */,
 				F6F41F5422BEC980004696C0 /* FacebookReaction */,
+				F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */,
 			);
 			path = MindBlowing;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				F67794D022BE3F7C005F1D0C /* MapKitExampleView.swift in Sources */,
 				F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */,
 				F67794E122BE3F7C005F1D0C /* SecureFieldExampleView.swift in Sources */,
+				F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
 				F67794F222BE3F7C005F1D0C /* AnimationContentView.swift in Sources */,
