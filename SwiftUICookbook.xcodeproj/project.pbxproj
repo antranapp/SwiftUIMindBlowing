@@ -43,6 +43,7 @@
 		F6B22DE322BE10BA001436D1 /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B22DE222BE10BA001436D1 /* AlertExampleView.swift */; };
 		F6B22DE522BE10C6001436D1 /* ModalExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B22DE422BE10C6001436D1 /* ModalExampleView.swift */; };
 		F6B22DE722BE10D3001436D1 /* ActionSheetExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B22DE622BE10D3001436D1 /* ActionSheetExampleView.swift */; };
+		F6B22DEF22BE1A08001436D1 /* WWDCPlayerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F6B22DEE22BE1A08001436D1 /* WWDCPlayerPackage */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8722BABEF7009E3C48 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8622BABEF7009E3C48 /* BasicContentView.swift */; };
@@ -125,6 +126,7 @@
 				F66A503322BDA24500CE0C3E /* WeatherPackage in Frameworks */,
 				F66A502522BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage in Frameworks */,
 				F66A502C22BD980400CE0C3E /* SwiftUICalculatorPackage in Frameworks */,
+				F6B22DEF22BE1A08001436D1 /* WWDCPlayerPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +395,7 @@
 				F66A502422BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage */,
 				F66A502B22BD980400CE0C3E /* SwiftUICalculatorPackage */,
 				F66A503222BDA24500CE0C3E /* WeatherPackage */,
+				F6B22DEE22BE1A08001436D1 /* WWDCPlayerPackage */,
 			);
 			productName = SwiftUICookbook;
 			productReference = F6F47C7F22BABEF7009E3C48 /* SwiftUICookbook.app */;
@@ -426,6 +429,7 @@
 				F66A502322BD748D00CE0C3E /* XCRemoteSwiftPackageReference "GitHubSearchWithSwiftUIPackage" */,
 				F66A502A22BD980400CE0C3E /* XCRemoteSwiftPackageReference "SwiftUICalculatorPackage" */,
 				F66A503122BDA24500CE0C3E /* XCRemoteSwiftPackageReference "WeatherPackage" */,
+				F6B22DED22BE1A08001436D1 /* XCRemoteSwiftPackageReference "WWDCPlayerPackage" */,
 			);
 			productRefGroup = F6F47C8022BABEF7009E3C48 /* Products */;
 			projectDirPath = "";
@@ -720,6 +724,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		F6B22DED22BE1A08001436D1 /* XCRemoteSwiftPackageReference "WWDCPlayerPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/peacemoon/WWDCPlayerPackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -737,6 +749,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F66A503122BDA24500CE0C3E /* XCRemoteSwiftPackageReference "WeatherPackage" */;
 			productName = WeatherPackage;
+		};
+		F6B22DEE22BE1A08001436D1 /* WWDCPlayerPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6B22DED22BE1A08001436D1 /* XCRemoteSwiftPackageReference "WWDCPlayerPackage" */;
+			productName = WWDCPlayerPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

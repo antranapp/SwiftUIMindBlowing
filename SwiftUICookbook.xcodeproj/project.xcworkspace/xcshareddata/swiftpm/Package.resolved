@@ -27,6 +27,15 @@
           "revision": "366c559f487758797c2493c38f2b6c2bc7385251",
           "version": "1.0.0"
         }
+      },
+      {
+        "package": "WWDCPlayerPackage",
+        "repositoryURL": "https://github.com/peacemoon/WWDCPlayerPackage",
+        "state": {
+          "branch": null,
+          "revision": "f42030a6b7c835e513a9344c37c17c0ab733dff6",
+          "version": "1.0.0"
+        }
       }
     ]
   },
