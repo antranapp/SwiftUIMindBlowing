@@ -21,11 +21,13 @@ The app is organized in 5 main sections:
 * **Projects:** full-blown simple to advanced projects using SwiftUI (and Combine).
 * **More:** some miscellaneous stuffs related to SwiftUI (SFSymbols, Tips & Tricks ...).
 
+![Screenshot](./Docs/images/screenshot1.png)
+
 ## Open and Community-driven
 
-As SwiftUI is quite new and is still evolving very fast, I would welcome every to join me to make the app more useful to everyone. PRs/New idea are welcome. 
+As SwiftUI is quite new and is still evolving very fast, I would welcome everyone to join me to make the app more useful to the community. PRs/New ideas are welcome. 
 
-Currently, I need some help to design a logo and a banner for the repo, if you have some basic design knowledge, please don't hesitate to contact me.
+👉 Currently, I need some help to design a logo and a banner for the repo, if you have some basic design knowledge, please don't hesitate to contact me.
 
 ## Requirements
 

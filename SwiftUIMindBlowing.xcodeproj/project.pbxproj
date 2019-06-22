@@ -157,14 +157,12 @@
 		F677949122BE3F7C005F1D0C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				F677949222BE3F7C005F1D0C /* Misc */,
+				F67794CA22BE3F7C005F1D0C /* Dashboard */,
 				F677949622BE3F7C005F1D0C /* FullProjects */,
 				F67794A422BE3F7C005F1D0C /* MindBlowing */,
 				F67794A722BE3F7C005F1D0C /* Basic */,
 				F67794C222BE3F7C005F1D0C /* Animation */,
 				F67794C722BE3F7C005F1D0C /* More */,
-				F67794CA22BE3F7C005F1D0C /* Dashboard */,
-				F67794CC22BE3F7C005F1D0C /* SFSymbols */,
 			);
 			name = Scenes;
 			path = SwiftUIMindBlowing/Scenes;
@@ -328,6 +326,8 @@
 			children = (
 				F67794C822BE3F7C005F1D0C /* MoreContentView.swift */,
 				F67794C922BE3F7C005F1D0C /* LicenseContentView.swift */,
+				F67794CC22BE3F7C005F1D0C /* SFSymbols */,
+				F677949222BE3F7C005F1D0C /* Misc */,
 			);
 			path = More;
 			sourceTree = "<group>";

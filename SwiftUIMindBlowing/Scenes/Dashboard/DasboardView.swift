@@ -8,23 +8,38 @@ struct DasboardView : View {
     var body: some View {
         TabbedView {
             BasicContentView()
-                .tabItemLabel(Text("Basic"))
+                .tabItemLabel(VStack {
+                    Image("ios-egg")
+                    Text("Basic")
+                })
                 .tag(0)
 
             AnimationContentView()
-                .tabItemLabel(Text("Animation"))
+                .tabItemLabel(VStack {
+                    Image("ios-wand")
+                    Text("Animation")
+                })
                 .tag(1)
 
             MindBlowingContentView()
-                .tabItemLabel(Text("MindBlowing"))
+                .tabItemLabel(VStack {
+                    Image("ios-rocket")
+                    Text("MindBlowing")
+                })
                 .tag(2)
 
             FullProjectsContentView()
-                .tabItemLabel(Text("Projects"))
+                .tabItemLabel(VStack {
+                    Image("ios-journal")
+                    Text("Projects")
+                })
                 .tag(3)
 
             MoreContentView()
-                .tabItemLabel(Text("More"))
+                .tabItemLabel(VStack {
+                    Image("ios-beer")
+                    Text("More")
+                })
                 .tag(4)
         }
     }
