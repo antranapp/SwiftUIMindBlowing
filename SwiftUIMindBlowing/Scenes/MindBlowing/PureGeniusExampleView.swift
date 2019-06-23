@@ -85,7 +85,6 @@ struct PureGeniusExampleView: View {
 
     var body: some View {
         PureGeniusView()
-            .navigationBarTitle(Text("PureGenius"))
     }
 }
 

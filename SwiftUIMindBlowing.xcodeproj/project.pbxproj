@@ -56,11 +56,13 @@
 		F67794F722BE3F7C005F1D0C /* DasboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CB22BE3F7C005F1D0C /* DasboardView.swift */; };
 		F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */; };
 		F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */; };
+		F6A449F822BF90EC0081689D /* ProgressRingPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F6A449F722BF90EC0081689D /* ProgressRingPackage */; };
 		F6B22DEF22BE1A08001436D1 /* WWDCPlayerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F6B22DEE22BE1A08001436D1 /* WWDCPlayerPackage */; };
 		F6F41F5322BEC7B1004696C0 /* FacebookReactionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5222BEC7B1004696C0 /* FacebookReactionExampleView.swift */; };
 		F6F41F5622BEC999004696C0 /* FacebookReactionAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F41F5522BEC999004696C0 /* FacebookReactionAssets.xcassets */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
+		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
 		F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
@@ -119,6 +121,7 @@
 		F6F41F5522BEC999004696C0 /* FacebookReactionAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FacebookReactionAssets.xcassets; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
+		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HorizontalCollectionExampleView.swift; path = Misc/HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUIMindBlowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMindBlowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SwiftUIMindBlowing/AppDelegate.swift; sourceTree = "<group>"; };
 		F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = SwiftUIMindBlowing/SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66A503322BDA24500CE0C3E /* WeatherPackage in Frameworks */,
+				F6A449F822BF90EC0081689D /* ProgressRingPackage in Frameworks */,
 				F66A502522BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage in Frameworks */,
 				F66A502C22BD980400CE0C3E /* SwiftUICalculatorPackage in Frameworks */,
 				F6B22DEF22BE1A08001436D1 /* WWDCPlayerPackage in Frameworks */,
@@ -339,6 +343,7 @@
 				F67794C922BE3F7C005F1D0C /* LicenseContentView.swift */,
 				F67794CC22BE3F7C005F1D0C /* SFSymbols */,
 				F677949222BE3F7C005F1D0C /* Misc */,
+				F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -429,6 +434,7 @@
 				F66A502B22BD980400CE0C3E /* SwiftUICalculatorPackage */,
 				F66A503222BDA24500CE0C3E /* WeatherPackage */,
 				F6B22DEE22BE1A08001436D1 /* WWDCPlayerPackage */,
+				F6A449F722BF90EC0081689D /* ProgressRingPackage */,
 			);
 			productName = SwiftUICookbook;
 			productReference = F6F47C7F22BABEF7009E3C48 /* SwiftUIMindBlowing.app */;
@@ -463,6 +469,7 @@
 				F66A502A22BD980400CE0C3E /* XCRemoteSwiftPackageReference "SwiftUICalculatorPackage" */,
 				F66A503122BDA24500CE0C3E /* XCRemoteSwiftPackageReference "WeatherPackage" */,
 				F6B22DED22BE1A08001436D1 /* XCRemoteSwiftPackageReference "WWDCPlayerPackage" */,
+				F6A449F622BF90EC0081689D /* XCRemoteSwiftPackageReference "ProgressRingPackage" */,
 			);
 			productRefGroup = F6F47C8022BABEF7009E3C48 /* Products */;
 			projectDirPath = "";
@@ -527,6 +534,7 @@
 				F67794DE22BE3F7C005F1D0C /* TextFieldExampleView.swift in Sources */,
 				F67794F022BE3F7C005F1D0C /* ModalExampleView.swift in Sources */,
 				F67794E922BE3F7C005F1D0C /* ButtonExampleView.swift in Sources */,
+				F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */,
 				F67794DA22BE3F7C005F1D0C /* PureGeniusExampleView.swift in Sources */,
 				F67794ED22BE3F7C005F1D0C /* ActionSheetExampleView.swift in Sources */,
 				F67794D222BE3F7C005F1D0C /* BlockMatrix.swift in Sources */,
@@ -765,6 +773,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		F6A449F622BF90EC0081689D /* XCRemoteSwiftPackageReference "ProgressRingPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/peacemoon/ProgressRingPackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		F6B22DED22BE1A08001436D1 /* XCRemoteSwiftPackageReference "WWDCPlayerPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/peacemoon/WWDCPlayerPackage";
@@ -790,6 +806,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F66A503122BDA24500CE0C3E /* XCRemoteSwiftPackageReference "WeatherPackage" */;
 			productName = WeatherPackage;
+		};
+		F6A449F722BF90EC0081689D /* ProgressRingPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6A449F622BF90EC0081689D /* XCRemoteSwiftPackageReference "ProgressRingPackage" */;
+			productName = ProgressRingPackage;
 		};
 		F6B22DEE22BE1A08001436D1 /* WWDCPlayerPackage */ = {
 			isa = XCSwiftPackageProductDependency;

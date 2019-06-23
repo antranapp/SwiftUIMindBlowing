@@ -3,6 +3,7 @@
 //
 
 import SwiftUI
+import ProgressRingPackage
 
 struct MindBlowingContentView : View {
 
@@ -26,7 +27,15 @@ struct MindBlowingContentView : View {
                 NavigationButton(destination: ViewModifierCompositionExampleView()) {
                     ExampleCellView(
                         title: "View Modifier composition",
+                        subtitle: "View and Modifier composition",
                         sourceCodeURL: "https://twitter.com/alex_persian/status/1141880682840547328")
+                }
+
+                NavigationButton(destination: ProgressRingPackage()) {
+                    ExampleCellView(
+                        title: "Progress Ring",
+                        subtitle: "A progress ring view made with SwiftUI and Combine.",
+                        sourceCodeURL: "https://github.com/hugolundin/ProgressRing")
                 }
 
             }

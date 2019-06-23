@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "ProgressRingPackage",
+        "repositoryURL": "https://github.com/peacemoon/ProgressRingPackage",
+        "state": {
+          "branch": null,
+          "revision": "5ac90d1ee472729a87149c226cdf4f218d57e887",
+          "version": "1.0.0"
+        }
+      },
+      {
         "package": "SwiftUICalculatorPackage",
         "repositoryURL": "https://github.com/peacemoon/SwiftUICalculatorPackage",
         "state": {

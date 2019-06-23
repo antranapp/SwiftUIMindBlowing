@@ -21,6 +21,14 @@ struct MiscContentView : View {
                             title: "Dispatch Timer",
                             subtitle: "")
                     }
+
+//                    NavigationButton(destination: HorizontalCollectionExampleView()) {
+//                        ExampleCellView(
+//                            title: "Horizontal Collection",
+//                            subtitle: "",
+//                            sourceCodeURL: "https://gist.github.com/IanKeen/a783c2318f17700e52dc5ef54e6b86a2")
+//                    }
+
                 }
             }
         } // List
