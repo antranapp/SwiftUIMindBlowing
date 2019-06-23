@@ -16,8 +16,10 @@ Since I am a big fan of learning by doing and from the others, I create this app
 The app is organized in 5 main sections:
 
 * **Basic:** showing how to use primitive elements SwiftUI.
+
 ![Screenshot](./Docs/images/screenshot1.png)
-* **Animation:** showing how to make basic animations with SwiftUI.
+
+s* **Animation:** showing how to make basic animations with SwiftUI.
 * **MindBlowing:** super cool, mind-blowing experiments from the community. 
 * **Projects:** full-blown simple to advanced projects using SwiftUI (and Combine).
 * **More:** some miscellaneous stuffs related to SwiftUI (SFSymbols, Tips & Tricks ...).
