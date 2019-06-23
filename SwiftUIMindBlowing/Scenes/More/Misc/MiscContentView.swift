@@ -22,6 +22,12 @@ struct MiscContentView : View {
                             subtitle: "")
                     }
 
+                    PresentationButton(destination: SFSafariViewControllerExampleView()) {
+                        ExampleCellView(
+                            title: "SFSafariViewController Integration",
+                            subtitle: "Use SFSafariViewController inside a View")
+                    }
+
 //                    NavigationButton(destination: HorizontalCollectionExampleView()) {
 //                        ExampleCellView(
 //                            title: "Horizontal Collection",
