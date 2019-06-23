@@ -34,6 +34,7 @@ struct ViewModifierCompositionExampleView : View {
             .rotationEffect(.degrees(10.0 * Double(self.value)))
             .padding()
             .background(Color.red, cornerRadius: 12)
+            .animation(.spring())
             .rotationEffect(.degrees(12.0 * Double(self.value)))
 
     }
