@@ -38,6 +38,15 @@ struct MindBlowingContentView : View {
                         sourceCodeURL: "https://github.com/hugolundin/ProgressRing")
                 }
 
+                NavigationButton(destination: WalletCardExampleView()) {
+                    ExampleCellView(
+                        title: "Wallet Cards Animation",
+                        subtitle: "Wallet.app-esque UI interaction",
+                        sourceCodeURL: "https://twitter.com/parkerwightman/status/1141004623945199618")
+                }
+
+
+
             }
             .listStyle(.grouped)
             .navigationBarTitle(Text("Mind Blowing"))

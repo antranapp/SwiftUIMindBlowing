@@ -21,6 +21,12 @@ struct AnimationContentView : View {
                                 title: "ImageEffect",
                                 subtitle: "Scale an image.")
                         }
+                        NavigationButton(destination: BlendModeExampleView()) {
+                            ExampleCellView(
+                                title: "BlendMode",
+                                subtitle: "Sets the blend mode for compositing this view with overlapping views..",
+                                sourceCodeURL: "https://twitter.com/leebrimelow/status/1136384881351487488")
+                        }
                     }
                 }
             } // List
