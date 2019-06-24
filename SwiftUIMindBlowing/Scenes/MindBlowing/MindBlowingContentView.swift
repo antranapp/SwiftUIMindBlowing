@@ -45,7 +45,12 @@ struct MindBlowingContentView : View {
                         sourceCodeURL: "https://twitter.com/parkerwightman/status/1141004623945199618")
                 }
 
-
+                NavigationButton(destination: TextHighlightingExampleView()) {
+                    ExampleCellView(
+                        title: "Text Highlighting",
+                        subtitle: "SwiftUI Text Initializer replacing occurences of a given word with a colored version.",
+                        sourceCodeURL: "https://gist.github.com/codingmanu/9c95df6e7b98132bf7ed757672e88c01")
+                }
 
             }
             .listStyle(.grouped)

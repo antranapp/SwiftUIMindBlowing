@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
+		F60D9B7822C160BF002891EE /* TextHighlightingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7722C160BF002891EE /* TextHighlightingExampleView.swift */; };
 		F66A502522BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A502422BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage */; };
 		F66A502C22BD980400CE0C3E /* SwiftUICalculatorPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A502B22BD980400CE0C3E /* SwiftUICalculatorPackage */; };
 		F66A503322BDA24500CE0C3E /* WeatherPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A503222BDA24500CE0C3E /* WeatherPackage */; };
@@ -75,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
+		F60D9B7722C160BF002891EE /* TextHighlightingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHighlightingExampleView.swift; sourceTree = "<group>"; };
 		F677948B22BE3F5D005F1D0C /* WKWebViewUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewUI.swift; sourceTree = "<group>"; };
 		F677948C22BE3F5D005F1D0C /* BaseExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseExampleView.swift; sourceTree = "<group>"; };
 		F677948D22BE3F5D005F1D0C /* ExampleCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCellView.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 				F6F41F5422BEC980004696C0 /* FacebookReaction */,
 				F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */,
 				F6EBAE8822C0AC7700E8376D /* WalletCardExampleView.swift */,
+				F60D9B7722C160BF002891EE /* TextHighlightingExampleView.swift */,
 			);
 			path = MindBlowing;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60D9B7822C160BF002891EE /* TextHighlightingExampleView.swift in Sources */,
 				F67794D022BE3F7C005F1D0C /* MapKitExampleView.swift in Sources */,
 				F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */,
 				F67794E122BE3F7C005F1D0C /* SecureFieldExampleView.swift in Sources */,
