@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7822C160BF002891EE /* TextHighlightingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7722C160BF002891EE /* TextHighlightingExampleView.swift */; };
+		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
 		F66A502522BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A502422BD748D00CE0C3E /* GitHubSearchWithSwiftUIPackage */; };
 		F66A502C22BD980400CE0C3E /* SwiftUICalculatorPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A502B22BD980400CE0C3E /* SwiftUICalculatorPackage */; };
 		F66A503322BDA24500CE0C3E /* WeatherPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F66A503222BDA24500CE0C3E /* WeatherPackage */; };
@@ -77,6 +78,7 @@
 /* Begin PBXFileReference section */
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7722C160BF002891EE /* TextHighlightingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHighlightingExampleView.swift; sourceTree = "<group>"; };
+		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F677948B22BE3F5D005F1D0C /* WKWebViewUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewUI.swift; sourceTree = "<group>"; };
 		F677948C22BE3F5D005F1D0C /* BaseExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseExampleView.swift; sourceTree = "<group>"; };
 		F677948D22BE3F5D005F1D0C /* ExampleCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCellView.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				F677948B22BE3F5D005F1D0C /* WKWebViewUI.swift */,
 				F677948C22BE3F5D005F1D0C /* BaseExampleView.swift */,
 				F677948D22BE3F5D005F1D0C /* ExampleCellView.swift */,
+				F60D9B7922C161FA002891EE /* SearchBarView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -553,6 +556,7 @@
 				F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */,
 				F67794DA22BE3F7C005F1D0C /* PureGeniusExampleView.swift in Sources */,
 				F67794ED22BE3F7C005F1D0C /* ActionSheetExampleView.swift in Sources */,
+				F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */,
 				F67794D222BE3F7C005F1D0C /* BlockMatrix.swift in Sources */,
 				F67794D922BE3F7C005F1D0C /* FullProjectsContentView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,

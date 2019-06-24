@@ -37,12 +37,21 @@ struct SFSymbolDetail: View {
 
 struct SFSymbolsContentView : View {
 
+    @State private var searchQuery = ""
+
     var body: some View {
         let list = (0..<sfSymbols.count)
 
-        return List(list) { index in
-                NavigationButton(destination: SFSymbolDetail(symbol: sfSymbols[index])) {
-                    SFSymbolCell(symbol: sfSymbols[index])
+        return
+            List {
+                Section(header: SearchBarView(text: self.$searchQuery)) {
+                    ForEach(list.filter {
+                        self.searchQuery.isEmpty ? true : "\(sfSymbols[$0])".lowercased().contains(self.searchQuery.lowercased())
+                    }) { index in
+                        NavigationButton(destination: SFSymbolDetail(symbol: sfSymbols[index])) {
+                            SFSymbolCell(symbol: sfSymbols[index])
+                        }
+                    }
                 }
             }
             .navigationBarTitle(Text("SF Symbols"))
