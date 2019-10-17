@@ -6,40 +6,40 @@ import SwiftUI
 
 struct DasboardView : View {
     var body: some View {
-        TabbedView {
+        TabView {
             BasicContentView()
-                .tabItemLabel(VStack {
+                .tabItem {
                     Image("ios-egg")
                     Text("Basic")
-                })
+                }
                 .tag(0)
 
             AnimationContentView()
-                .tabItemLabel(VStack {
+                .tabItem {
                     Image("ios-wand")
                     Text("Animation")
-                })
+                }
                 .tag(1)
 
             MindBlowingContentView()
-                .tabItemLabel(VStack {
+                .tabItem {
                     Image("ios-rocket")
                     Text("MindBlowing")
-                })
+                }
                 .tag(2)
 
             FullProjectsContentView()
-                .tabItemLabel(VStack {
+                .tabItem {
                     Image("ios-journal")
                     Text("Projects")
-                })
+                }
                 .tag(3)
 
             MoreContentView()
-                .tabItemLabel(VStack {
+                .tabItem {
                     Image("ios-beer")
                     Text("More")
-                })
+                }
                 .tag(4)
         }
     }

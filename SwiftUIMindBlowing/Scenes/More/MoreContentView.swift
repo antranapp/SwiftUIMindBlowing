@@ -9,11 +9,11 @@ struct MoreContentView : View {
     var body: some View {
         NavigationView {
             List {
-                NavigationButton(destination: SFSymbolsContentView()) {
+                NavigationLink(destination: SFSymbolsContentView()) {
                     Text("SFSymbols")
                 }
 
-                NavigationButton(destination: MiscContentView()) {
+                NavigationLink(destination: MiscContentView()) {
                     Text("Misc")
                 }
             }

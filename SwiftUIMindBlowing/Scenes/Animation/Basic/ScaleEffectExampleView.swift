@@ -12,7 +12,7 @@ struct ScaleEffectExampleView : View {
         VStack {
             Image("swiftui")
                 .scaleEffect(isScaled ? 2 : 1)
-                .tapAction {
+                .onTapGesture {
                     withAnimation {
                         self.isScaled.toggle()
                     }

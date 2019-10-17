@@ -8,7 +8,7 @@ struct DatePickerExampleView : View {
 
     @State private var date = Date()
 
-    private var formatter: DateFormatter = {
+    private var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateStyle = .full
         return formatter
@@ -17,11 +17,16 @@ struct DatePickerExampleView : View {
     @State var string = ""
     var body: some View {
         VStack {
-            Text("\(formatter.string(from: date))")
-            DatePicker($date,
-                       minimumDate: Calendar.current.date(byAdding: .year, value: -1, to: date),
-                       maximumDate: Date(),
-                       displayedComponents: .date)
+            Text("Date is \(date, formatter: dateFormatter)")
+//            DatePicker(
+//                selection: $date,
+//                in: Calendar.current.date(byAdding: .year, value: -1, to: date) ...Date(),
+//                displayedComponents: .date
+//            )
+
+            DatePicker(selection: $date, in: ...Date(), displayedComponents: .date) {
+                Text("Select a date")
+            }
         }
         .navigationBarTitle(Text("DatePicker"))
         .padding()

@@ -6,16 +6,16 @@ import SwiftUI
 
 struct TextFieldExampleView : View {
 
-    @State var textValue = ""
-    @State var finalTextValue = ""
+    @State private var textValue = ""
+    @State private var finalTextValue = ""
 
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack { //(alignment: .leading)
             Text(textValue)
             Text(finalTextValue)
             TextField(
-                $textValue,
-                placeholder: Text("TextField"),
+                "TextField",
+                text: $textValue,
                 onEditingChanged: { isChanged in
                     print("onEditingChanged: \(self.textValue)")
                 },
@@ -25,7 +25,7 @@ struct TextFieldExampleView : View {
                 }
             )
         }
-        .navigationBarTitle(Text("TextField"))
+        .navigationBarTitle("TextField")
         .padding()
     }
 }

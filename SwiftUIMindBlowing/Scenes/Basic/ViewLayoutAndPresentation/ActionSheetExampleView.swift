@@ -6,28 +6,26 @@ import SwiftUI
 
 struct ActionSheetExampleView : View {
 
-    @State var isSheet: Bool = false
-
-    var sheet: ActionSheet {
-        ActionSheet(title: Text("Action"),
-                    message: Text("Description"),
-                    buttons: [
-                        .default(Text("OK"), onTrigger: {
-                            self.isSheet = false
-                        }),
-                        .destructive(Text("Delete"), onTrigger: {
-                            self.isSheet = false
-                        })
-            ]
-        )
-    }
+    @State var isShowingActionSheet: Bool = false
 
     var body: some View {
         VStack {
             Button(action: {
-                self.isSheet = true
-            }, label: { Text("Show Action Sheet") })
-                .presentation(isSheet ? sheet: nil)
+                self.isShowingActionSheet = true
+            }) {
+                Text("Show Action Sheet")
+            }
+            .actionSheet(isPresented: self.$isShowingActionSheet) {
+                ActionSheet(
+                    title: Text("Actions"),
+                    message: Text("Available actions"),
+                    buttons: [
+                        .cancel { print(self.isShowingActionSheet) },
+                        .default(Text("Action")),
+                        .destructive(Text("Delete"))
+                    ]
+                )
+            }
         }
         .navigationBarTitle(Text("ActionSheet"))
 

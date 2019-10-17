@@ -4,13 +4,13 @@
 
 import SwiftUI
 
-struct NavigationButtonExampleView : View {
+struct NavigationLinkExampleView : View {
     
     var body: some View {
-        NavigationButton(destination: PushedView()) {
+        NavigationLink(destination: PushedView()) {
             Text("Push a new view")
         }
-        .navigationBarTitle(Text("NavigationButton"))
+        .navigationBarTitle(Text("NavigationLink"))
     }
 }
 
@@ -21,9 +21,9 @@ private struct PushedView: View {
 }
 
 #if DEBUG
-struct NavigationButtonExampleView_Previews : PreviewProvider {
+struct NavigationLinkExampleView_Previews : PreviewProvider {
     static var previews: some View {
-        NavigationButtonExampleView()
+        NavigationLinkExampleView()
     }
 }
 #endif

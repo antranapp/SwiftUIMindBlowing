@@ -6,16 +6,16 @@ import SwiftUI
 
 struct SecureFieldExampleView : View {
 
-    @State var textValue = ""
+    @State private var textValue = ""
 
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack() { // alignment: .leading
             Text(textValue)
-            SecureField($textValue, placeholder: Text("SecureField")) {
+            SecureField("SecureField", text: $textValue) {
                 print("[onCommit] \(self.textValue)")
             }
         }
-        .navigationBarTitle(Text("TextField"))
+        .navigationBarTitle("TextField")
         .padding()
     }
 }

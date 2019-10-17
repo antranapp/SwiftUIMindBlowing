@@ -13,7 +13,7 @@ struct PickerExampleView : View {
         VStack {
             Text(pickerValue)
             Picker(selection: $pickerValue, label: Text("UI Stacks")) {
-                ForEach(uiStacks.identified(by: \.self)) { uiStack in
+                ForEach(uiStacks, id: \.self) { uiStack in
                     Text(uiStack)
                 }
             }

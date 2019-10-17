@@ -3,58 +3,20 @@
 //
 
 import SwiftUI
-import ProgressRingPackage
 
 struct MindBlowingContentView : View {
 
     var body: some View {
         NavigationView {
             List {
-                NavigationButton(destination: PureGeniusExampleView()) {
-                    ExampleCellView(
-                        title: "Pure Genius Animation",
-                        subtitle: "PureGenius.",
-                        sourceCodeURL: "https://github.com/joeynelson42/PureGenius")
-                }
-
-                NavigationButton(destination: FacebookReactionExampleView()) {
-                    ExampleCellView(
-                        title: "Facebook Reaction",
-                        subtitle: "Facebook Reaction",
-                        sourceCodeURL: "https://twitter.com/fabiogiolito/status/1142226669471748096")
-                }
-
-                NavigationButton(destination: ViewModifierCompositionExampleView()) {
+                NavigationLink(destination: ViewModifierCompositionExampleView()) {
                     ExampleCellView(
                         title: "View Modifier composition",
                         subtitle: "View and Modifier composition",
                         sourceCodeURL: "https://twitter.com/alex_persian/status/1141880682840547328")
                 }
-
-                NavigationButton(destination: ProgressRingPackage()) {
-                    ExampleCellView(
-                        title: "Progress Ring",
-                        subtitle: "A progress ring view made with SwiftUI and Combine.",
-                        sourceCodeURL: "https://github.com/hugolundin/ProgressRing")
-                }
-
-                NavigationButton(destination: WalletCardExampleView()) {
-                    ExampleCellView(
-                        title: "Wallet Cards Animation",
-                        subtitle: "Wallet.app-esque UI interaction",
-                        sourceCodeURL: "https://twitter.com/parkerwightman/status/1141004623945199618")
-                }
-
-                NavigationButton(destination: TextHighlightingExampleView()) {
-                    ExampleCellView(
-                        title: "Text Highlighting",
-                        subtitle: "SwiftUI Text Initializer replacing occurences of a given word with a colored version.",
-                        sourceCodeURL: "https://gist.github.com/codingmanu/9c95df6e7b98132bf7ed757672e88c01")
-                }
-
             }
-            .listStyle(.grouped)
-            .navigationBarTitle(Text("Mind Blowing"))
+            .navigationBarTitle("Mind Blowing")
         }
     }
 }

@@ -8,7 +8,7 @@ import SwiftUI
 
 private var colors: [Color] = [.red, .blue, .black, .gray, .green, .yellow, .orange, .pink, .purple]
 
-struct SFSymbolCell: View {
+struct SFSymbolRow: View {
     var symbol: String
 
     var body: some View {
@@ -30,8 +30,9 @@ struct SFSymbolDetail: View {
                 .imageScale(.large)
                 .scaleEffect(3.0)
                 .padding(.bottom, 100)
+            Divider()
             Text(symbol).font(.headline)
-        }   
+        }
     }
 }
 
@@ -47,9 +48,9 @@ struct SFSymbolsContentView : View {
                 Section(header: SearchBarView(text: self.$searchQuery)) {
                     ForEach(list.filter {
                         self.searchQuery.isEmpty ? true : "\(sfSymbols[$0])".lowercased().contains(self.searchQuery.lowercased())
-                    }) { index in
-                        NavigationButton(destination: SFSymbolDetail(symbol: sfSymbols[index])) {
-                            SFSymbolCell(symbol: sfSymbols[index])
+                    }, id: \.self) { index in
+                        NavigationLink(destination: SFSymbolDetail(symbol: sfSymbols[index])) {
+                            SFSymbolRow(symbol: sfSymbols[index])
                         }
                     }
                 }

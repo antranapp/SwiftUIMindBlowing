@@ -11,79 +11,74 @@ struct BasicContentView : View {
             List {
                 Section(header: Text("Views and Controls")) {
                     Group { // Group is used to overcome limitation of 10 Subviews in a ViewBuilder
-                        NavigationButton(destination: TextExampleView()) {
+                        NavigationLink(destination: TextExampleView()) {
                             ExampleCellView(
                                 title: "Text",
                                 subtitle: "A view that displays one or more lines of read-only text.")
                         }
-                        NavigationButton(destination: TextFieldExampleView()) {
+                        NavigationLink(destination: TextFieldExampleView()) {
                             ExampleCellView(
                                 title: "TextField",
                                 subtitle: "A control that displays an editable text interface.")
                         }
-                        NavigationButton(destination: SecureFieldExampleView()) {
+                        NavigationLink(destination: SecureFieldExampleView()) {
                             ExampleCellView(
                                 title: "SecureTextField",
                                 subtitle: "A control into which the user securely enters private text.")
                         }
-                        NavigationButton(destination: FontExampleView()) {
+                        NavigationLink(destination: FontExampleView()) {
                             ExampleCellView(
                                 title: "Font",
                                 subtitle: "An environment-dependent font.")
                         }
-                        NavigationButton(destination: ImageExampleView()) {
+                        NavigationLink(destination: ImageExampleView()) {
                             ExampleCellView(
                                 title: "Image",
                                 subtitle: "A view that displays an environment-dependent image.")
                         }
-                        NavigationButton(destination: ButtonExampleView()) {
+                        NavigationLink(destination: ButtonExampleView()) {
                             ExampleCellView(
                                 title: "Button",
                                 subtitle: "A control that performs an action when triggered.")
                         }
-                        NavigationButton(destination: NavigationButtonExampleView()) {
+                        NavigationLink(destination: NavigationLinkExampleView()) {
                             ExampleCellView(
-                                title: "NavigationButton",
+                                title: "NavigationLink",
                                 subtitle: "A button that triggers a navigation presentation when pressed.")
                         }
-                        NavigationButton(destination: PresentationButtonExampleView()) {
-                            ExampleCellView(
-                                title: "PresentationButton",
-                                subtitle: "A button that triggers a navigation presentation when pressed.")
-                        }
-                        NavigationButton(destination: EditButtonExampleView()) {
+                        NavigationLink(destination: EditButtonExampleView()) {
                             ExampleCellView(
                                 title: "EditButton",
                                 subtitle: "A button that triggers a navigation presentation when pressed.")
                         }
-                        NavigationButton(destination: ToggleExampleView()) {
+                        NavigationLink(destination: ToggleExampleView()) {
                             ExampleCellView(
                                 title: "Toggle",
                                 subtitle: "A control that toggles between on and off states.")
                         }
                     }
                     Group {
-                        NavigationButton(destination: PickerExampleView()) {
+                        NavigationLink(destination: PickerExampleView()) {
                             ExampleCellView(
                                 title: "Picker",
                                 subtitle: "A control for selecting from a set of mutually exclusive values.")
                         }
-                        NavigationButton(destination: DatePickerExampleView()) {
+                        NavigationLink(destination: DatePickerExampleView()) {
                             ExampleCellView(
                                 title: "DatePicker",
                                 subtitle: "A control for selecting an absolute date.")
                         }
-                        NavigationButton(destination: DatePickerExampleView()) {
+                        NavigationLink(destination: DatePickerExampleView()) {
                             ExampleCellView(
                                 title: "Slider",
                                 subtitle: "A control for selecting a value from a bounded linear range of values.")
                         }
-                        NavigationButton(destination: StepperExampleView()) {
+                        NavigationLink(destination: StepperExampleView()) {
                             ExampleCellView(
                                 title: "Stepper",
                                 subtitle: "A control used to perform semantic increment and decrement actions.")
                         }
-                        NavigationButton(destination: SegmentedControlExampleView()) {
+                        NavigationLink(destination: SegmentedControlExampleView()) {
                             ExampleCellView(
                                 title: "SegmentedControl",
                                 subtitle: "A control for selecting from a set of options.")
@@ -92,12 +87,12 @@ struct BasicContentView : View {
 
                 }
                 Section(header: Text("View Layout and Presentation")) {
-                    NavigationButton(destination: HStackExampleView()) {
+                    NavigationLink(destination: HStackExampleView()) {
                         ExampleCellView(
                             title: "HStack",
                             subtitle: "A view that arranges its children in a horizontal line.")
                     }
-                    NavigationButton(destination: VStackExampleView()) {
+                    NavigationLink(destination: VStackExampleView()) {
                         ExampleCellView(
                             title: "VStack",
                             subtitle: "A view that arranges its children in a vertical line.")
@@ -115,19 +110,19 @@ struct BasicContentView : View {
                         title: "ForEach",
                         subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
 
-                    NavigationButton(destination: AlertExampleView()) {
+                    NavigationLink(destination: AlertExampleView()) {
                         ExampleCellView(
                             title: "Alert",
                             subtitle: "A container for an alert presentation.")
                     }
 
-                    NavigationButton(destination: ModalExampleView()) {
+                    NavigationLink(destination: ModalExampleView()) {
                         ExampleCellView(
                             title: "Modal",
                             subtitle: "A storage type for a modal presentation.")
                     }
 
-                    NavigationButton(destination: ActionSheetExampleView()) {
+                    NavigationLink(destination: ActionSheetExampleView()) {
                         ExampleCellView(
                             title: "ActionSheet",
                             subtitle: "A storage type for an action sheet presentation.")
@@ -163,9 +158,8 @@ struct BasicContentView : View {
                         title: "AnyGesture",
                         subtitle: "")
                 }
-            } // List
-            .listStyle(.grouped)
-            .navigationBarTitle(Text("Basic"))
+            }
+            .navigationBarTitle("Basic")
         }
     }
 }

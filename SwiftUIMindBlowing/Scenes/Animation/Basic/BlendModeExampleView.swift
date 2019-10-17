@@ -20,7 +20,7 @@ struct BlendModeExampleView : View {
                 .animation(.spring())
                 .scaleEffect(up ? 1.8 : 0.5)
                 .blendMode(.darken)
-                .tapAction {
+                .onTapGesture {
                     withAnimation {
                         self.up.toggle()
                     }

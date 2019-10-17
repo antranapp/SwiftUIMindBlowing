@@ -7,15 +7,15 @@ import SwiftUI
 struct LicenseContentView : View {
     var body: some View {
         List {
-            NavigationButton(destination: SFSymbolsContentView()) {
+            NavigationLink(destination: SFSymbolsContentView()) {
                 Text("SFSymbols")
             }
 
-            NavigationButton(destination: MiscContentView()) {
+            NavigationLink(destination: MiscContentView()) {
                 Text("Misc")
             }
         }
-        .navigationBarTitle(Text("Licenses"))
+        .navigationBarTitle("Licenses")
     }
 }
 

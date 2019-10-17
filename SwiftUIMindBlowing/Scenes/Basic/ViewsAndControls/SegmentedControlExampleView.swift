@@ -13,29 +13,32 @@ struct SegmentedControlExampleView : View {
     var body: some View {
         VStack {
             // Use binding to display value of array in a Text element
-            SegmentedControl(selection: $index1) {
+            Picker(selection: $index1, label: Text("UI Stack")) {
                 ForEach(0..<self.uiStacks.count) { index1 in
-                    Text(self.uiStacks[index1])
+                    Text(self.uiStacks[index1]).tag(index1)
                 }
             }
+            .pickerStyle(SegmentedPickerStyle())
+
             Text("\(index1) - \(uiStacks[index1])")
 
             Divider()
 
             // Display custom view depending on the selected index of the SegmentedControl
-            SegmentedControl(selection: $index2) {
+            Picker(selection: $index2, label: Text("UI Stack")) {
                 ForEach(0..<uiStacks.count) { index2 in
-                    Text(self.uiStacks[index2])
+                    Text(self.uiStacks[index2]).tag(index2)
                 }
             }
+            .pickerStyle(SegmentedPickerStyle())
 
-            if index2 == 0 {
-                CustomView1()
-            } else if index2 == 1 {
-                CustomView2()
-            } else if index2 == 2 {
-                CustomView3()
-            }
+//            if index2 == 0 {
+//                CustomView1()
+//            } else if index2 == 1 {
+//                CustomView2()
+//            } else if index2 == 2 {
+//                CustomView3()
+//            }
         }
         .navigationBarTitle(Text("SegmentedControl"))
         .padding()
