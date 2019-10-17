@@ -12,7 +12,7 @@ struct RotationEffectExampleView : View {
         VStack {
             Image("swiftui")
                 .rotationEffect(.degrees(flipped ? 180 : 0))
-                .tapAction {
+                .onTapGesture {
                     withAnimation {
                         self.flipped.toggle()
                     }

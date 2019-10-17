@@ -6,15 +6,16 @@ import SwiftUI
 
 struct AlertExampleView : View {
 
-    @State var isError: Bool = false
+    @State var isPresented: Bool = false
 
     var body: some View {
         VStack {
             Button(action: {
-                self.isError = true
-            }, label: {
+                self.isPresented = true
+            }) {
                 Text("Show Alert")
-            }).presentation(self.$isError) { () -> Alert in
+            }
+            .alert(isPresented: self.$isPresented) {
                 Alert(title: Text("Error"), message: Text("Error Reason"), dismissButton: .default(Text("OK")))
             }
         }

@@ -10,7 +10,7 @@ struct EditButtonExampleView : View {
 
     var body: some View {
         List {
-            ForEach(uiStacks.identified(by: \.self)) { uiStack in
+            ForEach(uiStacks, id: \.self) { uiStack in
                 Text(uiStack)
             }
             .onDelete(perform: remove)

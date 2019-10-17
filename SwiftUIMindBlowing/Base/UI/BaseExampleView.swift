@@ -6,7 +6,7 @@ import SwiftUI
 
 struct BaseExampleView<Content>: View where Content: View {
 
-    @State var viewIndex = 0
+    @State private var viewIndex = 0
 
     private var demoContentView: () -> Content
     private let sourcePath: String
@@ -19,17 +19,17 @@ struct BaseExampleView<Content>: View where Content: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                // Display custom view depending on the selected index of the SegmentedControl
-                SegmentedControl(selection: self.$viewIndex) {
+                Picker(selection: self.$viewIndex, label: Text("Demo")) {
                     Text("Demo").tag(0)
                     Text("Source").tag(1)
                 }
+                .pickerStyle(SegmentedPickerStyle())
 
-                if self.viewIndex == 0 {
-                    self.demoContentView()
-                } else if self.viewIndex == 1 {
-                    WKWebViewUI(resource: self.sourcePath)
-                }
+//                if self.viewIndex == 0 {
+//                    self.demoContentView()
+//                } else if self.viewIndex == 1 {
+//                    WKWebViewUI(resource: self.sourcePath)
+//                }
             }
         }
     }

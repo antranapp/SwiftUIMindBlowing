@@ -8,20 +8,32 @@ struct ModalExampleView : View {
 
     @State var isModal: Bool = false
 
-    var modal: Modal {
-        Modal(Text("Content")) {
-            self.isModal = false
-        }
-    }
-
     var body: some View {
         VStack {
             Button(action: {
                 self.isModal = true
-            }, label: { Text("Show Modal") })
-                .presentation(isModal ? modal: nil)
+            }) {
+                Text("Show Modal")
+            }
+            .sheet(isPresented: self.$isModal) {
+                ModalView(message: "This is Modal view")
+            }
         }
-        .navigationBarTitle(Text("Modal"))
+        .navigationBarTitle("Modal")
+    }
+}
+
+struct ModalView: View {
+    @Environment(\.presentationMode) var presentation
+    let message: String
+
+    var body: some View {
+        VStack {
+            Text(message)
+            Button("Dismiss") {
+                self.presentation.wrappedValue.dismiss()
+            }
+        }
     }
 }
 

@@ -11,17 +11,17 @@ struct AnimationContentView : View {
             List {
                 Section(header: Text("Basic")) {
                     Group {
-                        NavigationButton(destination: RotationEffectExampleView()) {
+                        NavigationLink(destination: RotationEffectExampleView()) {
                             ExampleCellView(
                                 title: "RotationEffect",
                                 subtitle: "Rotate a view.")
                         }
-                        NavigationButton(destination: ScaleEffectExampleView()) {
+                        NavigationLink(destination: ScaleEffectExampleView()) {
                             ExampleCellView(
                                 title: "ImageEffect",
                                 subtitle: "Scale an image.")
                         }
-                        NavigationButton(destination: BlendModeExampleView()) {
+                        NavigationLink(destination: BlendModeExampleView()) {
                             ExampleCellView(
                                 title: "BlendMode",
                                 subtitle: "Sets the blend mode for compositing this view with overlapping views..",
@@ -29,9 +29,8 @@ struct AnimationContentView : View {
                         }
                     }
                 }
-            } // List
-            .listStyle(.grouped)
-            .navigationBarTitle(Text("Animation"))
+            }
+            .navigationBarTitle("Animation")
         }
     }
 }

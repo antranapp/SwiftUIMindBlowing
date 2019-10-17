@@ -11,14 +11,14 @@ struct SearchBarView: UIViewRepresentable {
 
     class Coordinator: NSObject, UISearchBarDelegate {
 
-        @Binding var text: String
+        var text: Binding<String>
 
         init(text: Binding<String>) {
-            $text = text
+            self.text = text
         }
 
         func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-            text = searchText
+            text.wrappedValue = searchText
         }
     }
 

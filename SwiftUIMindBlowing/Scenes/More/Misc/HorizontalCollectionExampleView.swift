@@ -27,9 +27,9 @@ struct HorizontalCollectionExampleView : View {
         GeometryReader { proxy in
             ScrollView {
                 VStack(alignment: .leading) {
-                    ForEach(self.items.chunk(size: self.width)) { row in
+                    ForEach(self.items.chunk(size: self.width), id: \.self) { row in
                         HStack(alignment: .center, spacing: self.spacing) {
-                            ForEach(row) { item in
+                            ForEach(row, id: \.self) { item in
                                 Text("\(item)")
                                     .frame(
                                         width: proxy.frame(in: .local).width / CGFloat(self.width) - self.spacing,
