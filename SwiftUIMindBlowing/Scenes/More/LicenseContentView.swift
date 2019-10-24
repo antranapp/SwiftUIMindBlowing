@@ -4,14 +4,14 @@
 
 import SwiftUI
 
-struct LicenseContentView : View {
+struct LicenseContentView: View {
     var body: some View {
         List {
             NavigationLink(destination: SFSymbolsContentView()) {
                 Text("SFSymbols")
             }
 
-            NavigationLink(destination: MiscContentView()) {
+            NavigationLink(destination: CookbookContentView()) {
                 Text("Misc")
             }
         }
@@ -20,7 +20,7 @@ struct LicenseContentView : View {
 }
 
 #if DEBUG
-struct LicenseContentView_Previews : PreviewProvider {
+struct LicenseContentView_Previews: PreviewProvider {
     static var previews: some View {
         LicenseContentView()
     }

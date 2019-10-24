@@ -32,9 +32,9 @@ As SwiftUI is quite new and is still evolving very fast, I would welcome everyon
 
 ## Requirements
 
-- macOS 15 Beta
-- Xcode 11.0 Beta
-- iOS 13.0 Betas
+- macOS 15 (optional to view previews)
+- Xcode 11.1
+- iOS 13.1+
 
 
 ## License

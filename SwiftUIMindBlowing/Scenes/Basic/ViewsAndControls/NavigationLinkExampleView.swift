@@ -4,7 +4,20 @@
 
 import SwiftUI
 
-struct NavigationLinkExampleView : View {
+struct NavigationLinkExampleView: View {
+
+    var body: some View {
+        ExampleView(
+            demoContentView: { () -> NavigationLinkExampleDemoView in
+                NavigationLinkExampleDemoView()
+            },
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/NavigationLinkExampleView.swift"
+        )
+        .navigationBarTitle("NavigationLink")
+    }
+}
+
+struct NavigationLinkExampleDemoView: View {
     
     var body: some View {
         NavigationLink(destination: PushedView()) {
@@ -21,7 +34,7 @@ private struct PushedView: View {
 }
 
 #if DEBUG
-struct NavigationLinkExampleView_Previews : PreviewProvider {
+struct NavigationLinkExampleView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationLinkExampleView()
     }

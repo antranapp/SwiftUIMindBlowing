@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct BasicContentView : View {
+struct BasicContentView: View {
 
     var body: some View {
         NavigationView {
@@ -165,7 +165,7 @@ struct BasicContentView : View {
 }
 
 #if DEBUG
-struct BasicContentView_Previews : PreviewProvider {
+struct BasicContentView_Previews: PreviewProvider {
     static var previews: some View {
         BasicContentView()
     }

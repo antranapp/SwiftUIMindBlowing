@@ -4,7 +4,20 @@
 
 import SwiftUI
 
-struct SegmentedControlExampleView : View {
+struct SegmentedControlExampleView: View {
+
+    var body: some View {
+        ExampleView(
+            demoContentView: { () -> SegmentedControlExampleDemoView in
+                SegmentedControlExampleDemoView()
+            },
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/SegmentedControlExampleView.swift"
+        )
+        .navigationBarTitle(Text("SegmentedControl"))
+    }
+}
+
+struct SegmentedControlExampleDemoView: View {
 
     @State var index1 = 0
     @State var index2 = 0
@@ -32,13 +45,15 @@ struct SegmentedControlExampleView : View {
             }
             .pickerStyle(SegmentedPickerStyle())
 
-//            if index2 == 0 {
-//                CustomView1()
-//            } else if index2 == 1 {
-//                CustomView2()
-//            } else if index2 == 2 {
-//                CustomView3()
-//            }
+            if index2 == 0 {
+                CustomView1()
+            } else if index2 == 1 {
+                CustomView2()
+            } else if index2 == 2 {
+                CustomView3()
+            }
+
+            Spacer()
         }
         .navigationBarTitle(Text("SegmentedControl"))
         .padding()
@@ -68,7 +83,7 @@ private struct CustomView3: View {
 }
 
 #if DEBUG
-struct SegmentedControlExampleView_Previews : PreviewProvider {
+struct SegmentedControlExampleView_Previews: PreviewProvider {
     static var previews: some View {
         SegmentedControlExampleView()
     }

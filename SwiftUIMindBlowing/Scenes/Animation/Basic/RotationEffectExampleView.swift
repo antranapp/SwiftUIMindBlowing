@@ -4,14 +4,14 @@
 
 import SwiftUI
 
-struct RotationEffectExampleView : View {
+struct RotationEffectExampleView: View {
 
     @State var flipped: Bool = false
 
     var body: some View {
         VStack {
             Image("swiftui")
-                .rotationEffect(.degrees(flipped ? 180 : 0))
+                .rotationEffect(.degrees(flipped ? 180: 0))
                 .onTapGesture {
                     withAnimation {
                         self.flipped.toggle()
@@ -23,7 +23,7 @@ struct RotationEffectExampleView : View {
 }
 
 #if DEBUG
-struct RotationEffectExampleView_Previews : PreviewProvider {
+struct RotationEffectExampleView_Previews: PreviewProvider {
     static var previews: some View {
         RotationEffectExampleView(flipped: false)
     }

@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct DispatchTimerExampleView : View {
+struct DispatchTimerExampleView: View {
 
     @State var value = 0
 
@@ -18,7 +18,7 @@ struct DispatchTimerExampleView : View {
 }
 
 #if DEBUG
-struct DispatchTimerExampleView_Previews : PreviewProvider {
+struct DispatchTimerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         DispatchTimerExampleView()
     }

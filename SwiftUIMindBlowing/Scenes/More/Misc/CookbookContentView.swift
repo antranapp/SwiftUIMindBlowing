@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct MiscContentView : View {
+struct CookbookContentView: View {
 
     var body: some View {
         List {
@@ -35,9 +35,9 @@ struct MiscContentView : View {
 }
 
 #if DEBUG
-struct MiscContentView_Previews : PreviewProvider {
+struct MiscContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MiscContentView()
+        CookbookContentView()
     }
 }
 #endif

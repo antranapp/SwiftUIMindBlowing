@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct FullProjectsContentView : View {
+struct FullProjectsContentView: View {
     var body: some View {
         NavigationView {
             List{
@@ -16,7 +16,7 @@ struct FullProjectsContentView : View {
 }
 
 #if DEBUG
-struct FullProjectsContentView_Previews : PreviewProvider {
+struct FullProjectsContentView_Previews: PreviewProvider {
     static var previews: some View {
         FullProjectsContentView()
     }

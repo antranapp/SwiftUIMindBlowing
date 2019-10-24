@@ -20,14 +20,14 @@ struct SafariView: UIViewControllerRepresentable {
 
 }
 
-struct SFSafariViewControllerExampleView : View {
+struct SFSafariViewControllerExampleView: View {
     var body: some View {
         SafariView(url: URL(string: "https://www.google.com")!)
     }
 }
 
 #if DEBUG
-struct SFSafariViewControllerExampleView_Previews : PreviewProvider {
+struct SFSafariViewControllerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         SFSafariViewControllerExampleView()
     }

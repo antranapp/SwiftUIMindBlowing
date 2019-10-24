@@ -4,7 +4,21 @@
 
 import SwiftUI
 
-struct ToggleExampleView : View {
+struct ToggleExampleView: View {
+
+    var body: some View {
+        ExampleView(
+            demoContentView: { () -> ToggleExampleDemoView in
+                ToggleExampleDemoView()
+            },
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/ToggleExampleView.swift"
+        )
+        .navigationBarTitle("Toggle")
+    }
+}
+
+
+struct ToggleExampleDemoView: View {
 
     @State var isTextVisible = true
 
@@ -23,7 +37,7 @@ struct ToggleExampleView : View {
 }
 
 #if DEBUG
-struct ToggleExampleView_Previews : PreviewProvider {
+struct ToggleExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ToggleExampleView()
     }

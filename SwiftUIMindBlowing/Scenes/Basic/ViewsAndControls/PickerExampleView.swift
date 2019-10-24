@@ -4,7 +4,20 @@
 
 import SwiftUI
 
-struct PickerExampleView : View {
+struct PickerExampleView: View {
+
+    var body: some View {
+        ExampleView(
+            demoContentView: { () -> PickerExampleDemoView in
+                PickerExampleDemoView()
+            },
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/PickerExampleView.swift"
+        )
+        .navigationBarTitle("Picker")
+    }
+}
+
+struct PickerExampleDemoView: View {
 
     @State var pickerValue = "UIKit"
     let uiStacks = ["UIKit", "UIKit for Mac", "SwiftUI"]
@@ -26,7 +39,7 @@ struct PickerExampleView : View {
 }
 
 #if DEBUG
-struct PickerExampleView_Previews : PreviewProvider {
+struct PickerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         PickerExampleView()
     }

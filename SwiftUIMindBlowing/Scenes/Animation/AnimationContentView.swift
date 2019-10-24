@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct AnimationContentView : View {
+struct AnimationContentView: View {
 
     var body: some View {
         NavigationView {
@@ -36,7 +36,7 @@ struct AnimationContentView : View {
 }
 
 #if DEBUG
-struct AnimationContentView_Previews : PreviewProvider {
+struct AnimationContentView_Previews: PreviewProvider {
     static var previews: some View {
         AnimationContentView()
     }

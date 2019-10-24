@@ -4,14 +4,14 @@
 
 import SwiftUI
 
-struct ScaleEffectExampleView : View {
+struct ScaleEffectExampleView: View {
 
     @State var isScaled: Bool = false
 
     var body: some View {
         VStack {
             Image("swiftui")
-                .scaleEffect(isScaled ? 2 : 1)
+                .scaleEffect(isScaled ? 2: 1)
                 .onTapGesture {
                     withAnimation {
                         self.isScaled.toggle()
@@ -23,7 +23,7 @@ struct ScaleEffectExampleView : View {
 }
 
 #if DEBUG
-struct ScaleEffectExampleView_Previews : PreviewProvider {
+struct ScaleEffectExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ScaleEffectExampleView()
     }

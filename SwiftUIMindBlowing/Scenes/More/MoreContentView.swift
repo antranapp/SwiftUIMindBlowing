@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct MoreContentView : View {
+struct MoreContentView: View {
 
     var body: some View {
         NavigationView {
@@ -13,8 +13,8 @@ struct MoreContentView : View {
                     Text("SFSymbols")
                 }
 
-                NavigationLink(destination: MiscContentView()) {
-                    Text("Misc")
+                NavigationLink(destination: CookbookContentView()) {
+                    Text("Cookbook - How to do X?")
                 }
             }
             .navigationBarTitle(Text("More"))
@@ -23,7 +23,7 @@ struct MoreContentView : View {
 }
 
 #if DEBUG
-struct MoreContentView_Previews : PreviewProvider {
+struct MoreContentView_Previews: PreviewProvider {
     static var previews: some View {
         MoreContentView()
     }

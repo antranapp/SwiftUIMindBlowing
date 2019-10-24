@@ -36,7 +36,7 @@ struct SFSymbolDetail: View {
     }
 }
 
-struct SFSymbolsContentView : View {
+struct SFSymbolsContentView: View {
 
     @State private var searchQuery = ""
 
@@ -47,7 +47,7 @@ struct SFSymbolsContentView : View {
             List {
                 Section(header: SearchBarView(text: self.$searchQuery)) {
                     ForEach(list.filter {
-                        self.searchQuery.isEmpty ? true : "\(sfSymbols[$0])".lowercased().contains(self.searchQuery.lowercased())
+                        self.searchQuery.isEmpty ? true: "\(sfSymbols[$0])".lowercased().contains(self.searchQuery.lowercased())
                     }, id: \.self) { index in
                         NavigationLink(destination: SFSymbolDetail(symbol: sfSymbols[index])) {
                             SFSymbolRow(symbol: sfSymbols[index])
@@ -60,7 +60,7 @@ struct SFSymbolsContentView : View {
 }
 
 #if DEBUG
-struct SFSymbolsContentView_Previews : PreviewProvider {
+struct SFSymbolsContentView_Previews: PreviewProvider {
     static var previews: some View {
         SFSymbolsContentView()
     }

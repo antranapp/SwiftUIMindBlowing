@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct ActionSheetExampleView : View {
+struct ActionSheetExampleView: View {
 
     @State var isShowingActionSheet: Bool = false
 
@@ -33,7 +33,7 @@ struct ActionSheetExampleView : View {
 }
 
 #if DEBUG
-struct ActionSheetExampleView_Previews : PreviewProvider {
+struct ActionSheetExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ActionSheetExampleView()
     }

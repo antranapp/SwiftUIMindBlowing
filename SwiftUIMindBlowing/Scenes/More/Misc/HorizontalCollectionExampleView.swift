@@ -18,7 +18,7 @@ extension Array: Identifiable where Element: Identifiable {
     }
 }
 
-struct HorizontalCollectionExampleView : View {
+struct HorizontalCollectionExampleView: View {
     @State var width = 3
     @State var spacing: CGFloat = 5
     @State var items: [Int] = Array(1...100)
@@ -48,7 +48,7 @@ struct HorizontalCollectionExampleView : View {
 }
 
 #if DEBUG
-struct HorizontalCollectionExampleView_Previews : PreviewProvider {
+struct HorizontalCollectionExampleView_Previews: PreviewProvider {
     static var previews: some View {
         HorizontalCollectionExampleView()
     }
