@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct MindBlowingContentView : View {
+struct MindBlowingContentView: View {
 
     var body: some View {
         NavigationView {
@@ -22,7 +22,7 @@ struct MindBlowingContentView : View {
 }
 
 #if DEBUG
-struct MindBlowingContentView_Previews : PreviewProvider {
+struct MindBlowingContentView_Previews: PreviewProvider {
     static var previews: some View {
         MindBlowingContentView()
     }

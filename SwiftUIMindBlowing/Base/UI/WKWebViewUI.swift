@@ -10,12 +10,11 @@ public struct WKWebViewUI: UIViewRepresentable {
 
     public typealias UIViewType = WKWebView
 
-    let resource: String
+    let remoteSourcePath: String
 
     public func makeUIView(context: UIViewRepresentableContext<WKWebViewUI>) -> WKWebViewUI.UIViewType {
         let webView = WKWebView()
-        let url = Bundle.main.url(forResource: "text_index", withExtension: "html")!
-        webView.loadFileURL(url, allowingReadAccessTo: url)
+        let url = URL(string: remoteSourcePath)!
         let request = URLRequest(url: url)
         webView.load(request)
         return webView
@@ -26,9 +25,9 @@ public struct WKWebViewUI: UIViewRepresentable {
 }
 
 #if DEBUG
-struct WKWebViewUI_Previews : PreviewProvider {
+struct WKWebViewUI_Previews: PreviewProvider {
     static var previews: some View {
-        WKWebViewUI(resource: "text_index")
+        WKWebViewUI(remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Text/TextExampleView.swift")
     }
 }
 #endif

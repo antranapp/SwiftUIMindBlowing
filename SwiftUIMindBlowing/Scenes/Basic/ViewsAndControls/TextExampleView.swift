@@ -4,17 +4,16 @@
 
 import SwiftUI
 
-struct TextExampleView : View {
-
-    @State var viewIndex = 0
-    let views = ["Demo", "Source"]
+struct TextExampleView: View {
 
     var body: some View {
-        BaseExampleView(demoContentView: { () -> TextExampleDemoView in
-            return TextExampleDemoView()
-        }, sourcePath: "text_index")
-        .navigationBarTitle(Text("Text"))
-        .padding()
+        ExampleView(
+            demoContentView: { () -> TextExampleDemoView in
+                TextExampleDemoView()
+            },
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/TextExampleView.swift"
+        )
+        .navigationBarTitle("Text")
     }
 }
 
@@ -73,7 +72,7 @@ struct TextExampleDemoView: View {
 }
 
 #if DEBUG
-struct TextExampleView_Previews : PreviewProvider {
+struct TextExampleView_Previews: PreviewProvider {
     static var previews: some View {
         TextExampleView()
     }

@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct ModalExampleView : View {
+struct ModalExampleView: View {
 
     @State var isModal: Bool = false
 
@@ -38,7 +38,7 @@ struct ModalView: View {
 }
 
 #if DEBUG
-struct ModalExampleView_Previews : PreviewProvider {
+struct ModalExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ModalExampleView()
     }

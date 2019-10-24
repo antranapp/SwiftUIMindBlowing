@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct DasboardView : View {
+struct DasboardView: View {
     var body: some View {
         TabView {
             BasicContentView()
@@ -46,7 +46,7 @@ struct DasboardView : View {
 }
 
 #if DEBUG
-struct DasboardView_Previews : PreviewProvider {
+struct DasboardView_Previews: PreviewProvider {
     static var previews: some View {
         DasboardView()
     }

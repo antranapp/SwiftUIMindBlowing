@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct VStackExampleView : View {
+struct VStackExampleView: View {
 
     var body: some View {
         List {
@@ -28,7 +28,7 @@ struct VStackExampleView : View {
 }
 
 #if DEBUG
-struct VStackExampleView_Previews : PreviewProvider {
+struct VStackExampleView_Previews: PreviewProvider {
     static var previews: some View {
         VStackExampleView()
     }

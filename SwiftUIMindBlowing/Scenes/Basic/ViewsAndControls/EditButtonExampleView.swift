@@ -4,7 +4,20 @@
 
 import SwiftUI
 
-struct EditButtonExampleView : View {
+struct EditButtonExampleView: View {
+
+    var body: some View {
+        ExampleView(
+            demoContentView: { () -> EditButtonExampleDemoView in
+                EditButtonExampleDemoView()
+            },
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/EditButtonExampleView.swift"
+        )
+        .navigationBarTitle("Edit Button")
+    }
+}
+
+struct EditButtonExampleDemoView: View {
     
     @State var uiStacks = ["UIKit", "UIKit for Mac", "SwiftUI"]
 
@@ -27,7 +40,7 @@ struct EditButtonExampleView : View {
 }
 
 #if DEBUG
-struct EditButtonExampleView_Previews : PreviewProvider {
+struct EditButtonExampleView_Previews: PreviewProvider {
     static var previews: some View {
         EditButtonExampleView()
     }

@@ -4,7 +4,20 @@
 
 import SwiftUI
 
-struct DatePickerExampleView : View {
+struct DatePickerExampleView: View {
+
+    var body: some View {
+        ExampleView(
+            demoContentView: { () -> DatePickerExampleDemoView in
+                DatePickerExampleDemoView()
+            },
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/DatePickerExampleView.swift"
+        )
+        .navigationBarTitle("DatePicker")
+    }
+}
+
+struct DatePickerExampleDemoView: View {
 
     @State private var date = Date()
 
@@ -17,12 +30,13 @@ struct DatePickerExampleView : View {
     @State var string = ""
     var body: some View {
         VStack {
-            Text("Date is \(date, formatter: dateFormatter)")
-//            DatePicker(
-//                selection: $date,
-//                in: Calendar.current.date(byAdding: .year, value: -1, to: date) ...Date(),
-//                displayedComponents: .date
-//            )
+            Text("The selected date is \(date, formatter: dateFormatter)")
+            DatePicker(
+                "Select a date",
+                selection: $date,
+                in: Calendar.current.date(byAdding: .year, value: -1, to: date)!...Date(),
+                displayedComponents: .date
+            )
 
             DatePicker(selection: $date, in: ...Date(), displayedComponents: .date) {
                 Text("Select a date")
@@ -35,7 +49,7 @@ struct DatePickerExampleView : View {
 }
 
 #if DEBUG
-struct DatePickerExampleView_Previews : PreviewProvider {
+struct DatePickerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         DatePickerExampleView()
     }

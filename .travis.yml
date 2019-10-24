@@ -1,0 +1,23 @@
+language: objective-c
+
+cache:
+  directories:
+    # General SwiftPM
+    - .build
+    # Danger Swift plugins
+    - ~/.danger-swift
+    # Cathage
+    - Carthage
+
+osx_image: xcode11
+
+install:
+  - bundle install
+  - node -v
+  - npm install -g danger@7.1.4
+
+script:
+  - swift run --package-path Tools/Bootstrap/ Bootstrap .
+  #- bundle exec fastlane tests
+  #- xcodebuild -workspace SwiftCommunity.xcworkspace -scheme SwiftCommunity -destination "platform=iOS Simulator,name=iPhone 11" clean build test
+  - swift run danger-swift ci

@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct ExampleCellView : View {
+struct ExampleCellView: View {
 
     let title: String
     var subtitle: String? = nil
@@ -24,7 +24,7 @@ struct ExampleCellView : View {
 }
 
 #if DEBUG
-struct ExampleCellView_Previews : PreviewProvider {
+struct ExampleCellView_Previews: PreviewProvider {
     static var previews: some View {
         ExampleCellView(title: "Title", subtitle: "Subtitle", sourceCodeURL: "https://www.github.com")
     }

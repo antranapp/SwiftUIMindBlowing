@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct AlertExampleView : View {
+struct AlertExampleView: View {
 
     @State var isPresented: Bool = false
 
@@ -24,7 +24,7 @@ struct AlertExampleView : View {
 }
 
 #if DEBUG
-struct AlertExampleView_Previews : PreviewProvider {
+struct AlertExampleView_Previews: PreviewProvider {
     static var previews: some View {
         AlertExampleView()
     }

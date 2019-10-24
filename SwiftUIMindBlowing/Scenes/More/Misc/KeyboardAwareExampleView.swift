@@ -43,7 +43,7 @@ struct AdaptsToSoftwareKeyboard: ViewModifier {
     }
 }
 
-struct KeyboardAwareExampleView : View {
+struct KeyboardAwareExampleView: View {
 
 //    var venue = VenueDataModel(name: "Apple", street: "One Apple Park Way", city: "Cupertino", country: "United State of America", postalCode: "95014")
     @ObjectBinding var venue: VenueDataModel
@@ -68,7 +68,7 @@ struct KeyboardAwareExampleView : View {
 }
 
 #if DEBUG
-struct KeyboardAwareExampleView_Previews : PreviewProvider {
+struct KeyboardAwareExampleView_Previews: PreviewProvider {
     static var previews: some View {
         KeyboardAwareExampleView()
     }

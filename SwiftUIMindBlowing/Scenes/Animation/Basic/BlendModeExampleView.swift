@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct BlendModeExampleView : View {
+struct BlendModeExampleView: View {
 
     @State var up = false
 
@@ -18,7 +18,7 @@ struct BlendModeExampleView : View {
                 .frame(width: 200, height: 200, alignment: .center)
                 .foregroundColor(.red)
                 .animation(.spring())
-                .scaleEffect(up ? 1.8 : 0.5)
+                .scaleEffect(up ? 1.8: 0.5)
                 .blendMode(.darken)
                 .onTapGesture {
                     withAnimation {
@@ -31,7 +31,7 @@ struct BlendModeExampleView : View {
 }
 
 #if DEBUG
-struct BlendModeExampleView_Previews : PreviewProvider {
+struct BlendModeExampleView_Previews: PreviewProvider {
     static var previews: some View {
         BlendModeExampleView()
     }

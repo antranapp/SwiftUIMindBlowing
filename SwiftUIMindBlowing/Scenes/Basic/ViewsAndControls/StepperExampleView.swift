@@ -4,7 +4,20 @@
 
 import SwiftUI
 
-struct StepperExampleView : View {
+struct StepperExampleView: View {
+
+    var body: some View {
+        ExampleView(
+            demoContentView: { () -> StepperExampleDemoView in
+                StepperExampleDemoView()
+            },
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/StepperExampleView.swift"
+        )
+        .navigationBarTitle("Stepper")
+    }
+}
+
+struct StepperExampleDemoView: View {
 
     @State var stepper1Value = 0
     @State var stepper5Value = 0
@@ -24,7 +37,7 @@ struct StepperExampleView : View {
 }
 
 #if DEBUG
-struct StepperExampleView_Previews : PreviewProvider {
+struct StepperExampleView_Previews: PreviewProvider {
     static var previews: some View {
         StepperExampleView()
     }
