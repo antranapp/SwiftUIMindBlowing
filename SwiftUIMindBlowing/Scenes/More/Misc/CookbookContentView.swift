@@ -36,6 +36,13 @@ struct CookbookContentView: View {
                             title: "How to make VStack fill the screen?",
                             subtitle: "")
                     }
+
+                    NavigationLink(destination: NavigationBarButtonView()) {
+                        ExampleCellView(
+                            title: "How to add items to a navigation bar?",
+                            subtitle: "")
+                    }
+
                 }
             }
         } // List

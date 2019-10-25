@@ -54,6 +54,7 @@
 		F6F92B2423618BF7000CCC4D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F6F92B2323618BF7000CCC4D /* README.md */; };
 		F6F92B292361AA82000CCC4D /* ReceiptVStackFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F92B282361AA82000CCC4D /* ReceiptVStackFullScreenView.swift */; };
 		F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F92B332362D509000CCC4D /* SimpleCarouselView.swift */; };
+		F6F92B3D236304C5000CCC4D /* NavigationBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F92B3C236304C5000CCC4D /* NavigationBarButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +108,7 @@
 		F6F92B2323618BF7000CCC4D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F6F92B282361AA82000CCC4D /* ReceiptVStackFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVStackFullScreenView.swift; sourceTree = "<group>"; };
 		F6F92B332362D509000CCC4D /* SimpleCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCarouselView.swift; sourceTree = "<group>"; };
+		F6F92B3C236304C5000CCC4D /* NavigationBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +159,8 @@
 		F677949222BE3F7C005F1D0C /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				F6F92B272361AA64000CCC4D /* Receipts */,
 				F677949322BE3F7C005F1D0C /* CookbookContentView.swift */,
+				F6F92B272361AA64000CCC4D /* Receipts */,
 				F677949422BE3F7C005F1D0C /* UIKitIntegration */,
 				F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */,
 				F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */,
@@ -326,6 +328,7 @@
 			isa = PBXGroup;
 			children = (
 				F6F92B282361AA82000CCC4D /* ReceiptVStackFullScreenView.swift */,
+				F6F92B3C236304C5000CCC4D /* NavigationBarButtonView.swift */,
 			);
 			path = Receipts;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
 				F67794DF22BE3F7C005F1D0C /* SegmentedControlExampleView.swift in Sources */,
+				F6F92B3D236304C5000CCC4D /* NavigationBarButtonView.swift in Sources */,
 				F67794EE22BE3F7C005F1D0C /* VStackExampleView.swift in Sources */,
 				F67794E022BE3F7C005F1D0C /* NavigationLinkExampleView.swift in Sources */,
 				F67794F122BE3F7C005F1D0C /* BasicContentView.swift in Sources */,
