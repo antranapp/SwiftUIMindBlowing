@@ -39,7 +39,6 @@
 		F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794C522BE3F7C005F1D0C /* ScaleEffectExampleView.swift */; };
 		F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794C622BE3F7C005F1D0C /* RotationEffectExampleView.swift */; };
 		F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794C822BE3F7C005F1D0C /* MoreContentView.swift */; };
-		F67794F622BE3F7C005F1D0C /* LicenseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794C922BE3F7C005F1D0C /* LicenseContentView.swift */; };
 		F67794F722BE3F7C005F1D0C /* DasboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CB22BE3F7C005F1D0C /* DasboardView.swift */; };
 		F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */; };
 		F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */; };
@@ -53,6 +52,8 @@
 		F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */; };
 		F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8D22BABEF8009E3C48 /* LaunchScreen.storyboard */; };
 		F6F92B2423618BF7000CCC4D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F6F92B2323618BF7000CCC4D /* README.md */; };
+		F6F92B292361AA82000CCC4D /* ReceiptVStackFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F92B282361AA82000CCC4D /* ReceiptVStackFullScreenView.swift */; };
+		F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F92B332362D509000CCC4D /* SimpleCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,7 +90,6 @@
 		F67794C522BE3F7C005F1D0C /* ScaleEffectExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleEffectExampleView.swift; sourceTree = "<group>"; };
 		F67794C622BE3F7C005F1D0C /* RotationEffectExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationEffectExampleView.swift; sourceTree = "<group>"; };
 		F67794C822BE3F7C005F1D0C /* MoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreContentView.swift; sourceTree = "<group>"; };
-		F67794C922BE3F7C005F1D0C /* LicenseContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseContentView.swift; sourceTree = "<group>"; };
 		F67794CB22BE3F7C005F1D0C /* DasboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DasboardView.swift; sourceTree = "<group>"; };
 		F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +105,8 @@
 		F6F47C8E22BABEF8009E3C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F47C9022BABEF8009E3C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftUIMindBlowing/Info.plist; sourceTree = "<group>"; };
 		F6F92B2323618BF7000CCC4D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F6F92B282361AA82000CCC4D /* ReceiptVStackFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVStackFullScreenView.swift; sourceTree = "<group>"; };
+		F6F92B332362D509000CCC4D /* SimpleCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		F677949222BE3F7C005F1D0C /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				F6F92B272361AA64000CCC4D /* Receipts */,
 				F677949322BE3F7C005F1D0C /* CookbookContentView.swift */,
 				F677949422BE3F7C005F1D0C /* UIKitIntegration */,
 				F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */,
@@ -177,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				F67794A322BE3F7C005F1D0C /* FullProjectsContentView.swift */,
+				F6F92B322362D4FC000CCC4D /* CustomView */,
 			);
 			path = FullProjects;
 			sourceTree = "<group>";
@@ -193,9 +197,9 @@
 		F67794A722BE3F7C005F1D0C /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				F67794C122BE3F7C005F1D0C /* BasicContentView.swift */,
 				F67794A822BE3F7C005F1D0C /* ViewsAndControls */,
 				F67794BB22BE3F7C005F1D0C /* ViewLayoutAndPresentation */,
-				F67794C122BE3F7C005F1D0C /* BasicContentView.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -255,7 +259,6 @@
 			isa = PBXGroup;
 			children = (
 				F67794C822BE3F7C005F1D0C /* MoreContentView.swift */,
-				F67794C922BE3F7C005F1D0C /* LicenseContentView.swift */,
 				F67794CC22BE3F7C005F1D0C /* SFSymbols */,
 				F677949222BE3F7C005F1D0C /* Misc */,
 			);
@@ -317,6 +320,22 @@
 				F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */,
 			);
 			name = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6F92B272361AA64000CCC4D /* Receipts */ = {
+			isa = PBXGroup;
+			children = (
+				F6F92B282361AA82000CCC4D /* ReceiptVStackFullScreenView.swift */,
+			);
+			path = Receipts;
+			sourceTree = "<group>";
+		};
+		F6F92B322362D4FC000CCC4D /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F6F92B332362D509000CCC4D /* SimpleCarouselView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,10 +424,10 @@
 				F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */,
 				F67794EA22BE3F7C005F1D0C /* PickerExampleView.swift in Sources */,
 				F67794CF22BE3F7C005F1D0C /* CookbookContentView.swift in Sources */,
-				F67794F622BE3F7C005F1D0C /* LicenseContentView.swift in Sources */,
 				F67794EF22BE3F7C005F1D0C /* AlertExampleView.swift in Sources */,
 				F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */,
 				F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */,
+				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
 				F67794DF22BE3F7C005F1D0C /* SegmentedControlExampleView.swift in Sources */,
 				F67794EE22BE3F7C005F1D0C /* VStackExampleView.swift in Sources */,
@@ -434,6 +453,7 @@
 				F67794E222BE3F7C005F1D0C /* StepperExampleView.swift in Sources */,
 				F67794E522BE3F7C005F1D0C /* EditButtonExampleView.swift in Sources */,
 				F67794F722BE3F7C005F1D0C /* DasboardView.swift in Sources */,
+				F6F92B292361AA82000CCC4D /* ReceiptVStackFullScreenView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
 				F67794DD22BE3F7C005F1D0C /* ImageExampleView.swift in Sources */,
 				F67794E322BE3F7C005F1D0C /* DatePickerExampleView.swift in Sources */,

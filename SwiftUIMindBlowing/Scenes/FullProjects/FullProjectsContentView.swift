@@ -8,7 +8,16 @@ struct FullProjectsContentView: View {
     var body: some View {
         NavigationView {
             List{
-                Text("")
+                Section(header: Text("Custom Views")) {
+                    Group {
+                        NavigationLink(destination: SimpleCarouselView()) {
+                            ExampleCellView(
+                                title: "Simple Carousel",
+                                subtitle: "A simple implementation for a carousel",
+                                sourceCodeURL: "https://github.com/markwinton/carousel")
+                        }
+                    }
+                }
             }
             .navigationBarTitle("Full Projects")
         }

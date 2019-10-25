@@ -29,6 +29,15 @@ struct CookbookContentView: View {
                     }
                 }
             }
+            Section(header: Text("Receipts")) {
+                Group {
+                    NavigationLink(destination: ReceiptVStackFullScreenView()) {
+                        ExampleCellView(
+                            title: "How to make VStack fill the screen?",
+                            subtitle: "")
+                    }
+                }
+            }
         } // List
         .navigationBarTitle("Misc")
     }
