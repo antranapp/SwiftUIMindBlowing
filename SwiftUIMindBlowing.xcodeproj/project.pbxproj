@@ -43,6 +43,8 @@
 		F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */; };
 		F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */; };
 		F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */; };
+		F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */; };
+		F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
@@ -95,6 +97,8 @@
 		F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
 		F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewControllerExampleView.swift; sourceTree = "<group>"; };
+		F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldView.swift; sourceTree = "<group>"; };
+		F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldDemoView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
@@ -156,7 +160,7 @@
 			path = SwiftUIMindBlowing/Scenes;
 			sourceTree = "<group>";
 		};
-		F677949222BE3F7C005F1D0C /* Misc */ = {
+		F677949222BE3F7C005F1D0C /* Cookbook */ = {
 			isa = PBXGroup;
 			children = (
 				F677949322BE3F7C005F1D0C /* CookbookContentView.swift */,
@@ -167,7 +171,7 @@
 				F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */,
 				F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */,
 			);
-			path = Misc;
+			path = Cookbook;
 			sourceTree = "<group>";
 		};
 		F677949422BE3F7C005F1D0C /* UIKitIntegration */ = {
@@ -262,7 +266,7 @@
 			children = (
 				F67794C822BE3F7C005F1D0C /* MoreContentView.swift */,
 				F67794CC22BE3F7C005F1D0C /* SFSymbols */,
-				F677949222BE3F7C005F1D0C /* Misc */,
+				F677949222BE3F7C005F1D0C /* Cookbook */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -329,6 +333,8 @@
 			children = (
 				F6F92B282361AA82000CCC4D /* ReceiptVStackFullScreenView.swift */,
 				F6F92B3C236304C5000CCC4D /* NavigationBarButtonView.swift */,
+				F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */,
+				F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */,
 			);
 			path = Receipts;
 			sourceTree = "<group>";
@@ -421,6 +427,7 @@
 				F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */,
 				F67794E122BE3F7C005F1D0C /* SecureFieldExampleView.swift in Sources */,
 				F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */,
+				F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
 				F67794F222BE3F7C005F1D0C /* AnimationContentView.swift in Sources */,
@@ -448,6 +455,7 @@
 				F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */,
 				F67794ED22BE3F7C005F1D0C /* ActionSheetExampleView.swift in Sources */,
 				F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */,
+				F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */,
 				F67794D922BE3F7C005F1D0C /* FullProjectsContentView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,
 				F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */,

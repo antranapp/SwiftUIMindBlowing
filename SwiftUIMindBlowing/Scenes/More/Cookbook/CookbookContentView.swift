@@ -43,10 +43,15 @@ struct CookbookContentView: View {
                             subtitle: "")
                     }
 
+                    NavigationLink(destination: AutoFocusTextFieldView()) {
+                        ExampleCellView(
+                            title: "How to make TextField become first responder?",
+                            subtitle: "")
+                    }
                 }
             }
         } // List
-        .navigationBarTitle("Misc")
+        .navigationBarTitle("Cookbook")
     }
 }
 
