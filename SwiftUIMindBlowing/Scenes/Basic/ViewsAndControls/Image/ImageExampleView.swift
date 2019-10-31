@@ -11,23 +11,9 @@ struct ImageExampleView: View {
             demoContentView: { () -> ImageExampleDemoView in
                 ImageExampleDemoView()
             },
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/ImageExampleView.swift"
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Image/ImageExampleDemoView.swift"
         )
         .navigationBarTitle("Image")
-    }
-}
-
-struct ImageExampleDemoView: View {
-    
-    var body: some View {
-        VStack {
-            Image("swiftui")
-
-            // Add an example for remote images.
-        }
-        .navigationBarTitle(Text("Image"))
-        .padding()
-
     }
 }
 

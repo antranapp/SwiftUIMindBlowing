@@ -4,19 +4,6 @@
 
 import SwiftUI
 
-struct SegmentedControlExampleView: View {
-
-    var body: some View {
-        ExampleView(
-            demoContentView: { () -> SegmentedControlExampleDemoView in
-                SegmentedControlExampleDemoView()
-            },
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/SegmentedControlExampleView.swift"
-        )
-        .navigationBarTitle(Text("SegmentedControl"))
-    }
-}
-
 struct SegmentedControlExampleDemoView: View {
 
     @State var index1 = 0
@@ -81,11 +68,3 @@ private struct CustomView3: View {
         Text("Swift View")
     }
 }
-
-#if DEBUG
-struct SegmentedControlExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        SegmentedControlExampleView()
-    }
-}
-#endif

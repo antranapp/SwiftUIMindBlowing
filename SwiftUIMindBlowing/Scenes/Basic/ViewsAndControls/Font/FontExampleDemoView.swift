@@ -4,21 +4,8 @@
 
 import SwiftUI
 
-struct FontExampleView: View {
-
-    var body: some View {
-        ExampleView(
-            demoContentView: { () -> FontExampleDemoView in
-                FontExampleDemoView()
-            },
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/FontExampleView.swift"
-        )
-        .navigationBarTitle("Font")
-    }
-}
-
 struct FontExampleDemoView: View {
-    
+
     var body: some View {
         VStack(alignment: .leading) {
             Text("Large title font").font(.largeTitle)
@@ -34,11 +21,3 @@ struct FontExampleDemoView: View {
         .padding()
     }
 }
-
-#if DEBUG
-struct FontExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        FontExampleView()
-    }
-}
-#endif

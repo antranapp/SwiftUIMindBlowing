@@ -4,19 +4,6 @@
 
 import SwiftUI
 
-struct DatePickerExampleView: View {
-
-    var body: some View {
-        ExampleView(
-            demoContentView: { () -> DatePickerExampleDemoView in
-                DatePickerExampleDemoView()
-            },
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/DatePickerExampleView.swift"
-        )
-        .navigationBarTitle("DatePicker")
-    }
-}
-
 struct DatePickerExampleDemoView: View {
 
     @State private var date = Date()
@@ -47,11 +34,3 @@ struct DatePickerExampleDemoView: View {
 
     }
 }
-
-#if DEBUG
-struct DatePickerExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        DatePickerExampleView()
-    }
-}
-#endif
