@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,6 +61,11 @@
 		F6ACE15E236B7A9500BFAB98 /* EditButtonExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE15D236B7A9500BFAB98 /* EditButtonExampleDemoView.swift */; };
 		F6ACE161236B7AF700BFAB98 /* ButtonExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE160236B7AF700BFAB98 /* ButtonExampleDemoView.swift */; };
 		F6ACE164236B7BEA00BFAB98 /* PickerExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE163236B7BEA00BFAB98 /* PickerExampleDemoView.swift */; };
+		F6ACE168236B7F6F00BFAB98 /* VStackExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE167236B7F6F00BFAB98 /* VStackExampleDemoView.swift */; };
+		F6ACE16B236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE16A236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift */; };
+		F6ACE16F236B7FFE00BFAB98 /* AlertExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE16E236B7FFE00BFAB98 /* AlertExampleDemoView.swift */; };
+		F6ACE171236B803E00BFAB98 /* ModalExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE170236B803E00BFAB98 /* ModalExampleDemoView.swift */; };
+		F6ACE174236B817900BFAB98 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = F6ACE173236B817900BFAB98 /* ModalView */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
@@ -131,6 +136,10 @@
 		F6ACE15D236B7A9500BFAB98 /* EditButtonExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE160236B7AF700BFAB98 /* ButtonExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE163236B7BEA00BFAB98 /* PickerExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE167236B7F6F00BFAB98 /* VStackExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE16A236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE16E236B7FFE00BFAB98 /* AlertExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE170236B803E00BFAB98 /* ModalExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalExampleDemoView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
@@ -152,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6ACE174236B817900BFAB98 /* ModalView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +275,11 @@
 		F67794BB22BE3F7C005F1D0C /* ViewLayoutAndPresentation */ = {
 			isa = PBXGroup;
 			children = (
-				F67794BC22BE3F7C005F1D0C /* HStackExampleView.swift */,
-				F69551972369E27E00B81712 /* HStackExampleDemoView.swift */,
-				F67794BD22BE3F7C005F1D0C /* ActionSheetExampleView.swift */,
-				F67794BE22BE3F7C005F1D0C /* VStackExampleView.swift */,
-				F67794BF22BE3F7C005F1D0C /* AlertExampleView.swift */,
-				F67794C022BE3F7C005F1D0C /* ModalExampleView.swift */,
+				F6ACE165236B7F2700BFAB98 /* HStack */,
+				F6ACE166236B7F2E00BFAB98 /* VStack */,
+				F6ACE169236B7F8200BFAB98 /* ActionSheet */,
+				F6ACE16C236B7FBC00BFAB98 /* Alert */,
+				F6ACE16D236B7FD400BFAB98 /* Modal */,
 			);
 			path = ViewLayoutAndPresentation;
 			sourceTree = "<group>";
@@ -455,6 +464,51 @@
 			path = Picker;
 			sourceTree = "<group>";
 		};
+		F6ACE165236B7F2700BFAB98 /* HStack */ = {
+			isa = PBXGroup;
+			children = (
+				F67794BC22BE3F7C005F1D0C /* HStackExampleView.swift */,
+				F69551972369E27E00B81712 /* HStackExampleDemoView.swift */,
+			);
+			path = HStack;
+			sourceTree = "<group>";
+		};
+		F6ACE166236B7F2E00BFAB98 /* VStack */ = {
+			isa = PBXGroup;
+			children = (
+				F67794BE22BE3F7C005F1D0C /* VStackExampleView.swift */,
+				F6ACE167236B7F6F00BFAB98 /* VStackExampleDemoView.swift */,
+			);
+			path = VStack;
+			sourceTree = "<group>";
+		};
+		F6ACE169236B7F8200BFAB98 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F67794BD22BE3F7C005F1D0C /* ActionSheetExampleView.swift */,
+				F6ACE16A236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		F6ACE16C236B7FBC00BFAB98 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				F67794BF22BE3F7C005F1D0C /* AlertExampleView.swift */,
+				F6ACE16E236B7FFE00BFAB98 /* AlertExampleDemoView.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		F6ACE16D236B7FD400BFAB98 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F67794C022BE3F7C005F1D0C /* ModalExampleView.swift */,
+				F6ACE170236B803E00BFAB98 /* ModalExampleDemoView.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -532,6 +586,7 @@
 			);
 			name = SwiftUIMindBlowing;
 			packageProductDependencies = (
+				F6ACE173236B817900BFAB98 /* ModalView */,
 			);
 			productName = SwiftUICookbook;
 			productReference = F6F47C7F22BABEF7009E3C48 /* SwiftUIMindBlowing.app */;
@@ -562,6 +617,7 @@
 			);
 			mainGroup = F6F47C7622BABEF7009E3C48;
 			packageReferences = (
+				F6ACE172236B817900BFAB98 /* XCRemoteSwiftPackageReference "modal-view" */,
 			);
 			productRefGroup = F6F47C8022BABEF7009E3C48 /* Products */;
 			projectDirPath = "";
@@ -609,6 +665,7 @@
 				F6ACE155236B79E000BFAB98 /* StepperExampleDemoView.swift in Sources */,
 				F6ACE13F236B778C00BFAB98 /* TextExampleDemoView.swift in Sources */,
 				F67794EF22BE3F7C005F1D0C /* AlertExampleView.swift in Sources */,
+				F6ACE171236B803E00BFAB98 /* ModalExampleDemoView.swift in Sources */,
 				F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */,
 				F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */,
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
@@ -617,7 +674,9 @@
 				F6ACE161236B7AF700BFAB98 /* ButtonExampleDemoView.swift in Sources */,
 				F6F92B3D236304C5000CCC4D /* NavigationBarButtonView.swift in Sources */,
 				F6ACE158236B7A1200BFAB98 /* DatePickerExampleDemoView.swift in Sources */,
+				F6ACE16F236B7FFE00BFAB98 /* AlertExampleDemoView.swift in Sources */,
 				F6ACE15B236B7A7500BFAB98 /* ToggleExampleDemoView.swift in Sources */,
+				F6ACE16B236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift in Sources */,
 				F6ACE15E236B7A9500BFAB98 /* EditButtonExampleDemoView.swift in Sources */,
 				F67794EE22BE3F7C005F1D0C /* VStackExampleView.swift in Sources */,
 				F67794E022BE3F7C005F1D0C /* NavigationLinkExampleView.swift in Sources */,
@@ -630,6 +689,7 @@
 				F6ACE14F236B795E00BFAB98 /* NavigationLinkExampleDemoView.swift in Sources */,
 				F67794DE22BE3F7C005F1D0C /* TextFieldExampleView.swift in Sources */,
 				F67794F022BE3F7C005F1D0C /* ModalExampleView.swift in Sources */,
+				F6ACE168236B7F6F00BFAB98 /* VStackExampleDemoView.swift in Sources */,
 				F6ACE141236B77C300BFAB98 /* TextFieldExampleDemoView.swift in Sources */,
 				F6ACE164236B7BEA00BFAB98 /* PickerExampleDemoView.swift in Sources */,
 				F67794E922BE3F7C005F1D0C /* ButtonExampleView.swift in Sources */,
@@ -853,6 +913,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6ACE172236B817900BFAB98 /* XCRemoteSwiftPackageReference "modal-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diniska/modal-view";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6ACE173236B817900BFAB98 /* ModalView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6ACE172236B817900BFAB98 /* XCRemoteSwiftPackageReference "modal-view" */;
+			productName = ModalView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F6F47C7722BABEF7009E3C48 /* Project object */;
 }

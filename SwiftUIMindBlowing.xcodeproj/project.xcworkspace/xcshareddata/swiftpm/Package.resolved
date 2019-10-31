@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ModalView",
+        "repositoryURL": "https://github.com/diniska/modal-view",
+        "state": {
+          "branch": "master",
+          "revision": "ad7c17cbbdf0662f3defc5bfefd6d912d458d4a4",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

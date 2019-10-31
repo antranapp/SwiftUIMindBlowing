@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct VStackExampleView: View {
+struct VStackExampleDemoView: View {
 
     var body: some View {
         List {
@@ -26,11 +26,3 @@ struct VStackExampleView: View {
         .navigationBarTitle(Text("HStack"))
     }
 }
-
-#if DEBUG
-struct VStackExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        VStackExampleView()
-    }
-}
-#endif

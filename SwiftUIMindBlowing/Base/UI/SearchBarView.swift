@@ -28,6 +28,7 @@ struct SearchBarView: UIViewRepresentable {
 
     func makeUIView(context: UIViewRepresentableContext<SearchBarView>) -> UISearchBar {
         let searchBar = UISearchBar(frame: .zero)
+        searchBar.backgroundColor = .clear
         searchBar.delegate = context.coordinator
         return searchBar
     }

@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct AlertExampleView: View {
+struct AlertExampleDemoView: View {
 
     @State var isPresented: Bool = false
 
@@ -22,11 +22,3 @@ struct AlertExampleView: View {
         .navigationBarTitle(Text("Alert"))
     }
 }
-
-#if DEBUG
-struct AlertExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        AlertExampleView()
-    }
-}
-#endif
