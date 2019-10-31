@@ -47,8 +47,6 @@
 		F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */; };
 		F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */; };
 		F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551972369E27E00B81712 /* HStackExampleDemoView.swift */; };
-		F695519C236A233C00B81712 /* prism.css in Resources */ = {isa = PBXBuildFile; fileRef = F695519A236A233C00B81712 /* prism.css */; };
-		F695519D236A233C00B81712 /* prism.js in Resources */ = {isa = PBXBuildFile; fileRef = F695519B236A233C00B81712 /* prism.js */; };
 		F69551A1236A388800B81712 /* WKWebViewUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
@@ -106,8 +104,6 @@
 		F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldView.swift; sourceTree = "<group>"; };
 		F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldDemoView.swift; sourceTree = "<group>"; };
 		F69551972369E27E00B81712 /* HStackExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExampleDemoView.swift; sourceTree = "<group>"; };
-		F695519A236A233C00B81712 /* prism.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = prism.css; sourceTree = "<group>"; };
-		F695519B236A233C00B81712 /* prism.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = prism.js; sourceTree = "<group>"; };
 		F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUIDelegate.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
@@ -303,8 +299,6 @@
 			isa = PBXGroup;
 			children = (
 				F6180F1D236A41C000C5354A /* error.html */,
-				F695519A236A233C00B81712 /* prism.css */,
-				F695519B236A233C00B81712 /* prism.js */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -442,10 +436,8 @@
 			files = (
 				F6180F1E236A41C000C5354A /* error.html in Resources */,
 				F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */,
-				F695519C236A233C00B81712 /* prism.css in Resources */,
 				F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */,
 				F6F92B2423618BF7000CCC4D /* README.md in Resources */,
-				F695519D236A233C00B81712 /* prism.js in Resources */,
 				F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

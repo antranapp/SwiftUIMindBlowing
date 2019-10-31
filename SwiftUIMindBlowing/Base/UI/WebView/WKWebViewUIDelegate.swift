@@ -6,16 +6,13 @@ import WebKit
 
 class WKWebViewUIDelegate: NSObject, WKNavigationDelegate {
 
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        print("didFinish")
+    var remoteSourcePath: String
 
-//        let script = "document.body.style.background = 'red'"
-//
-//        webView.evaluateJavaScript(script) { (result, error) in
-//            print("Result \(result)")
-//            print("Error \(error)")
-//        }
+    init(remoteSourcePath: String) {
+        self.remoteSourcePath = remoteSourcePath
     }
+
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {}
 
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         guard let url = Bundle.main.url(forResource: "error", withExtension: "html") else {
