@@ -10,7 +10,7 @@ struct HStackExampleView: View {
         ExampleView(
             demoContentView: { () -> HStackExampleDemoView in
                 HStackExampleDemoView()
-        },
+            },
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/HStackExampleDemoView.swift"
         )
         .navigationBarTitle("HStack")

@@ -34,17 +34,17 @@ public struct WKWebViewUI: UIViewRepresentable {
 
     private func prepareConfiguration() -> WKWebViewConfiguration {
         let configuration = WKWebViewConfiguration()
-//        let contentController = WKUserContentController()
+        let contentController = WKUserContentController()
 
-//        if let jsScript = loadJavascript() {
-//            contentController.addUserScript(jsScript)
-//        }
+        if let jsScript = loadJavascript() {
+            contentController.addUserScript(jsScript)
+        }
 
-//        if let cssScript = loadCSS() {
-//            contentController.addUserScript(cssScript)
-//        }
+        if let cssScript = loadCSS() {
+            contentController.addUserScript(cssScript)
+        }
 
-//        configuration.userContentController = contentController
+        configuration.userContentController = contentController
 
         return configuration
     }
