@@ -17,26 +17,6 @@ struct PickerExampleView: View {
     }
 }
 
-struct PickerExampleDemoView: View {
-
-    @State var pickerValue = "UIKit"
-    let uiStacks = ["UIKit", "UIKit for Mac", "SwiftUI"]
-
-    var body: some View {
-        VStack {
-            Text(pickerValue)
-            Picker(selection: $pickerValue, label: Text("UI Stacks")) {
-                ForEach(uiStacks, id: \.self) { uiStack in
-                    Text(uiStack)
-                }
-            }
-            
-        }
-        .navigationBarTitle(Text("Picker"))
-        .padding()
-
-    }
-}
 
 #if DEBUG
 struct PickerExampleView_Previews: PreviewProvider {

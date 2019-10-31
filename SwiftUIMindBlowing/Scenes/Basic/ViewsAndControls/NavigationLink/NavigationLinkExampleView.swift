@@ -11,25 +11,9 @@ struct NavigationLinkExampleView: View {
             demoContentView: { () -> NavigationLinkExampleDemoView in
                 NavigationLinkExampleDemoView()
             },
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/NavigationLinkExampleView.swift"
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/NavigationLink/NavigationLinkExampleView.swift"
         )
         .navigationBarTitle("NavigationLink")
-    }
-}
-
-struct NavigationLinkExampleDemoView: View {
-    
-    var body: some View {
-        NavigationLink(destination: PushedView()) {
-            Text("Push a new view")
-        }
-        .navigationBarTitle(Text("NavigationLink"))
-    }
-}
-
-private struct PushedView: View {
-    var body: some View {
-        Text("View is pushed.")
     }
 }
 

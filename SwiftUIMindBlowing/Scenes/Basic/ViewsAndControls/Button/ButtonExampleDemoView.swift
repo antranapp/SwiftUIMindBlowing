@@ -4,19 +4,6 @@
 
 import SwiftUI
 
-struct ButtonExampleView: View {
-
-    var body: some View {
-        ExampleView(
-            demoContentView: { () -> ButtonExampleDemoView in
-                ButtonExampleDemoView()
-            },
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/PickerExampleView.swift"
-        )
-        .navigationBarTitle("Button")
-    }
-}
-
 struct ButtonExampleDemoView: View {
 
     @State var randomValue = 0
@@ -44,11 +31,3 @@ struct ButtonExampleDemoView: View {
         .padding()
     }
 }
-
-#if DEBUG
-struct ButtonExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        ButtonExampleView()
-    }
-}
-#endif

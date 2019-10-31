@@ -19,6 +19,7 @@ The app is organized in 5 main sections:
 
 ![Screenshot](./Docs/images/screenshot1.png)
 
+* **Basic:** showing how to use basic Views/Controls/Layouts in SwiftUI.
 * **Animation:** showing how to make basic animations with SwiftUI.
 * **MindBlowing:** super cool, mind-blowing experiments from the community. 
 * **Projects:** full-blown simple to advanced projects using SwiftUI (and Combine).
