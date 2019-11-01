@@ -13,12 +13,14 @@ struct DragGestureExampleView: View {
             },
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/Gestures/DragGesture/DragGestureExampleDemoView.swift"
         )
-        .navigationBarTitle("DragPressGesture")
+        .navigationBarTitle("DragGesture")
     }
 }
 
+#if DEBUG
 struct DragGestureExampleView_Previews: PreviewProvider {
     static var previews: some View {
         DragGestureExampleView()
     }
 }
+#endif

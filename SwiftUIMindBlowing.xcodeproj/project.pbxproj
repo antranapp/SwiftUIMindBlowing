@@ -52,6 +52,10 @@
 		F69551A1236A388800B81712 /* WKWebViewUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */; };
 		F69E4001236C80D200B44D67 /* MagnificationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */; };
 		F69E4003236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4002236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift */; };
+		F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4005236C83F300B44D67 /* RotationGestureExampleView.swift */; };
+		F69E4008236C854E00B44D67 /* RotationGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4007236C854E00B44D67 /* RotationGestureExampleDemoView.swift */; };
+		F69E400C236C8C9E00B44D67 /* SequenceGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E400B236C8C9E00B44D67 /* SequenceGestureExampleView.swift */; };
+		F69E400E236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E400D236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift */; };
 		F6ACE13F236B778C00BFAB98 /* TextExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE13E236B778C00BFAB98 /* TextExampleDemoView.swift */; };
 		F6ACE141236B77C300BFAB98 /* TextFieldExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE140236B77C300BFAB98 /* TextFieldExampleDemoView.swift */; };
 		F6ACE143236B77EE00BFAB98 /* FontExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE142236B77EE00BFAB98 /* FontExampleDemoView.swift */; };
@@ -136,6 +140,10 @@
 		F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUIDelegate.swift; sourceTree = "<group>"; };
 		F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExampleView.swift; sourceTree = "<group>"; };
 		F69E4002236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F69E4005236C83F300B44D67 /* RotationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExampleView.swift; sourceTree = "<group>"; };
+		F69E4007236C854E00B44D67 /* RotationGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F69E400B236C8C9E00B44D67 /* SequenceGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureExampleView.swift; sourceTree = "<group>"; };
+		F69E400D236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE13E236B778C00BFAB98 /* TextExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE140236B77C300BFAB98 /* TextFieldExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE142236B77EE00BFAB98 /* FontExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExampleDemoView.swift; sourceTree = "<group>"; };
@@ -385,6 +393,24 @@
 			path = MagnificationGesture;
 			sourceTree = "<group>";
 		};
+		F69E4004236C83DE00B44D67 /* RotationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F69E4005236C83F300B44D67 /* RotationGestureExampleView.swift */,
+				F69E4007236C854E00B44D67 /* RotationGestureExampleDemoView.swift */,
+			);
+			path = RotationGesture;
+			sourceTree = "<group>";
+		};
+		F69E4009236C8B9700B44D67 /* SequenceGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F69E400B236C8C9E00B44D67 /* SequenceGestureExampleView.swift */,
+				F69E400D236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift */,
+			);
+			path = SequenceGesture;
+			sourceTree = "<group>";
+		};
 		F6ACE148236B785800BFAB98 /* Text */ = {
 			isa = PBXGroup;
 			children = (
@@ -554,6 +580,8 @@
 				F679D06F236C457400C67666 /* LongPressGesture */,
 				F6B5DC71236C7138000D1EED /* DragGesture */,
 				F69E3FFF236C80BC00B44D67 /* MagnificationGesture */,
+				F69E4004236C83DE00B44D67 /* RotationGesture */,
+				F69E4009236C8B9700B44D67 /* SequenceGesture */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -737,6 +765,7 @@
 				F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */,
 				F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */,
 				F6ACE147236B783F00BFAB98 /* SegmentedControlExampleDemoView.swift in Sources */,
+				F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */,
 				F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
@@ -764,8 +793,10 @@
 				F6ACE16F236B7FFE00BFAB98 /* AlertExampleDemoView.swift in Sources */,
 				F6ACE15B236B7A7500BFAB98 /* ToggleExampleDemoView.swift in Sources */,
 				F6ACE16B236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift in Sources */,
+				F69E4008236C854E00B44D67 /* RotationGestureExampleDemoView.swift in Sources */,
 				F6ACE15E236B7A9500BFAB98 /* EditButtonExampleDemoView.swift in Sources */,
 				F67794EE22BE3F7C005F1D0C /* VStackExampleView.swift in Sources */,
+				F69E400C236C8C9E00B44D67 /* SequenceGestureExampleView.swift in Sources */,
 				F67794E022BE3F7C005F1D0C /* NavigationLinkExampleView.swift in Sources */,
 				F67794F122BE3F7C005F1D0C /* BasicContentView.swift in Sources */,
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
@@ -775,6 +806,7 @@
 				F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */,
 				F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */,
 				F6ACE14F236B795E00BFAB98 /* NavigationLinkExampleDemoView.swift in Sources */,
+				F69E400E236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift in Sources */,
 				F67794DE22BE3F7C005F1D0C /* TextFieldExampleView.swift in Sources */,
 				F67794F022BE3F7C005F1D0C /* ModalExampleView.swift in Sources */,
 				F6ACE168236B7F6F00BFAB98 /* VStackExampleDemoView.swift in Sources */,

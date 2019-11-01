@@ -17,8 +17,10 @@ struct MagnificationGestureExampleView: View {
     }
 }
 
+#if DEBUG
 struct MagnificationGestureExampleView_Previews: PreviewProvider {
     static var previews: some View {
         MagnificationGestureExampleView()
     }
 }
+#endif

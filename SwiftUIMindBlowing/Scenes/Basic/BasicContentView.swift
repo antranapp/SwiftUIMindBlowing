@@ -163,12 +163,16 @@ struct BasicContentView: View {
                                 title: "MagnificationGesture",
                                 subtitle: "A gesture that tracks how a magnification event sequence changes.")
                         }
-                        ExampleCellView(
-                            title: "RotationGesture",
-                            subtitle: "A gesture that tracks how a rotation event sequence changes.")
-                        ExampleCellView(
-                            title: "SequenceGesture",
-                            subtitle: "A gesture type that sequences two subgestures.")
+                        NavigationLink(destination: RotationGestureExampleView()) {
+                            ExampleCellView(
+                                title: "RotationGesture",
+                                subtitle: "A gesture that tracks how a rotation event sequence changes.")
+                        }
+                        NavigationLink(destination: SequenceGestureExampleView()) {
+                            ExampleCellView(
+                                title: "SequenceGesture",
+                                subtitle: "A gesture type that sequences two subgestures.")
+                        }
                         ExampleCellView(
                             title: "SimultanousGesture",
                             subtitle: "A container event handler that evaluates its two child gestures simultaneously.")
