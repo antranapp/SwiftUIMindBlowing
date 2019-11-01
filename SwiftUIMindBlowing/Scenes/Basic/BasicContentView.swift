@@ -84,79 +84,107 @@ struct BasicContentView: View {
                                 subtitle: "A control for selecting from a set of options.")
                         }
                     }
-
                 }
                 Section(header: Text("View Layout and Presentation")) {
-                    NavigationLink(destination: HStackExampleView()) {
+                    Group {
+                        NavigationLink(destination: HStackExampleView()) {
+                            ExampleCellView(
+                                title: "HStack",
+                                subtitle: "A view that arranges its children in a horizontal line.")
+                        }
+                        NavigationLink(destination: VStackExampleView()) {
+                            ExampleCellView(
+                                title: "VStack",
+                                subtitle: "A view that arranges its children in a vertical line.")
+                        }
                         ExampleCellView(
-                            title: "HStack",
-                            subtitle: "A view that arranges its children in a horizontal line.")
-                    }
-                    NavigationLink(destination: VStackExampleView()) {
+                            title: "ZStack",
+                            subtitle: "A view that overlays its children, aligning them in both axes.")
                         ExampleCellView(
-                            title: "VStack",
-                            subtitle: "A view that arranges its children in a vertical line.")
-                    }
-                    ExampleCellView(
-                        title: "ZStack",
-                        subtitle: "A view that overlays its children, aligning them in both axes.")
-                    ExampleCellView(
-                        title: "List",
-                        subtitle: "A container that presents rows of data arranged in a single column.")
-                    ExampleCellView(
-                        title: "ScrollView",
-                        subtitle: "A scroll view.")
-                    ExampleCellView(
-                        title: "ForEach",
-                        subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
-
-                    NavigationLink(destination: AlertExampleView()) {
+                            title: "Spacer",
+                            subtitle: "A flexible space that expands along the major axis of its containing stack layout, or on both axes if not contained in a stack.")
                         ExampleCellView(
-                            title: "Alert",
-                            subtitle: "A container for an alert presentation.")
-                    }
-
-                    NavigationLink(destination: ModalExampleView()) {
+                            title: "GeometryReader",
+                            subtitle: "A container view that defines its content as a function of its own size and coordinate space.")
                         ExampleCellView(
-                            title: "Modal",
-                            subtitle: "A storage type for a modal presentation.")
-                    }
-
-                    NavigationLink(destination: ActionSheetExampleView()) {
+                            title: "List",
+                            subtitle: "A container that presents rows of data arranged in a single column.")
                         ExampleCellView(
-                            title: "ActionSheet",
-                            subtitle: "A storage type for an action sheet presentation.")
+                            title: "ScrollView",
+                            subtitle: "A scroll view.")
+                        ExampleCellView(
+                            title: "NavigationView",
+                            subtitle: "A control that toggles between on and off states.")
+                        ExampleCellView(
+                            title: "TabView",
+                            subtitle: "A control that toggles between on and off states.")
+                        ExampleCellView(
+                            title: "ForEach",
+                            subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
                     }
 
+                    Group {
+                        NavigationLink(destination: AlertExampleView()) {
+                            ExampleCellView(
+                                title: "Alert",
+                                subtitle: "A container for an alert presentation.")
+                        }
+                        NavigationLink(destination: ModalExampleView()) {
+                            ExampleCellView(
+                                title: "Modal",
+                                subtitle: "A storage type for a modal presentation.")
+                        }
+                        NavigationLink(destination: ActionSheetExampleView()) {
+                            ExampleCellView(
+                                title: "ActionSheet",
+                                subtitle: "A storage type for an action sheet presentation.")
+                        }
+                    }
                 }
                 Section(header: Text("Gestures")) {
-                    ExampleCellView(
-                        title: "TapGesture",
-                        subtitle: "")
-                    ExampleCellView(
-                        title: "LongPressGesture",
-                        subtitle: "")
-                    ExampleCellView(
-                        title: "DragGesture",
-                        subtitle: "")
-                    ExampleCellView(
-                        title: "MagnificationGesture",
-                        subtitle: "")
-                    ExampleCellView(
-                        title: "RotationGesture",
-                        subtitle: "")
-                    ExampleCellView(
-                        title: "SequenceGesture",
-                        subtitle: "")
-                    ExampleCellView(
-                        title: "SimultanousGesture",
-                        subtitle: "")
-                    ExampleCellView(
-                        title: "ExclusiveGesture",
-                        subtitle: "")
-                    ExampleCellView(
-                        title: "AnyGesture",
-                        subtitle: "")
+                    Group {
+                        NavigationLink(destination: TapGestureExampleView()) {
+                            ExampleCellView(
+                                title: "TapGesture",
+                                subtitle: "A gesture that ends once a specified number of tap event sequences have been recognized.")
+                        }
+                        NavigationLink(destination: LongPressGestureExampleView()) {
+                            ExampleCellView(
+                                title: "LongPressGesture",
+                                subtitle: "A gesture that ends once a long-press event sequence has been recognized.")
+                        }
+                        NavigationLink(destination: DragGestureExampleView()) {
+                            ExampleCellView(
+                                title: "DragGesture",
+                                subtitle: "A gesture that invokes an action as a drag event sequence changes.")
+                        }
+                        NavigationLink(destination: MagnificationGestureExampleView()) {
+                            ExampleCellView(
+                                title: "MagnificationGesture",
+                                subtitle: "A gesture that tracks how a magnification event sequence changes.")
+                        }
+                        NavigationLink(destination: RotationGestureExampleView()) {
+                            ExampleCellView(
+                                title: "RotationGesture",
+                                subtitle: "A gesture that tracks how a rotation event sequence changes.")
+                        }
+                        NavigationLink(destination: SequenceGestureExampleView()) {
+                            ExampleCellView(
+                                title: "SequenceGesture",
+                                subtitle: "A gesture type that sequences two subgestures.")
+                        }
+                        NavigationLink(destination: SimultanousGestureExampleView()) {
+                            ExampleCellView(
+                                title: "SimultanousGesture",
+                                subtitle: "A container event handler that evaluates its two child gestures simultaneously.")
+                        }
+                        ExampleCellView(
+                            title: "ExclusiveGesture",
+                            subtitle: "A pair of gestures where only one can succeed, which gives precedence to the first of the pair.")
+                        ExampleCellView(
+                            title: "AnyGesture",
+                            subtitle: "A type-erased gesture.")
+                    }
                 }
             }
             .navigationBarTitle("Basic")

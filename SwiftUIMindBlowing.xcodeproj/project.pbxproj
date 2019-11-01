@@ -43,11 +43,21 @@
 		F67794F722BE3F7C005F1D0C /* DasboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CB22BE3F7C005F1D0C /* DasboardView.swift */; };
 		F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */; };
 		F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */; };
+		F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679D070236C45A200C67666 /* LongPressGestureExampleView.swift */; };
+		F679D073236C481600C67666 /* LongPressGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679D072236C481600C67666 /* LongPressGestureExampleDemoView.swift */; };
 		F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */; };
 		F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */; };
 		F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */; };
 		F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551972369E27E00B81712 /* HStackExampleDemoView.swift */; };
 		F69551A1236A388800B81712 /* WKWebViewUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */; };
+		F69E4001236C80D200B44D67 /* MagnificationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */; };
+		F69E4003236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4002236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift */; };
+		F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4005236C83F300B44D67 /* RotationGestureExampleView.swift */; };
+		F69E4008236C854E00B44D67 /* RotationGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4007236C854E00B44D67 /* RotationGestureExampleDemoView.swift */; };
+		F69E400C236C8C9E00B44D67 /* SequenceGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E400B236C8C9E00B44D67 /* SequenceGestureExampleView.swift */; };
+		F69E400E236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E400D236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift */; };
+		F69E4016236CACDC00B44D67 /* SimultanousGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4015236CACDC00B44D67 /* SimultanousGestureExampleView.swift */; };
+		F69E4018236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4017236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift */; };
 		F6ACE13F236B778C00BFAB98 /* TextExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE13E236B778C00BFAB98 /* TextExampleDemoView.swift */; };
 		F6ACE141236B77C300BFAB98 /* TextFieldExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE140236B77C300BFAB98 /* TextFieldExampleDemoView.swift */; };
 		F6ACE143236B77EE00BFAB98 /* FontExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE142236B77EE00BFAB98 /* FontExampleDemoView.swift */; };
@@ -66,6 +76,11 @@
 		F6ACE16F236B7FFE00BFAB98 /* AlertExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE16E236B7FFE00BFAB98 /* AlertExampleDemoView.swift */; };
 		F6ACE171236B803E00BFAB98 /* ModalExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE170236B803E00BFAB98 /* ModalExampleDemoView.swift */; };
 		F6ACE174236B817900BFAB98 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = F6ACE173236B817900BFAB98 /* ModalView */; };
+		F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE177236B996D00BFAB98 /* TapGestureExampleView.swift */; };
+		F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE179236B999D00BFAB98 /* TapGestureExampleDemoView.swift */; };
+		F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */; };
+		F6B5DC73236C714E000D1EED /* DragGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5DC72236C714E000D1EED /* DragGestureExampleView.swift */; };
+		F6B5DC75236C7500000D1EED /* DragGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5DC74236C7500000D1EED /* DragGestureExampleDemoView.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
@@ -118,11 +133,21 @@
 		F67794CB22BE3F7C005F1D0C /* DasboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DasboardView.swift; sourceTree = "<group>"; };
 		F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
+		F679D070236C45A200C67666 /* LongPressGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureExampleView.swift; sourceTree = "<group>"; };
+		F679D072236C481600C67666 /* LongPressGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewControllerExampleView.swift; sourceTree = "<group>"; };
 		F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldView.swift; sourceTree = "<group>"; };
 		F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldDemoView.swift; sourceTree = "<group>"; };
 		F69551972369E27E00B81712 /* HStackExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExampleDemoView.swift; sourceTree = "<group>"; };
 		F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUIDelegate.swift; sourceTree = "<group>"; };
+		F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExampleView.swift; sourceTree = "<group>"; };
+		F69E4002236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F69E4005236C83F300B44D67 /* RotationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExampleView.swift; sourceTree = "<group>"; };
+		F69E4007236C854E00B44D67 /* RotationGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F69E400B236C8C9E00B44D67 /* SequenceGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureExampleView.swift; sourceTree = "<group>"; };
+		F69E400D236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F69E4015236CACDC00B44D67 /* SimultanousGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultanousGestureExampleView.swift; sourceTree = "<group>"; };
+		F69E4017236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultanousGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE13E236B778C00BFAB98 /* TextExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE140236B77C300BFAB98 /* TextFieldExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE142236B77EE00BFAB98 /* FontExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExampleDemoView.swift; sourceTree = "<group>"; };
@@ -140,6 +165,11 @@
 		F6ACE16A236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE16E236B7FFE00BFAB98 /* AlertExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE170236B803E00BFAB98 /* ModalExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE177236B996D00BFAB98 /* TapGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExampleView.swift; sourceTree = "<group>"; };
+		F6ACE179236B999D00BFAB98 /* TapGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleDemoView.swift; sourceTree = "<group>"; };
+		F6B5DC72236C714E000D1EED /* DragGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExampleView.swift; sourceTree = "<group>"; };
+		F6B5DC74236C7500000D1EED /* DragGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
@@ -237,7 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				F67794A622BE3F7C005F1D0C /* MindBlowingContentView.swift */,
-				F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */,
+				F6ACE17C236B9D1D00BFAB98 /* ViewModifierComposition */,
 			);
 			path = MindBlowing;
 			sourceTree = "<group>";
@@ -248,6 +278,7 @@
 				F67794C122BE3F7C005F1D0C /* BasicContentView.swift */,
 				F67794A822BE3F7C005F1D0C /* ViewsAndControls */,
 				F67794BB22BE3F7C005F1D0C /* ViewLayoutAndPresentation */,
+				F6ACE175236B994400BFAB98 /* Gestures */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -277,6 +308,7 @@
 			children = (
 				F6ACE165236B7F2700BFAB98 /* HStack */,
 				F6ACE166236B7F2E00BFAB98 /* VStack */,
+				F6ACE17B236B9B3A00BFAB98 /* ZStack */,
 				F6ACE169236B7F8200BFAB98 /* ActionSheet */,
 				F6ACE16C236B7FBC00BFAB98 /* Alert */,
 				F6ACE16D236B7FD400BFAB98 /* Modal */,
@@ -330,6 +362,15 @@
 			path = SFSymbols;
 			sourceTree = "<group>";
 		};
+		F679D06F236C457400C67666 /* LongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F679D070236C45A200C67666 /* LongPressGestureExampleView.swift */,
+				F679D072236C481600C67666 /* LongPressGestureExampleDemoView.swift */,
+			);
+			path = LongPressGesture;
+			sourceTree = "<group>";
+		};
 		F69551992369E49900B81712 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +386,42 @@
 				F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */,
 			);
 			path = WebView;
+			sourceTree = "<group>";
+		};
+		F69E3FFF236C80BC00B44D67 /* MagnificationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */,
+				F69E4002236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift */,
+			);
+			path = MagnificationGesture;
+			sourceTree = "<group>";
+		};
+		F69E4004236C83DE00B44D67 /* RotationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F69E4005236C83F300B44D67 /* RotationGestureExampleView.swift */,
+				F69E4007236C854E00B44D67 /* RotationGestureExampleDemoView.swift */,
+			);
+			path = RotationGesture;
+			sourceTree = "<group>";
+		};
+		F69E4009236C8B9700B44D67 /* SequenceGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F69E400B236C8C9E00B44D67 /* SequenceGestureExampleView.swift */,
+				F69E400D236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift */,
+			);
+			path = SequenceGesture;
+			sourceTree = "<group>";
+		};
+		F69E4014236CACCB00B44D67 /* SimultanousGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F69E4015236CACDC00B44D67 /* SimultanousGestureExampleView.swift */,
+				F69E4017236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift */,
+			);
+			path = SimultanousGesture;
 			sourceTree = "<group>";
 		};
 		F6ACE148236B785800BFAB98 /* Text */ = {
@@ -509,6 +586,54 @@
 			path = Modal;
 			sourceTree = "<group>";
 		};
+		F6ACE175236B994400BFAB98 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				F6ACE176236B994F00BFAB98 /* TapGesture */,
+				F679D06F236C457400C67666 /* LongPressGesture */,
+				F6B5DC71236C7138000D1EED /* DragGesture */,
+				F69E3FFF236C80BC00B44D67 /* MagnificationGesture */,
+				F69E4004236C83DE00B44D67 /* RotationGesture */,
+				F69E4009236C8B9700B44D67 /* SequenceGesture */,
+				F69E4014236CACCB00B44D67 /* SimultanousGesture */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		F6ACE176236B994F00BFAB98 /* TapGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F6ACE177236B996D00BFAB98 /* TapGestureExampleView.swift */,
+				F6ACE179236B999D00BFAB98 /* TapGestureExampleDemoView.swift */,
+			);
+			path = TapGesture;
+			sourceTree = "<group>";
+		};
+		F6ACE17B236B9B3A00BFAB98 /* ZStack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZStack;
+			sourceTree = "<group>";
+		};
+		F6ACE17C236B9D1D00BFAB98 /* ViewModifierComposition */ = {
+			isa = PBXGroup;
+			children = (
+				F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */,
+				F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */,
+			);
+			path = ViewModifierComposition;
+			sourceTree = "<group>";
+		};
+		F6B5DC71236C7138000D1EED /* DragGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F6B5DC72236C714E000D1EED /* DragGestureExampleView.swift */,
+				F6B5DC74236C7500000D1EED /* DragGestureExampleDemoView.swift */,
+			);
+			path = DragGesture;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -654,9 +779,13 @@
 				F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */,
 				F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */,
 				F6ACE147236B783F00BFAB98 /* SegmentedControlExampleDemoView.swift in Sources */,
+				F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */,
+				F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
 				F67794F222BE3F7C005F1D0C /* AnimationContentView.swift in Sources */,
+				F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift in Sources */,
+				F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */,
 				F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */,
 				F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */,
 				F67794EA22BE3F7C005F1D0C /* PickerExampleView.swift in Sources */,
@@ -667,26 +796,32 @@
 				F67794EF22BE3F7C005F1D0C /* AlertExampleView.swift in Sources */,
 				F6ACE171236B803E00BFAB98 /* ModalExampleDemoView.swift in Sources */,
 				F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */,
+				F679D073236C481600C67666 /* LongPressGestureExampleDemoView.swift in Sources */,
 				F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */,
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
 				F67794DF22BE3F7C005F1D0C /* SegmentedControlExampleView.swift in Sources */,
+				F69E4016236CACDC00B44D67 /* SimultanousGestureExampleView.swift in Sources */,
 				F6ACE161236B7AF700BFAB98 /* ButtonExampleDemoView.swift in Sources */,
 				F6F92B3D236304C5000CCC4D /* NavigationBarButtonView.swift in Sources */,
 				F6ACE158236B7A1200BFAB98 /* DatePickerExampleDemoView.swift in Sources */,
 				F6ACE16F236B7FFE00BFAB98 /* AlertExampleDemoView.swift in Sources */,
 				F6ACE15B236B7A7500BFAB98 /* ToggleExampleDemoView.swift in Sources */,
 				F6ACE16B236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift in Sources */,
+				F69E4008236C854E00B44D67 /* RotationGestureExampleDemoView.swift in Sources */,
 				F6ACE15E236B7A9500BFAB98 /* EditButtonExampleDemoView.swift in Sources */,
 				F67794EE22BE3F7C005F1D0C /* VStackExampleView.swift in Sources */,
+				F69E400C236C8C9E00B44D67 /* SequenceGestureExampleView.swift in Sources */,
 				F67794E022BE3F7C005F1D0C /* NavigationLinkExampleView.swift in Sources */,
 				F67794F122BE3F7C005F1D0C /* BasicContentView.swift in Sources */,
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
 				F67794DC22BE3F7C005F1D0C /* FontExampleView.swift in Sources */,
 				F67794E422BE3F7C005F1D0C /* ToggleExampleView.swift in Sources */,
+				F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */,
 				F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */,
 				F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */,
 				F6ACE14F236B795E00BFAB98 /* NavigationLinkExampleDemoView.swift in Sources */,
+				F69E400E236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift in Sources */,
 				F67794DE22BE3F7C005F1D0C /* TextFieldExampleView.swift in Sources */,
 				F67794F022BE3F7C005F1D0C /* ModalExampleView.swift in Sources */,
 				F6ACE168236B7F6F00BFAB98 /* VStackExampleDemoView.swift in Sources */,
@@ -696,15 +831,20 @@
 				F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */,
 				F6ACE143236B77EE00BFAB98 /* FontExampleDemoView.swift in Sources */,
 				F67794ED22BE3F7C005F1D0C /* ActionSheetExampleView.swift in Sources */,
+				F69E4001236C80D200B44D67 /* MagnificationGestureExampleView.swift in Sources */,
 				F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */,
 				F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */,
 				F67794D922BE3F7C005F1D0C /* FullProjectsContentView.swift in Sources */,
+				F6B5DC75236C7500000D1EED /* DragGestureExampleDemoView.swift in Sources */,
+				F69E4003236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift in Sources */,
 				F6ACE152236B79BA00BFAB98 /* SecureFieldExampleDemoView.swift in Sources */,
+				F69E4018236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,
 				F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */,
 				F677948F22BE3F5D005F1D0C /* ExampleView.swift in Sources */,
 				F677949022BE3F5D005F1D0C /* ExampleCellView.swift in Sources */,
 				F67794EC22BE3F7C005F1D0C /* HStackExampleView.swift in Sources */,
+				F6B5DC73236C714E000D1EED /* DragGestureExampleView.swift in Sources */,
 				F69551A1236A388800B81712 /* WKWebViewUIDelegate.swift in Sources */,
 				F67794E222BE3F7C005F1D0C /* StepperExampleView.swift in Sources */,
 				F67794E522BE3F7C005F1D0C /* EditButtonExampleView.swift in Sources */,

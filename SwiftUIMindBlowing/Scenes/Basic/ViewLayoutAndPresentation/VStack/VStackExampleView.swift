@@ -8,12 +8,12 @@ struct VStackExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> HStackExampleDemoView in
-                HStackExampleDemoView()
-        },
+            demoContentView: { () -> VStackExampleDemoView in
+                VStackExampleDemoView()
+            },
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/VStack/VStackExampleDemoView.swift"
         )
-            .navigationBarTitle("VStack")
+        .navigationBarTitle("VStack")
     }
 }
 

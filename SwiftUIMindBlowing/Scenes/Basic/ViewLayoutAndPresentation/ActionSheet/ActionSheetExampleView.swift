@@ -8,12 +8,12 @@ struct ActionSheetExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> HStackExampleDemoView in
-                HStackExampleDemoView()
-        },
+            demoContentView: { () -> ActionSheetExampleDemoView in
+                ActionSheetExampleDemoView()
+            },
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/ActionSheet/ActionSheetExampleDemoView.swift"
         )
-            .navigationBarTitle("ActionSheet")
+        .navigationBarTitle("ActionSheet")
     }
 }
 
