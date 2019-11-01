@@ -50,6 +50,8 @@
 		F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */; };
 		F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551972369E27E00B81712 /* HStackExampleDemoView.swift */; };
 		F69551A1236A388800B81712 /* WKWebViewUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */; };
+		F69E4001236C80D200B44D67 /* MagnificationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */; };
+		F69E4003236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4002236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift */; };
 		F6ACE13F236B778C00BFAB98 /* TextExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE13E236B778C00BFAB98 /* TextExampleDemoView.swift */; };
 		F6ACE141236B77C300BFAB98 /* TextFieldExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE140236B77C300BFAB98 /* TextFieldExampleDemoView.swift */; };
 		F6ACE143236B77EE00BFAB98 /* FontExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE142236B77EE00BFAB98 /* FontExampleDemoView.swift */; };
@@ -132,6 +134,8 @@
 		F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldDemoView.swift; sourceTree = "<group>"; };
 		F69551972369E27E00B81712 /* HStackExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExampleDemoView.swift; sourceTree = "<group>"; };
 		F69551A0236A388800B81712 /* WKWebViewUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUIDelegate.swift; sourceTree = "<group>"; };
+		F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExampleView.swift; sourceTree = "<group>"; };
+		F69E4002236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE13E236B778C00BFAB98 /* TextExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE140236B77C300BFAB98 /* TextFieldExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE142236B77EE00BFAB98 /* FontExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExampleDemoView.swift; sourceTree = "<group>"; };
@@ -372,6 +376,15 @@
 			path = WebView;
 			sourceTree = "<group>";
 		};
+		F69E3FFF236C80BC00B44D67 /* MagnificationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */,
+				F69E4002236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift */,
+			);
+			path = MagnificationGesture;
+			sourceTree = "<group>";
+		};
 		F6ACE148236B785800BFAB98 /* Text */ = {
 			isa = PBXGroup;
 			children = (
@@ -540,6 +553,7 @@
 				F6ACE176236B994F00BFAB98 /* TapGesture */,
 				F679D06F236C457400C67666 /* LongPressGesture */,
 				F6B5DC71236C7138000D1EED /* DragGesture */,
+				F69E3FFF236C80BC00B44D67 /* MagnificationGesture */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -770,10 +784,12 @@
 				F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */,
 				F6ACE143236B77EE00BFAB98 /* FontExampleDemoView.swift in Sources */,
 				F67794ED22BE3F7C005F1D0C /* ActionSheetExampleView.swift in Sources */,
+				F69E4001236C80D200B44D67 /* MagnificationGestureExampleView.swift in Sources */,
 				F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */,
 				F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */,
 				F67794D922BE3F7C005F1D0C /* FullProjectsContentView.swift in Sources */,
 				F6B5DC75236C7500000D1EED /* DragGestureExampleDemoView.swift in Sources */,
+				F69E4003236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift in Sources */,
 				F6ACE152236B79BA00BFAB98 /* SecureFieldExampleDemoView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,
 				F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */,

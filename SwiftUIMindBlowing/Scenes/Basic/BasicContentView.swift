@@ -158,9 +158,11 @@ struct BasicContentView: View {
                                 title: "DragGesture",
                                 subtitle: "A gesture that invokes an action as a drag event sequence changes.")
                         }
-                        ExampleCellView(
-                            title: "MagnificationGesture",
-                            subtitle: "A gesture that tracks how a magnification event sequence changes.")
+                        NavigationLink(destination: MagnificationGestureExampleView()) {
+                            ExampleCellView(
+                                title: "MagnificationGesture",
+                                subtitle: "A gesture that tracks how a magnification event sequence changes.")
+                        }
                         ExampleCellView(
                             title: "RotationGesture",
                             subtitle: "A gesture that tracks how a rotation event sequence changes.")

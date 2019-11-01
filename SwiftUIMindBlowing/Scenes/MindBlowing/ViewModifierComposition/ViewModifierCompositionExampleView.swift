@@ -8,8 +8,8 @@ struct ViewModifierCompositionExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> TapGestureExampleDemoView in
-                TapGestureExampleDemoView()
+            demoContentView: { () -> ViewModifierCompositionExampleDemoView in
+                ViewModifierCompositionExampleDemoView()
             },
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/MindBlowing/ViewModifierComposition/ViewModifierCompositionExampleDemoView.swift"
         )
