@@ -56,6 +56,8 @@
 		F69E4008236C854E00B44D67 /* RotationGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4007236C854E00B44D67 /* RotationGestureExampleDemoView.swift */; };
 		F69E400C236C8C9E00B44D67 /* SequenceGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E400B236C8C9E00B44D67 /* SequenceGestureExampleView.swift */; };
 		F69E400E236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E400D236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift */; };
+		F69E4016236CACDC00B44D67 /* SimultanousGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4015236CACDC00B44D67 /* SimultanousGestureExampleView.swift */; };
+		F69E4018236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4017236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift */; };
 		F6ACE13F236B778C00BFAB98 /* TextExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE13E236B778C00BFAB98 /* TextExampleDemoView.swift */; };
 		F6ACE141236B77C300BFAB98 /* TextFieldExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE140236B77C300BFAB98 /* TextFieldExampleDemoView.swift */; };
 		F6ACE143236B77EE00BFAB98 /* FontExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE142236B77EE00BFAB98 /* FontExampleDemoView.swift */; };
@@ -144,6 +146,8 @@
 		F69E4007236C854E00B44D67 /* RotationGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F69E400B236C8C9E00B44D67 /* SequenceGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureExampleView.swift; sourceTree = "<group>"; };
 		F69E400D236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F69E4015236CACDC00B44D67 /* SimultanousGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultanousGestureExampleView.swift; sourceTree = "<group>"; };
+		F69E4017236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultanousGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE13E236B778C00BFAB98 /* TextExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE140236B77C300BFAB98 /* TextFieldExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE142236B77EE00BFAB98 /* FontExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExampleDemoView.swift; sourceTree = "<group>"; };
@@ -411,6 +415,15 @@
 			path = SequenceGesture;
 			sourceTree = "<group>";
 		};
+		F69E4014236CACCB00B44D67 /* SimultanousGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F69E4015236CACDC00B44D67 /* SimultanousGestureExampleView.swift */,
+				F69E4017236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift */,
+			);
+			path = SimultanousGesture;
+			sourceTree = "<group>";
+		};
 		F6ACE148236B785800BFAB98 /* Text */ = {
 			isa = PBXGroup;
 			children = (
@@ -582,6 +595,7 @@
 				F69E3FFF236C80BC00B44D67 /* MagnificationGesture */,
 				F69E4004236C83DE00B44D67 /* RotationGesture */,
 				F69E4009236C8B9700B44D67 /* SequenceGesture */,
+				F69E4014236CACCB00B44D67 /* SimultanousGesture */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -787,6 +801,7 @@
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
 				F67794DF22BE3F7C005F1D0C /* SegmentedControlExampleView.swift in Sources */,
+				F69E4016236CACDC00B44D67 /* SimultanousGestureExampleView.swift in Sources */,
 				F6ACE161236B7AF700BFAB98 /* ButtonExampleDemoView.swift in Sources */,
 				F6F92B3D236304C5000CCC4D /* NavigationBarButtonView.swift in Sources */,
 				F6ACE158236B7A1200BFAB98 /* DatePickerExampleDemoView.swift in Sources */,
@@ -823,6 +838,7 @@
 				F6B5DC75236C7500000D1EED /* DragGestureExampleDemoView.swift in Sources */,
 				F69E4003236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift in Sources */,
 				F6ACE152236B79BA00BFAB98 /* SecureFieldExampleDemoView.swift in Sources */,
+				F69E4018236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,
 				F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */,
 				F677948F22BE3F5D005F1D0C /* ExampleView.swift in Sources */,

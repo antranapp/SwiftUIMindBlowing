@@ -173,9 +173,11 @@ struct BasicContentView: View {
                                 title: "SequenceGesture",
                                 subtitle: "A gesture type that sequences two subgestures.")
                         }
-                        ExampleCellView(
-                            title: "SimultanousGesture",
-                            subtitle: "A container event handler that evaluates its two child gestures simultaneously.")
+                        NavigationLink(destination: SimultanousGestureExampleView()) {
+                            ExampleCellView(
+                                title: "SimultanousGesture",
+                                subtitle: "A container event handler that evaluates its two child gestures simultaneously.")
+                        }
                         ExampleCellView(
                             title: "ExclusiveGesture",
                             subtitle: "A pair of gestures where only one can succeed, which gives precedence to the first of the pair.")

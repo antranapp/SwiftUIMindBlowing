@@ -72,7 +72,7 @@ struct SequenceGestureExampleDemoView: View {
             .offset(
                 x: viewState.width + dragState.translation.width,
                 y: viewState.height + dragState.translation.height
-        )
+            )
             .animation(nil)
             .shadow(radius: dragState.isActive ? 8 : 0)
             .animation(.easeIn(duration: minimumLongPressDuration))
