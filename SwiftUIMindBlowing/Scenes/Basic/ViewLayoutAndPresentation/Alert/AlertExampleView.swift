@@ -8,12 +8,12 @@ struct AlertExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> HStackExampleDemoView in
-                HStackExampleDemoView()
-        },
+            demoContentView: { () -> AlertExampleDemoView in
+                AlertExampleDemoView()
+            },
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/Alert/AlertExampleDemoView.swift"
         )
-            .navigationBarTitle("Alert")
+        .navigationBarTitle("Alert")
     }
 }
 

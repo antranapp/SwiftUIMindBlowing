@@ -43,6 +43,8 @@
 		F67794F722BE3F7C005F1D0C /* DasboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CB22BE3F7C005F1D0C /* DasboardView.swift */; };
 		F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */; };
 		F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */; };
+		F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679D070236C45A200C67666 /* LongPressGestureExampleView.swift */; };
+		F679D073236C481600C67666 /* LongPressGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679D072236C481600C67666 /* LongPressGestureExampleDemoView.swift */; };
 		F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */; };
 		F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */; };
 		F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */; };
@@ -66,6 +68,11 @@
 		F6ACE16F236B7FFE00BFAB98 /* AlertExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE16E236B7FFE00BFAB98 /* AlertExampleDemoView.swift */; };
 		F6ACE171236B803E00BFAB98 /* ModalExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE170236B803E00BFAB98 /* ModalExampleDemoView.swift */; };
 		F6ACE174236B817900BFAB98 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = F6ACE173236B817900BFAB98 /* ModalView */; };
+		F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE177236B996D00BFAB98 /* TapGestureExampleView.swift */; };
+		F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE179236B999D00BFAB98 /* TapGestureExampleDemoView.swift */; };
+		F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */; };
+		F6B5DC73236C714E000D1EED /* DragGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5DC72236C714E000D1EED /* DragGestureExampleView.swift */; };
+		F6B5DC75236C7500000D1EED /* DragGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5DC74236C7500000D1EED /* DragGestureExampleDemoView.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
@@ -118,6 +125,8 @@
 		F67794CB22BE3F7C005F1D0C /* DasboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DasboardView.swift; sourceTree = "<group>"; };
 		F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
+		F679D070236C45A200C67666 /* LongPressGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureExampleView.swift; sourceTree = "<group>"; };
+		F679D072236C481600C67666 /* LongPressGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewControllerExampleView.swift; sourceTree = "<group>"; };
 		F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldView.swift; sourceTree = "<group>"; };
 		F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldDemoView.swift; sourceTree = "<group>"; };
@@ -140,6 +149,11 @@
 		F6ACE16A236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE16E236B7FFE00BFAB98 /* AlertExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE170236B803E00BFAB98 /* ModalExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE177236B996D00BFAB98 /* TapGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExampleView.swift; sourceTree = "<group>"; };
+		F6ACE179236B999D00BFAB98 /* TapGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleDemoView.swift; sourceTree = "<group>"; };
+		F6B5DC72236C714E000D1EED /* DragGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExampleView.swift; sourceTree = "<group>"; };
+		F6B5DC74236C7500000D1EED /* DragGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
@@ -237,7 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				F67794A622BE3F7C005F1D0C /* MindBlowingContentView.swift */,
-				F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */,
+				F6ACE17C236B9D1D00BFAB98 /* ViewModifierComposition */,
 			);
 			path = MindBlowing;
 			sourceTree = "<group>";
@@ -248,6 +262,7 @@
 				F67794C122BE3F7C005F1D0C /* BasicContentView.swift */,
 				F67794A822BE3F7C005F1D0C /* ViewsAndControls */,
 				F67794BB22BE3F7C005F1D0C /* ViewLayoutAndPresentation */,
+				F6ACE175236B994400BFAB98 /* Gestures */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -277,6 +292,7 @@
 			children = (
 				F6ACE165236B7F2700BFAB98 /* HStack */,
 				F6ACE166236B7F2E00BFAB98 /* VStack */,
+				F6ACE17B236B9B3A00BFAB98 /* ZStack */,
 				F6ACE169236B7F8200BFAB98 /* ActionSheet */,
 				F6ACE16C236B7FBC00BFAB98 /* Alert */,
 				F6ACE16D236B7FD400BFAB98 /* Modal */,
@@ -328,6 +344,15 @@
 				F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */,
 			);
 			path = SFSymbols;
+			sourceTree = "<group>";
+		};
+		F679D06F236C457400C67666 /* LongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F679D070236C45A200C67666 /* LongPressGestureExampleView.swift */,
+				F679D072236C481600C67666 /* LongPressGestureExampleDemoView.swift */,
+			);
+			path = LongPressGesture;
 			sourceTree = "<group>";
 		};
 		F69551992369E49900B81712 /* SupportingFiles */ = {
@@ -509,6 +534,50 @@
 			path = Modal;
 			sourceTree = "<group>";
 		};
+		F6ACE175236B994400BFAB98 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				F6ACE176236B994F00BFAB98 /* TapGesture */,
+				F679D06F236C457400C67666 /* LongPressGesture */,
+				F6B5DC71236C7138000D1EED /* DragGesture */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		F6ACE176236B994F00BFAB98 /* TapGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F6ACE177236B996D00BFAB98 /* TapGestureExampleView.swift */,
+				F6ACE179236B999D00BFAB98 /* TapGestureExampleDemoView.swift */,
+			);
+			path = TapGesture;
+			sourceTree = "<group>";
+		};
+		F6ACE17B236B9B3A00BFAB98 /* ZStack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZStack;
+			sourceTree = "<group>";
+		};
+		F6ACE17C236B9D1D00BFAB98 /* ViewModifierComposition */ = {
+			isa = PBXGroup;
+			children = (
+				F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */,
+				F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */,
+			);
+			path = ViewModifierComposition;
+			sourceTree = "<group>";
+		};
+		F6B5DC71236C7138000D1EED /* DragGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F6B5DC72236C714E000D1EED /* DragGestureExampleView.swift */,
+				F6B5DC74236C7500000D1EED /* DragGestureExampleDemoView.swift */,
+			);
+			path = DragGesture;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -654,9 +723,12 @@
 				F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */,
 				F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */,
 				F6ACE147236B783F00BFAB98 /* SegmentedControlExampleDemoView.swift in Sources */,
+				F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
 				F67794F222BE3F7C005F1D0C /* AnimationContentView.swift in Sources */,
+				F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift in Sources */,
+				F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */,
 				F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */,
 				F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */,
 				F67794EA22BE3F7C005F1D0C /* PickerExampleView.swift in Sources */,
@@ -667,6 +739,7 @@
 				F67794EF22BE3F7C005F1D0C /* AlertExampleView.swift in Sources */,
 				F6ACE171236B803E00BFAB98 /* ModalExampleDemoView.swift in Sources */,
 				F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */,
+				F679D073236C481600C67666 /* LongPressGestureExampleDemoView.swift in Sources */,
 				F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */,
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
@@ -684,6 +757,7 @@
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
 				F67794DC22BE3F7C005F1D0C /* FontExampleView.swift in Sources */,
 				F67794E422BE3F7C005F1D0C /* ToggleExampleView.swift in Sources */,
+				F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */,
 				F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */,
 				F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */,
 				F6ACE14F236B795E00BFAB98 /* NavigationLinkExampleDemoView.swift in Sources */,
@@ -699,12 +773,14 @@
 				F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */,
 				F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */,
 				F67794D922BE3F7C005F1D0C /* FullProjectsContentView.swift in Sources */,
+				F6B5DC75236C7500000D1EED /* DragGestureExampleDemoView.swift in Sources */,
 				F6ACE152236B79BA00BFAB98 /* SecureFieldExampleDemoView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,
 				F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */,
 				F677948F22BE3F5D005F1D0C /* ExampleView.swift in Sources */,
 				F677949022BE3F5D005F1D0C /* ExampleCellView.swift in Sources */,
 				F67794EC22BE3F7C005F1D0C /* HStackExampleView.swift in Sources */,
+				F6B5DC73236C714E000D1EED /* DragGestureExampleView.swift in Sources */,
 				F69551A1236A388800B81712 /* WKWebViewUIDelegate.swift in Sources */,
 				F67794E222BE3F7C005F1D0C /* StepperExampleView.swift in Sources */,
 				F67794E522BE3F7C005F1D0C /* EditButtonExampleView.swift in Sources */,

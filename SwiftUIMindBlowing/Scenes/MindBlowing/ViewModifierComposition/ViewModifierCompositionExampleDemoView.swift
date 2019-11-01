@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct ViewModifierCompositionExampleView: View {
+struct ViewModifierCompositionExampleDemoView: View {
 
     @State var value = 0
 
@@ -50,11 +50,3 @@ struct ViewModifierCompositionExampleView: View {
 
     }
 }
-
-#if DEBUG
-struct ViewModifierCompositionExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        ViewModifierCompositionExampleView()
-    }
-}
-#endif
