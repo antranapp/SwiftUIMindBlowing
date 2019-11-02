@@ -29,6 +29,7 @@ public struct WKWebViewUI: UIViewRepresentable {
 
     public func updateUIView(_ uiView: WKWebViewUI.UIViewType, context: UIViewRepresentableContext<WKWebViewUI>) {
         guard let url = URL(string: remoteSourcePath), let data = try? Data.init(contentsOf: url), let dataString = String(data: data, encoding: .utf8) else {
+            showError(in: uiView)
             return
         }
 
@@ -49,6 +50,15 @@ public struct WKWebViewUI: UIViewRepresentable {
         uiView.loadHTMLString(htmlString, baseURL: nil)
     }
 
+    // MARK: Private helpers
+
+    func showError(in webView: WKWebView){
+        guard let url = Bundle.main.url(forResource: "error", withExtension: "html") else {
+            return
+        }
+
+        webView.loadFileURL(url, allowingReadAccessTo: url)
+    }
 }
 
 #if DEBUG

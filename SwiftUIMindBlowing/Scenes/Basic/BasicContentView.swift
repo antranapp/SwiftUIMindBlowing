@@ -106,9 +106,11 @@ struct BasicContentView: View {
                         ExampleCellView(
                             title: "GeometryReader",
                             subtitle: "A container view that defines its content as a function of its own size and coordinate space.")
-                        ExampleCellView(
-                            title: "List",
-                            subtitle: "A container that presents rows of data arranged in a single column.")
+                        NavigationLink(destination: ListExampleView()) {
+                            ExampleCellView(
+                                title: "List",
+                                subtitle: "A container that presents rows of data arranged in a single column.")
+                        }
                         ExampleCellView(
                             title: "ScrollView",
                             subtitle: "A scroll view.")
