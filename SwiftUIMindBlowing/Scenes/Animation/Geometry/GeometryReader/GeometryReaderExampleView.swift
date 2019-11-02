@@ -11,9 +11,9 @@ struct GeometryReaderExampleView: View {
             demoContentView: { () -> GeometryReaderExampleDemoView in
                 GeometryReaderExampleDemoView()
             },
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/GeometryReader/GeometryReaderExampleDemoView.swift"
-            )
-            .navigationBarTitle("GeometryReader")
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Geometry/GeometryReader/GeometryReaderExampleDemoView.swift"
+        )
+        .navigationBarTitle("GeometryReader")
     }
 }
 

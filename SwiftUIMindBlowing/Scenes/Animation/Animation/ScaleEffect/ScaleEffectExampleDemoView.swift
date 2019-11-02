@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct ScaleEffectExampleView: View {
+struct ScaleEffectExampleDemoView: View {
 
     @State var isScaled: Bool = false
 
@@ -21,11 +21,3 @@ struct ScaleEffectExampleView: View {
         .navigationBarTitle(Text("ScaleEffect"))
     }
 }
-
-#if DEBUG
-struct ScaleEffectExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        ScaleEffectExampleView()
-    }
-}
-#endif

@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct RotationEffectExampleView: View {
+struct RotationEffectExampleDemoView: View {
 
     @State var flipped: Bool = false
 
@@ -16,16 +16,13 @@ struct RotationEffectExampleView: View {
                     withAnimation {
                         self.flipped.toggle()
                     }
-                }
+            }
         }
-        .navigationBarTitle(Text("RotationEffect"))
     }
 }
 
-#if DEBUG
-struct RotationEffectExampleView_Previews: PreviewProvider {
+struct RotationEffectExampleDemoView_Previews: PreviewProvider {
     static var previews: some View {
-        RotationEffectExampleView(flipped: false)
+        RotationEffectExampleDemoView()
     }
 }
-#endif

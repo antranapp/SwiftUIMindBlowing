@@ -99,6 +99,9 @@
 		F6E5A9C4236E136600BC0852 /* DividerExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9C3236E136600BC0852 /* DividerExampleDemoView.swift */; };
 		F6E5A9C7236E141C00BC0852 /* ExclusiveGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9C6236E141C00BC0852 /* ExclusiveGestureExampleView.swift */; };
 		F6E5A9C9236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9C8236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift */; };
+		F6E5A9CE236E228600BC0852 /* RotationEffectExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9CD236E228600BC0852 /* RotationEffectExampleDemoView.swift */; };
+		F6E5A9D2236E241D00BC0852 /* BlendModeExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9D1236E241D00BC0852 /* BlendModeExampleDemoView.swift */; };
+		F6E5A9D4236E246C00BC0852 /* ScaleEffectExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9D3236E246C00BC0852 /* ScaleEffectExampleDemoView.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
@@ -206,6 +209,9 @@
 		F6E5A9C3236E136600BC0852 /* DividerExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerExampleDemoView.swift; sourceTree = "<group>"; };
 		F6E5A9C6236E141C00BC0852 /* ExclusiveGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveGestureExampleView.swift; sourceTree = "<group>"; };
 		F6E5A9C8236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveGestureExampleDemoView.swift; sourceTree = "<group>"; };
+		F6E5A9CD236E228600BC0852 /* RotationEffectExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffectExampleDemoView.swift; sourceTree = "<group>"; };
+		F6E5A9D1236E241D00BC0852 /* BlendModeExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleDemoView.swift; sourceTree = "<group>"; };
+		F6E5A9D3236E246C00BC0852 /* ScaleEffectExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffectExampleDemoView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
@@ -349,7 +355,6 @@
 				F6ACE16C236B7FBC00BFAB98 /* Alert */,
 				F6ACE16D236B7FD400BFAB98 /* Modal */,
 				F6E5A99B236DACB000BC0852 /* List */,
-				F6E5A9A4236DAFAA00BC0852 /* GeometryReader */,
 				F6E5A9A9236DB1D700BC0852 /* ScrollView */,
 				F6E5A9AE236DB5F500BC0852 /* NavigationView */,
 				F6E5A9B3236DE61A00BC0852 /* ForEach */,
@@ -364,19 +369,21 @@
 			isa = PBXGroup;
 			children = (
 				F67794C322BE3F7C005F1D0C /* AnimationContentView.swift */,
-				F67794C422BE3F7C005F1D0C /* Basic */,
+				F6E5A9CB236E1FA100BC0852 /* Shapes */,
+				F6E5A9CA236E1F9500BC0852 /* Geometry */,
+				F67794C422BE3F7C005F1D0C /* Animation */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
 		};
-		F67794C422BE3F7C005F1D0C /* Basic */ = {
+		F67794C422BE3F7C005F1D0C /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				F67794C522BE3F7C005F1D0C /* ScaleEffectExampleView.swift */,
-				F67794C622BE3F7C005F1D0C /* RotationEffectExampleView.swift */,
-				F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */,
+				F6E5A9D0236E23F200BC0852 /* BlendMode */,
+				F6E5A9CF236E23E900BC0852 /* ScaleEffect */,
+				F6E5A9CC236E223F00BC0852 /* RotationEffect */,
 			);
-			path = Basic;
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		F67794C722BE3F7C005F1D0C /* More */ = {
@@ -760,6 +767,48 @@
 			path = ExclusiveGesture;
 			sourceTree = "<group>";
 		};
+		F6E5A9CA236E1F9500BC0852 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5A9A4236DAFAA00BC0852 /* GeometryReader */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		F6E5A9CB236E1FA100BC0852 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		F6E5A9CC236E223F00BC0852 /* RotationEffect */ = {
+			isa = PBXGroup;
+			children = (
+				F67794C622BE3F7C005F1D0C /* RotationEffectExampleView.swift */,
+				F6E5A9CD236E228600BC0852 /* RotationEffectExampleDemoView.swift */,
+			);
+			path = RotationEffect;
+			sourceTree = "<group>";
+		};
+		F6E5A9CF236E23E900BC0852 /* ScaleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				F67794C522BE3F7C005F1D0C /* ScaleEffectExampleView.swift */,
+				F6E5A9D3236E246C00BC0852 /* ScaleEffectExampleDemoView.swift */,
+			);
+			path = ScaleEffect;
+			sourceTree = "<group>";
+		};
+		F6E5A9D0236E23F200BC0852 /* BlendMode */ = {
+			isa = PBXGroup;
+			children = (
+				F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */,
+				F6E5A9D1236E241D00BC0852 /* BlendModeExampleDemoView.swift */,
+			);
+			path = BlendMode;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -906,6 +955,7 @@
 				F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */,
 				F6ACE147236B783F00BFAB98 /* SegmentedControlExampleDemoView.swift in Sources */,
 				F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */,
+				F6E5A9D2236E241D00BC0852 /* BlendModeExampleDemoView.swift in Sources */,
 				F6E5A99E236DACD300BC0852 /* ListExampleDemoView.swift in Sources */,
 				F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
@@ -935,6 +985,8 @@
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F6E5A9B7236DE66700BC0852 /* ForEachExampleDemoView.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
+				F6E5A9CE236E228600BC0852 /* RotationEffectExampleDemoView.swift in Sources */,
+				F6E5A9D4236E246C00BC0852 /* ScaleEffectExampleDemoView.swift in Sources */,
 				F67794DF22BE3F7C005F1D0C /* SegmentedControlExampleView.swift in Sources */,
 				F69E4016236CACDC00B44D67 /* SimultanousGestureExampleView.swift in Sources */,
 				F6ACE161236B7AF700BFAB98 /* ButtonExampleDemoView.swift in Sources */,

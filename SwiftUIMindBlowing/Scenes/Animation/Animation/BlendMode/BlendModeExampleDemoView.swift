@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct BlendModeExampleView: View {
+struct BlendModeExampleDemoView: View {
 
     @State var up = false
 
@@ -24,16 +24,8 @@ struct BlendModeExampleView: View {
                     withAnimation {
                         self.up.toggle()
                     }
-                }
+            }
         }
         .navigationBarTitle(Text("BlendMode"))
     }
 }
-
-#if DEBUG
-struct BlendModeExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        BlendModeExampleView()
-    }
-}
-#endif
