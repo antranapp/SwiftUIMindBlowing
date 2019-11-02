@@ -95,6 +95,10 @@
 		F6E5A9BA236DE76F00BC0852 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9B9236DE76F00BC0852 /* TabViewExampleView.swift */; };
 		F6E5A9BD236DE8B000BC0852 /* SpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9BC236DE8B000BC0852 /* SpacerExampleView.swift */; };
 		F6E5A9BF236DE8BD00BC0852 /* SpacerExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9BE236DE8BD00BC0852 /* SpacerExampleDemoView.swift */; };
+		F6E5A9C2236E133500BC0852 /* DividerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9C1236E133500BC0852 /* DividerExampleView.swift */; };
+		F6E5A9C4236E136600BC0852 /* DividerExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9C3236E136600BC0852 /* DividerExampleDemoView.swift */; };
+		F6E5A9C7236E141C00BC0852 /* ExclusiveGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9C6236E141C00BC0852 /* ExclusiveGestureExampleView.swift */; };
+		F6E5A9C9236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9C8236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
@@ -198,6 +202,10 @@
 		F6E5A9B9236DE76F00BC0852 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
 		F6E5A9BC236DE8B000BC0852 /* SpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleView.swift; sourceTree = "<group>"; };
 		F6E5A9BE236DE8BD00BC0852 /* SpacerExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleDemoView.swift; sourceTree = "<group>"; };
+		F6E5A9C1236E133500BC0852 /* DividerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerExampleView.swift; sourceTree = "<group>"; };
+		F6E5A9C3236E136600BC0852 /* DividerExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerExampleDemoView.swift; sourceTree = "<group>"; };
+		F6E5A9C6236E141C00BC0852 /* ExclusiveGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveGestureExampleView.swift; sourceTree = "<group>"; };
+		F6E5A9C8236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
@@ -347,6 +355,7 @@
 				F6E5A9B3236DE61A00BC0852 /* ForEach */,
 				F6E5A9B8236DE75300BC0852 /* TabView */,
 				F6E5A9BB236DE89F00BC0852 /* Spacer */,
+				F6E5A9C0236E132500BC0852 /* Divider */,
 			);
 			path = ViewLayoutAndPresentation;
 			sourceTree = "<group>";
@@ -631,6 +640,7 @@
 				F69E4004236C83DE00B44D67 /* RotationGesture */,
 				F69E4009236C8B9700B44D67 /* SequenceGesture */,
 				F69E4014236CACCB00B44D67 /* SimultanousGesture */,
+				F6E5A9C5236E13FB00BC0852 /* ExclusiveGesture */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -730,6 +740,24 @@
 				F6E5A9BE236DE8BD00BC0852 /* SpacerExampleDemoView.swift */,
 			);
 			path = Spacer;
+			sourceTree = "<group>";
+		};
+		F6E5A9C0236E132500BC0852 /* Divider */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5A9C1236E133500BC0852 /* DividerExampleView.swift */,
+				F6E5A9C3236E136600BC0852 /* DividerExampleDemoView.swift */,
+			);
+			path = Divider;
+			sourceTree = "<group>";
+		};
+		F6E5A9C5236E13FB00BC0852 /* ExclusiveGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5A9C6236E141C00BC0852 /* ExclusiveGestureExampleView.swift */,
+				F6E5A9C8236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift */,
+			);
+			path = ExclusiveGesture;
 			sourceTree = "<group>";
 		};
 		F6F47C7622BABEF7009E3C48 = {
@@ -881,12 +909,14 @@
 				F6E5A99E236DACD300BC0852 /* ListExampleDemoView.swift in Sources */,
 				F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
+				F6E5A9C4236E136600BC0852 /* DividerExampleDemoView.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
 				F67794F222BE3F7C005F1D0C /* AnimationContentView.swift in Sources */,
 				F6E5A9B5236DE63100BC0852 /* ForEachExampleView.swift in Sources */,
 				F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift in Sources */,
 				F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */,
 				F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */,
+				F6E5A9C9236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift in Sources */,
 				F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */,
 				F67794EA22BE3F7C005F1D0C /* PickerExampleView.swift in Sources */,
 				F67794CF22BE3F7C005F1D0C /* CookbookContentView.swift in Sources */,
@@ -940,10 +970,12 @@
 				F6ACE143236B77EE00BFAB98 /* FontExampleDemoView.swift in Sources */,
 				F67794ED22BE3F7C005F1D0C /* ActionSheetExampleView.swift in Sources */,
 				F69E4001236C80D200B44D67 /* MagnificationGestureExampleView.swift in Sources */,
+				F6E5A9C7236E141C00BC0852 /* ExclusiveGestureExampleView.swift in Sources */,
 				F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */,
 				F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */,
 				F67794D922BE3F7C005F1D0C /* FullProjectsContentView.swift in Sources */,
 				F6E5A9A8236DB03500BC0852 /* GeometryReaderExampleDemoView.swift in Sources */,
+				F6E5A9C2236E133500BC0852 /* DividerExampleView.swift in Sources */,
 				F6B5DC75236C7500000D1EED /* DragGestureExampleDemoView.swift in Sources */,
 				F69E4003236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift in Sources */,
 				F6ACE152236B79BA00BFAB98 /* SecureFieldExampleDemoView.swift in Sources */,

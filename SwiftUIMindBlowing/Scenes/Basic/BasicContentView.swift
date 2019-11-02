@@ -157,6 +157,11 @@ struct BasicContentView: View {
                                     title: "ActionSheet",
                                     subtitle: "A storage type for an action sheet presentation.")
                             }
+                            NavigationLink(destination: DividerExampleView()) {
+                                ExampleCellView(
+                                    title: "Divider",
+                                    subtitle: "A visual element that can be used to separate other content.")
+                            }
                         }
                     }
                     Section(header: Text("Gestures")) {
@@ -196,12 +201,11 @@ struct BasicContentView: View {
                                     title: "SimultanousGesture",
                                     subtitle: "A container event handler that evaluates its two child gestures simultaneously.")
                             }
-                            ExampleCellView(
-                                title: "ExclusiveGesture",
-                                subtitle: "A pair of gestures where only one can succeed, which gives precedence to the first of the pair.")
-                            ExampleCellView(
-                                title: "AnyGesture",
-                                subtitle: "A type-erased gesture.")
+                            NavigationLink(destination: ExclusiveGestureExampleView()) {
+                                ExampleCellView(
+                                    title: "ExclusiveGesture",
+                                    subtitle: "A pair of gestures where only one can succeed, which gives precedence to the first of the pair.")
+                            }
                         }
                     }
                 }
