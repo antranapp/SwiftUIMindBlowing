@@ -17,23 +17,20 @@ struct ExampleView<Content>: View where Content: View {
     }
 
     var body: some View {
-        GeometryReader { geometry in
-            VStack {
-                Picker(selection: self.$viewIndex, label: Text("Demo")) {
-                    Text("Demo").tag(0)
-                    Text("Source").tag(1)
-                }
-                .pickerStyle(SegmentedPickerStyle())
-
-                if self.viewIndex == 0 {
-                    self.demoContentView()
-                } else if self.viewIndex == 1 {
-                    WKWebViewUI(remoteSourcePath: self.remoteSourcePath)
-                }
-
-                Spacer()
+        VStack {
+            Picker(selection: self.$viewIndex, label: Text("Demo")) {
+                Text("Demo").tag(0)
+                Text("Source").tag(1)
             }
-            
+            .pickerStyle(SegmentedPickerStyle())
+
+            if self.viewIndex == 0 {
+                self.demoContentView()
+            } else if self.viewIndex == 1 {
+                WKWebViewUI(remoteSourcePath: self.remoteSourcePath)
+            }
+
+            Spacer()
         }
     }
 }

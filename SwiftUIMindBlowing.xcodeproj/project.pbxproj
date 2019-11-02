@@ -87,6 +87,9 @@
 		F6E5A9A3236DAD6800BC0852 /* ZStackExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9A2236DAD6800BC0852 /* ZStackExampleDemoView.swift */; };
 		F6E5A9A6236DAFC400BC0852 /* GeometryReaderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9A5236DAFC400BC0852 /* GeometryReaderExampleView.swift */; };
 		F6E5A9A8236DB03500BC0852 /* GeometryReaderExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9A7236DB03500BC0852 /* GeometryReaderExampleDemoView.swift */; };
+		F6E5A9AB236DB1EA00BC0852 /* ScrollViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9AA236DB1EA00BC0852 /* ScrollViewExampleView.swift */; };
+		F6E5A9AD236DB28B00BC0852 /* ScrollViewExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9AC236DB28B00BC0852 /* ScrollViewExampleDemoView.swift */; };
+		F6E5A9B0236DB61E00BC0852 /* NavigationViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9AF236DB61E00BC0852 /* NavigationViewExampleView.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
@@ -182,6 +185,9 @@
 		F6E5A9A2236DAD6800BC0852 /* ZStackExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExampleDemoView.swift; sourceTree = "<group>"; };
 		F6E5A9A5236DAFC400BC0852 /* GeometryReaderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExampleView.swift; sourceTree = "<group>"; };
 		F6E5A9A7236DB03500BC0852 /* GeometryReaderExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExampleDemoView.swift; sourceTree = "<group>"; };
+		F6E5A9AA236DB1EA00BC0852 /* ScrollViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleView.swift; sourceTree = "<group>"; };
+		F6E5A9AC236DB28B00BC0852 /* ScrollViewExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleDemoView.swift; sourceTree = "<group>"; };
+		F6E5A9AF236DB61E00BC0852 /* NavigationViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
@@ -326,6 +332,8 @@
 				F6ACE16D236B7FD400BFAB98 /* Modal */,
 				F6E5A99B236DACB000BC0852 /* List */,
 				F6E5A9A4236DAFAA00BC0852 /* GeometryReader */,
+				F6E5A9A9236DB1D700BC0852 /* ScrollView */,
+				F6E5A9AE236DB5F500BC0852 /* NavigationView */,
 			);
 			path = ViewLayoutAndPresentation;
 			sourceTree = "<group>";
@@ -668,6 +676,23 @@
 			path = GeometryReader;
 			sourceTree = "<group>";
 		};
+		F6E5A9A9236DB1D700BC0852 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5A9AA236DB1EA00BC0852 /* ScrollViewExampleView.swift */,
+				F6E5A9AC236DB28B00BC0852 /* ScrollViewExampleDemoView.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		F6E5A9AE236DB5F500BC0852 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5A9AF236DB61E00BC0852 /* NavigationViewExampleView.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -831,6 +856,7 @@
 				F6ACE13F236B778C00BFAB98 /* TextExampleDemoView.swift in Sources */,
 				F67794EF22BE3F7C005F1D0C /* AlertExampleView.swift in Sources */,
 				F6ACE171236B803E00BFAB98 /* ModalExampleDemoView.swift in Sources */,
+				F6E5A9B0236DB61E00BC0852 /* NavigationViewExampleView.swift in Sources */,
 				F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */,
 				F679D073236C481600C67666 /* LongPressGestureExampleDemoView.swift in Sources */,
 				F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */,
@@ -879,6 +905,8 @@
 				F69E4003236C81AD00B44D67 /* MagnificationGestureExampleDemoView.swift in Sources */,
 				F6ACE152236B79BA00BFAB98 /* SecureFieldExampleDemoView.swift in Sources */,
 				F69E4018236CAD2E00B44D67 /* SimultanousGestureExampleDemoView.swift in Sources */,
+				F6E5A9AD236DB28B00BC0852 /* ScrollViewExampleDemoView.swift in Sources */,
+				F6E5A9AB236DB1EA00BC0852 /* ScrollViewExampleView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,
 				F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */,
 				F677948F22BE3F5D005F1D0C /* ExampleView.swift in Sources */,
