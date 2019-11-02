@@ -90,6 +90,11 @@
 		F6E5A9AB236DB1EA00BC0852 /* ScrollViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9AA236DB1EA00BC0852 /* ScrollViewExampleView.swift */; };
 		F6E5A9AD236DB28B00BC0852 /* ScrollViewExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9AC236DB28B00BC0852 /* ScrollViewExampleDemoView.swift */; };
 		F6E5A9B0236DB61E00BC0852 /* NavigationViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9AF236DB61E00BC0852 /* NavigationViewExampleView.swift */; };
+		F6E5A9B5236DE63100BC0852 /* ForEachExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9B4236DE63100BC0852 /* ForEachExampleView.swift */; };
+		F6E5A9B7236DE66700BC0852 /* ForEachExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9B6236DE66700BC0852 /* ForEachExampleDemoView.swift */; };
+		F6E5A9BA236DE76F00BC0852 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9B9236DE76F00BC0852 /* TabViewExampleView.swift */; };
+		F6E5A9BD236DE8B000BC0852 /* SpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9BC236DE8B000BC0852 /* SpacerExampleView.swift */; };
+		F6E5A9BF236DE8BD00BC0852 /* SpacerExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9BE236DE8BD00BC0852 /* SpacerExampleDemoView.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
 		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
@@ -188,6 +193,11 @@
 		F6E5A9AA236DB1EA00BC0852 /* ScrollViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleView.swift; sourceTree = "<group>"; };
 		F6E5A9AC236DB28B00BC0852 /* ScrollViewExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleDemoView.swift; sourceTree = "<group>"; };
 		F6E5A9AF236DB61E00BC0852 /* NavigationViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExampleView.swift; sourceTree = "<group>"; };
+		F6E5A9B4236DE63100BC0852 /* ForEachExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExampleView.swift; sourceTree = "<group>"; };
+		F6E5A9B6236DE66700BC0852 /* ForEachExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExampleDemoView.swift; sourceTree = "<group>"; };
+		F6E5A9B9236DE76F00BC0852 /* TabViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
+		F6E5A9BC236DE8B000BC0852 /* SpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleView.swift; sourceTree = "<group>"; };
+		F6E5A9BE236DE8BD00BC0852 /* SpacerExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleDemoView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
@@ -334,6 +344,9 @@
 				F6E5A9A4236DAFAA00BC0852 /* GeometryReader */,
 				F6E5A9A9236DB1D700BC0852 /* ScrollView */,
 				F6E5A9AE236DB5F500BC0852 /* NavigationView */,
+				F6E5A9B3236DE61A00BC0852 /* ForEach */,
+				F6E5A9B8236DE75300BC0852 /* TabView */,
+				F6E5A9BB236DE89F00BC0852 /* Spacer */,
 			);
 			path = ViewLayoutAndPresentation;
 			sourceTree = "<group>";
@@ -693,6 +706,32 @@
 			path = NavigationView;
 			sourceTree = "<group>";
 		};
+		F6E5A9B3236DE61A00BC0852 /* ForEach */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5A9B4236DE63100BC0852 /* ForEachExampleView.swift */,
+				F6E5A9B6236DE66700BC0852 /* ForEachExampleDemoView.swift */,
+			);
+			path = ForEach;
+			sourceTree = "<group>";
+		};
+		F6E5A9B8236DE75300BC0852 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5A9B9236DE76F00BC0852 /* TabViewExampleView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		F6E5A9BB236DE89F00BC0852 /* Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5A9BC236DE8B000BC0852 /* SpacerExampleView.swift */,
+				F6E5A9BE236DE8BD00BC0852 /* SpacerExampleDemoView.swift */,
+			);
+			path = Spacer;
+			sourceTree = "<group>";
+		};
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
@@ -844,6 +883,7 @@
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
 				F67794F222BE3F7C005F1D0C /* AnimationContentView.swift in Sources */,
+				F6E5A9B5236DE63100BC0852 /* ForEachExampleView.swift in Sources */,
 				F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift in Sources */,
 				F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */,
 				F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */,
@@ -851,6 +891,7 @@
 				F67794EA22BE3F7C005F1D0C /* PickerExampleView.swift in Sources */,
 				F67794CF22BE3F7C005F1D0C /* CookbookContentView.swift in Sources */,
 				F6E5A9A3236DAD6800BC0852 /* ZStackExampleDemoView.swift in Sources */,
+				F6E5A9BA236DE76F00BC0852 /* TabViewExampleView.swift in Sources */,
 				F6ACE145236B781600BFAB98 /* ImageExampleDemoView.swift in Sources */,
 				F6ACE155236B79E000BFAB98 /* StepperExampleDemoView.swift in Sources */,
 				F6ACE13F236B778C00BFAB98 /* TextExampleDemoView.swift in Sources */,
@@ -860,7 +901,9 @@
 				F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */,
 				F679D073236C481600C67666 /* LongPressGestureExampleDemoView.swift in Sources */,
 				F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */,
+				F6E5A9BF236DE8BD00BC0852 /* SpacerExampleDemoView.swift in Sources */,
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
+				F6E5A9B7236DE66700BC0852 /* ForEachExampleDemoView.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
 				F67794DF22BE3F7C005F1D0C /* SegmentedControlExampleView.swift in Sources */,
 				F69E4016236CACDC00B44D67 /* SimultanousGestureExampleView.swift in Sources */,
@@ -909,6 +952,7 @@
 				F6E5A9AB236DB1EA00BC0852 /* ScrollViewExampleView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,
 				F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */,
+				F6E5A9BD236DE8B000BC0852 /* SpacerExampleView.swift in Sources */,
 				F677948F22BE3F5D005F1D0C /* ExampleView.swift in Sources */,
 				F677949022BE3F5D005F1D0C /* ExampleCellView.swift in Sources */,
 				F67794EC22BE3F7C005F1D0C /* HStackExampleView.swift in Sources */,

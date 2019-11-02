@@ -15,7 +15,6 @@ struct NavigationViewExampleView: View {
                 remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/NavigationView/NavigationViewExampleView.swift"
             )
             .navigationBarTitle("NavigationView")
-
         }
     }
 }

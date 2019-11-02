@@ -104,9 +104,11 @@ struct BasicContentView: View {
                                     title: "ZStack",
                                     subtitle: "A view that overlays its children, aligning them in both axes.")
                             }
-                            ExampleCellView(
-                                title: "Spacer",
-                                subtitle: "A flexible space that expands along the major axis of its containing stack layout, or on both axes if not contained in a stack.")
+                            NavigationLink(destination: SpacerExampleView()) {
+                                ExampleCellView(
+                                    title: "Spacer",
+                                    subtitle: "A flexible space that expands along the major axis of its containing stack layout, or on both axes if not contained in a stack.")
+                            }
                             NavigationLink(destination: GeometryReaderExampleView()) {
                                 ExampleCellView(
                                     title: "GeometryReader",
@@ -127,12 +129,16 @@ struct BasicContentView: View {
                                     title: "NavigationView",
                                     subtitle: "A control that toggles between on and off states.")
                             }
-                            ExampleCellView(
-                                title: "TabView",
-                                subtitle: "A control that toggles between on and off states.")
-                            ExampleCellView(
-                                title: "ForEach",
-                                subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
+                            NavigationLink(destination: TabViewExampleView()) {
+                                ExampleCellView(
+                                    title: "TabView",
+                                    subtitle: "A control that toggles between on and off states.")
+                            }
+                            NavigationLink(destination: ForEachExampleView()) {
+                                ExampleCellView(
+                                    title: "ForEach",
+                                    subtitle: "A structure that computes views on demand from an underlying collection of identified data.")
+                            }
                         }
 
                         Group {
