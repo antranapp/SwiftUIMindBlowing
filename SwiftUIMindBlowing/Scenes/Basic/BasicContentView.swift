@@ -97,9 +97,11 @@ struct BasicContentView: View {
                                 title: "VStack",
                                 subtitle: "A view that arranges its children in a vertical line.")
                         }
-                        ExampleCellView(
-                            title: "ZStack",
-                            subtitle: "A view that overlays its children, aligning them in both axes.")
+                        NavigationLink(destination: ZStackExampleView()) {
+                            ExampleCellView(
+                                title: "ZStack",
+                                subtitle: "A view that overlays its children, aligning them in both axes.")
+                        }
                         ExampleCellView(
                             title: "Spacer",
                             subtitle: "A flexible space that expands along the major axis of its containing stack layout, or on both axes if not contained in a stack.")
