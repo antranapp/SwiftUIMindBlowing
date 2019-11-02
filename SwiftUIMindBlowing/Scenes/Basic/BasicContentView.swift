@@ -105,9 +105,11 @@ struct BasicContentView: View {
                         ExampleCellView(
                             title: "Spacer",
                             subtitle: "A flexible space that expands along the major axis of its containing stack layout, or on both axes if not contained in a stack.")
-                        ExampleCellView(
-                            title: "GeometryReader",
-                            subtitle: "A container view that defines its content as a function of its own size and coordinate space.")
+                        NavigationLink(destination: GeometryReaderExampleView()) {
+                            ExampleCellView(
+                                title: "GeometryReader",
+                                subtitle: "A container view that defines its content as a function of its own size and coordinate space.")
+                        }
                         NavigationLink(destination: ListExampleView()) {
                             ExampleCellView(
                                 title: "List",
