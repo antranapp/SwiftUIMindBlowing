@@ -18,7 +18,6 @@ struct ExampleCellView: View {
                 .lineLimit(nil)
                 .font(.subheadline)
                 .foregroundColor(Color.gray)
-                .minimumScaleFactor(0.5)
         }
     }
 }
@@ -26,7 +25,7 @@ struct ExampleCellView: View {
 #if DEBUG
 struct ExampleCellView_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleCellView(title: "Title", subtitle: "Subtitle", sourceCodeURL: "https://www.github.com")
+        ExampleCellView(title: "Title", subtitle: "A view that arranges its children in a horizontal line. A view that arranges its children in a horizontal line.", sourceCodeURL: "https://www.github.com")
     }
 }
 #endif
