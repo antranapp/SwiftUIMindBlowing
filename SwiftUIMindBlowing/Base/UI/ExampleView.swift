@@ -8,10 +8,12 @@ struct ExampleView<Content>: View where Content: View {
 
     @State private var viewIndex = 0
 
+    private var title: String
     private var demoContentView: Content
     private let remoteSourcePath: String
 
-    public init(demoContentView: Content, remoteSourcePath: String) {
+    public init(title: String = "", demoContentView: Content, remoteSourcePath: String) {
+        self.title = title
         self.demoContentView = demoContentView
         self.remoteSourcePath = remoteSourcePath
     }
@@ -34,6 +36,7 @@ struct ExampleView<Content>: View where Content: View {
                 WKWebViewUI(remoteSourcePath: self.remoteSourcePath)
             }
         }
+        .navigationBarTitle(title)
     }
 }
 
