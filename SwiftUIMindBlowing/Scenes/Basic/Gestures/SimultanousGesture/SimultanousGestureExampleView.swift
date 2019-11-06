@@ -14,9 +14,3 @@ struct SimultanousGestureExampleView: View {
             .navigationBarTitle("SimultanousGesture")
     }
 }
-
-struct SimultanousGestureExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        SimultanousGestureExampleView()
-    }
-}

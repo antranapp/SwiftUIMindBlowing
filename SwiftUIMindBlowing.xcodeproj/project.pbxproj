@@ -11,6 +11,7 @@
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
 		F6180F1E236A41C000C5354A /* error.html in Resources */ = {isa = PBXBuildFile; fileRef = F6180F1D236A41C000C5354A /* error.html */; };
 		F65FD42A237376F500521CDD /* FloatingActionButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65FD429237376F500521CDD /* FloatingActionButtonExampleView.swift */; };
+		F65FD42E2373796E00521CDD /* StretchyHeaderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65FD42D2373796E00521CDD /* StretchyHeaderExampleView.swift */; };
 		F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677948B22BE3F5D005F1D0C /* WKWebViewUI.swift */; };
 		F677948F22BE3F5D005F1D0C /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677948C22BE3F5D005F1D0C /* ExampleView.swift */; };
 		F677949022BE3F5D005F1D0C /* ExampleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677948D22BE3F5D005F1D0C /* ExampleCellView.swift */; };
@@ -122,6 +123,7 @@
 		F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareExampleView.swift; sourceTree = "<group>"; };
 		F6180F1D236A41C000C5354A /* error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = error.html; sourceTree = "<group>"; };
 		F65FD429237376F500521CDD /* FloatingActionButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButtonExampleView.swift; sourceTree = "<group>"; };
+		F65FD42D2373796E00521CDD /* StretchyHeaderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderExampleView.swift; sourceTree = "<group>"; };
 		F677948B22BE3F5D005F1D0C /* WKWebViewUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewUI.swift; sourceTree = "<group>"; };
 		F677948C22BE3F5D005F1D0C /* ExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		F677948D22BE3F5D005F1D0C /* ExampleCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCellView.swift; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 				F67794A622BE3F7C005F1D0C /* MindBlowingContentView.swift */,
 				F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleView.swift */,
 				F65FD429237376F500521CDD /* FloatingActionButtonExampleView.swift */,
+				F65FD42D2373796E00521CDD /* StretchyHeaderExampleView.swift */,
 			);
 			path = MindBlowing;
 			sourceTree = "<group>";
@@ -978,6 +981,7 @@
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
 				F6E5A9CE236E228600BC0852 /* RotationEffectExampleDemoView.swift in Sources */,
 				F6E5A9D4236E246C00BC0852 /* ScaleEffectExampleDemoView.swift in Sources */,
+				F65FD42E2373796E00521CDD /* StretchyHeaderExampleView.swift in Sources */,
 				F67794DF22BE3F7C005F1D0C /* SegmentedControlExampleView.swift in Sources */,
 				F69E4016236CACDC00B44D67 /* SimultanousGestureExampleView.swift in Sources */,
 				F6ACE161236B7AF700BFAB98 /* ButtonExampleDemoView.swift in Sources */,

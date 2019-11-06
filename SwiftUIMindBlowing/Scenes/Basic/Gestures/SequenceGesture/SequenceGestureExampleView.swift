@@ -14,11 +14,3 @@ struct SequenceGestureExampleView: View {
             .navigationBarTitle("SequenceGesture")
     }
 }
-
-#if DEBUG
-struct SequenceGestureExampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        SequenceGestureExampleView()
-    }
-}
-#endif
