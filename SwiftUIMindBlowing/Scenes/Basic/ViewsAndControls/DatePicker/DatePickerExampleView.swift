@@ -8,9 +8,7 @@ struct DatePickerExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> DatePickerExampleDemoView in
-                DatePickerExampleDemoView()
-            },
+            demoContentView: DatePickerExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/DatePicker/DatePickerExampleView.swift"
         )
         .navigationBarTitle("DatePicker")

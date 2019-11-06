@@ -8,9 +8,7 @@ struct GeometryReaderExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> GeometryReaderExampleDemoView in
-                GeometryReaderExampleDemoView()
-            },
+            demoContentView: GeometryReaderExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Geometry/GeometryReader/GeometryReaderExampleDemoView.swift"
         )
         .navigationBarTitle("GeometryReader")

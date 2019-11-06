@@ -8,9 +8,7 @@ struct ExclusiveGestureExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> ExclusiveGestureExampleDemoView in
-                ExclusiveGestureExampleDemoView()
-            },
+            demoContentView: ExclusiveGestureExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/Gestures/SimultanousGesture/ExclusiveGestureExampleDemoView.swift"
             )
             .navigationBarTitle("ExclusiveGesture")

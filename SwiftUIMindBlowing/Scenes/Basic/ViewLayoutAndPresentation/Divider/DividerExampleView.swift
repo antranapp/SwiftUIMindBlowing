@@ -8,9 +8,7 @@ struct DividerExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> DividerExampleDemoView in
-                DividerExampleDemoView()
-            },
+            demoContentView: DividerExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/Divider/DividerExampleDemoView.swift"
         )
         .navigationBarTitle("Spacer")

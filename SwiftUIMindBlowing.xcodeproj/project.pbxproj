@@ -10,6 +10,7 @@
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
 		F6180F1E236A41C000C5354A /* error.html in Resources */ = {isa = PBXBuildFile; fileRef = F6180F1D236A41C000C5354A /* error.html */; };
+		F65FD42A237376F500521CDD /* FloatingActionButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65FD429237376F500521CDD /* FloatingActionButtonExampleView.swift */; };
 		F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677948B22BE3F5D005F1D0C /* WKWebViewUI.swift */; };
 		F677948F22BE3F5D005F1D0C /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677948C22BE3F5D005F1D0C /* ExampleView.swift */; };
 		F677949022BE3F5D005F1D0C /* ExampleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677948D22BE3F5D005F1D0C /* ExampleCellView.swift */; };
@@ -78,7 +79,7 @@
 		F6ACE174236B817900BFAB98 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = F6ACE173236B817900BFAB98 /* ModalView */; };
 		F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE177236B996D00BFAB98 /* TapGestureExampleView.swift */; };
 		F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE179236B999D00BFAB98 /* TapGestureExampleDemoView.swift */; };
-		F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */; };
+		F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleView.swift */; };
 		F6B5DC73236C714E000D1EED /* DragGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5DC72236C714E000D1EED /* DragGestureExampleView.swift */; };
 		F6B5DC75236C7500000D1EED /* DragGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5DC74236C7500000D1EED /* DragGestureExampleDemoView.swift */; };
 		F6E5A99E236DACD300BC0852 /* ListExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A99C236DACD300BC0852 /* ListExampleDemoView.swift */; };
@@ -103,7 +104,6 @@
 		F6E5A9D2236E241D00BC0852 /* BlendModeExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9D1236E241D00BC0852 /* BlendModeExampleDemoView.swift */; };
 		F6E5A9D4236E246C00BC0852 /* ScaleEffectExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5A9D3236E246C00BC0852 /* ScaleEffectExampleDemoView.swift */; };
 		F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */; };
-		F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */; };
 		F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */; };
 		F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */; };
 		F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47C8422BABEF7009E3C48 /* SceneDelegate.swift */; };
@@ -121,6 +121,7 @@
 		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareExampleView.swift; sourceTree = "<group>"; };
 		F6180F1D236A41C000C5354A /* error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = error.html; sourceTree = "<group>"; };
+		F65FD429237376F500521CDD /* FloatingActionButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButtonExampleView.swift; sourceTree = "<group>"; };
 		F677948B22BE3F5D005F1D0C /* WKWebViewUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewUI.swift; sourceTree = "<group>"; };
 		F677948C22BE3F5D005F1D0C /* ExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		F677948D22BE3F5D005F1D0C /* ExampleCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCellView.swift; sourceTree = "<group>"; };
@@ -188,7 +189,7 @@
 		F6ACE170236B803E00BFAB98 /* ModalExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalExampleDemoView.swift; sourceTree = "<group>"; };
 		F6ACE177236B996D00BFAB98 /* TapGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExampleView.swift; sourceTree = "<group>"; };
 		F6ACE179236B999D00BFAB98 /* TapGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExampleDemoView.swift; sourceTree = "<group>"; };
-		F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleDemoView.swift; sourceTree = "<group>"; };
+		F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6B5DC72236C714E000D1EED /* DragGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExampleView.swift; sourceTree = "<group>"; };
 		F6B5DC74236C7500000D1EED /* DragGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F6E5A99C236DACD300BC0852 /* ListExampleDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListExampleDemoView.swift; sourceTree = "<group>"; };
@@ -213,7 +214,6 @@
 		F6E5A9D1236E241D00BC0852 /* BlendModeExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleDemoView.swift; sourceTree = "<group>"; };
 		F6E5A9D3236E246C00BC0852 /* ScaleEffectExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffectExampleDemoView.swift; sourceTree = "<group>"; };
 		F6F41F5722BED0B0004696C0 /* DispatchTimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimerExampleView.swift; sourceTree = "<group>"; };
-		F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCompositionExampleView.swift; sourceTree = "<group>"; };
 		F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionExampleView.swift; sourceTree = "<group>"; };
 		F6F47C7F22BABEF7009E3C48 /* SwiftUIMindBlowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMindBlowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F47C8222BABEF7009E3C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SwiftUIMindBlowing/AppDelegate.swift; sourceTree = "<group>"; };
@@ -309,7 +309,8 @@
 			isa = PBXGroup;
 			children = (
 				F67794A622BE3F7C005F1D0C /* MindBlowingContentView.swift */,
-				F6ACE17C236B9D1D00BFAB98 /* ViewModifierComposition */,
+				F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleView.swift */,
+				F65FD429237376F500521CDD /* FloatingActionButtonExampleView.swift */,
 			);
 			path = MindBlowing;
 			sourceTree = "<group>";
@@ -670,15 +671,6 @@
 			path = ZStack;
 			sourceTree = "<group>";
 		};
-		F6ACE17C236B9D1D00BFAB98 /* ViewModifierComposition */ = {
-			isa = PBXGroup;
-			children = (
-				F6F41F5922BED1FB004696C0 /* ViewModifierCompositionExampleView.swift */,
-				F6ACE17D236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift */,
-			);
-			path = ViewModifierComposition;
-			sourceTree = "<group>";
-		};
 		F6B5DC71236C7138000D1EED /* DragGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -951,7 +943,6 @@
 				F67794D022BE3F7C005F1D0C /* MapKitExampleView.swift in Sources */,
 				F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */,
 				F67794E122BE3F7C005F1D0C /* SecureFieldExampleView.swift in Sources */,
-				F6F41F5A22BED1FB004696C0 /* ViewModifierCompositionExampleView.swift in Sources */,
 				F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */,
 				F6ACE147236B783F00BFAB98 /* SegmentedControlExampleDemoView.swift in Sources */,
 				F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */,
@@ -963,7 +954,7 @@
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
 				F67794F222BE3F7C005F1D0C /* AnimationContentView.swift in Sources */,
 				F6E5A9B5236DE63100BC0852 /* ForEachExampleView.swift in Sources */,
-				F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleDemoView.swift in Sources */,
+				F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleView.swift in Sources */,
 				F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */,
 				F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */,
 				F6E5A9C9236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift in Sources */,
@@ -997,6 +988,7 @@
 				F6ACE16B236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift in Sources */,
 				F69E4008236C854E00B44D67 /* RotationGestureExampleDemoView.swift in Sources */,
 				F6ACE15E236B7A9500BFAB98 /* EditButtonExampleDemoView.swift in Sources */,
+				F65FD42A237376F500521CDD /* FloatingActionButtonExampleView.swift in Sources */,
 				F6E5A9A6236DAFC400BC0852 /* GeometryReaderExampleView.swift in Sources */,
 				F67794EE22BE3F7C005F1D0C /* VStackExampleView.swift in Sources */,
 				F69E400C236C8C9E00B44D67 /* SequenceGestureExampleView.swift in Sources */,

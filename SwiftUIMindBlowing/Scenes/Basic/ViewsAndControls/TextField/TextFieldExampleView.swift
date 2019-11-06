@@ -8,9 +8,7 @@ struct TextFieldExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> TextFieldExampleDemoView in
-                TextFieldExampleDemoView()
-            },
+            demoContentView: TextFieldExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/TextField/TextFieldExampleDemoView.swift"
         )
         .navigationBarTitle("TextField")

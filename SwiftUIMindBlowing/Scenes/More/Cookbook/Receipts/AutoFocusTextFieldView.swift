@@ -8,9 +8,7 @@ struct AutoFocusTextFieldView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> AutoFocusTextFieldDemoView in
-                AutoFocusTextFieldDemoView()
-            },
+            demoContentView: AutoFocusTextFieldDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/More/Cookbook/Receipts/AutoFocusTextFieldDemoView.swift"
         )
         .navigationBarTitle("AutoFocus TextField")

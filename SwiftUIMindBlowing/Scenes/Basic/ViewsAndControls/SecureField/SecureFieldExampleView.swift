@@ -8,9 +8,7 @@ struct SecureFieldExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> SecureFieldExampleDemoView in
-                SecureFieldExampleDemoView()
-            },
+            demoContentView: SecureFieldExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/SecureField/SecureFieldExampleView.swift"
         )
         .navigationBarTitle("SecureField")

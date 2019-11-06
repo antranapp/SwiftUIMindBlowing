@@ -8,9 +8,7 @@ struct ForEachExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> ForEachExampleDemoView in
-                ForEachExampleDemoView()
-            },
+            demoContentView: ForEachExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/ForEach/ForEachExampleDemoView.swift"
             )
             .navigationBarTitle("ForEach")

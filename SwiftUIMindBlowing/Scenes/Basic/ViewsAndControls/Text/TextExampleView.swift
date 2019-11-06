@@ -8,9 +8,7 @@ struct TextExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> TextExampleDemoView in
-                TextExampleDemoView()
-            },
+            demoContentView: TextExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Text/TextExampleDemoView.swift"
         )
         .navigationBarTitle("Text")
