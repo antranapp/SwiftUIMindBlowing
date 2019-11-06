@@ -8,9 +8,7 @@ struct ListExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> ListExampleDemoView in
-                ListExampleDemoView()
-            },
+            demoContentView: ListExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/List/ListExampleDemoView.swift"
             )
             .navigationBarTitle("List")

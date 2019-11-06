@@ -8,12 +8,10 @@ struct MagnificationGestureExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> MagnificationGestureExampleDemoView in
-                MagnificationGestureExampleDemoView()
-        },
+            demoContentView: MagnificationGestureExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/Gestures/MagnificationGesture/MagnificationGestureExampleDemoView.swift"
         )
-            .navigationBarTitle("MagnificationGesture")
+        .navigationBarTitle("MagnificationGesture")
     }
 }
 

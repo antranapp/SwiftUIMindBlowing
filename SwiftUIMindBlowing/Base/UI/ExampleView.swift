@@ -8,10 +8,10 @@ struct ExampleView<Content>: View where Content: View {
 
     @State private var viewIndex = 0
 
-    private var demoContentView: () -> Content
+    private var demoContentView: Content
     private let remoteSourcePath: String
 
-    public init(demoContentView: @escaping () -> Content, remoteSourcePath: String) {
+    public init(demoContentView: Content, remoteSourcePath: String) {
         self.demoContentView = demoContentView
         self.remoteSourcePath = remoteSourcePath
     }
@@ -25,12 +25,14 @@ struct ExampleView<Content>: View where Content: View {
             .pickerStyle(SegmentedPickerStyle())
 
             if self.viewIndex == 0 {
-                self.demoContentView()
+                GeometryReader { geometry in
+                    VStack {
+                        self.demoContentView
+                    }
+                }
             } else if self.viewIndex == 1 {
                 WKWebViewUI(remoteSourcePath: self.remoteSourcePath)
             }
-
-            Spacer()
         }
     }
 }
@@ -39,9 +41,7 @@ struct ExampleView<Content>: View where Content: View {
 struct BaseExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ExampleView(
-            demoContentView: {
-                Text("Demo")
-            },
+            demoContentView: Text("Demo"),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Text/TextExampleView.swift"
         )
     }

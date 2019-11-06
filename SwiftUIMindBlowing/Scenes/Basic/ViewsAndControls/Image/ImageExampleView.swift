@@ -8,9 +8,7 @@ struct ImageExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> ImageExampleDemoView in
-                ImageExampleDemoView()
-            },
+            demoContentView: ImageExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Image/ImageExampleDemoView.swift"
         )
         .navigationBarTitle("Image")

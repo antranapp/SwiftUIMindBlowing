@@ -9,9 +9,7 @@ struct NavigationViewExampleView: View {
     var body: some View {
         NavigationView {
             ExampleView(
-                demoContentView: { () -> Text in
-                    Text("Example for NavigationView")
-                },
+                demoContentView: Text("Example for NavigationView"),
                 remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/NavigationView/NavigationViewExampleView.swift"
             )
             .navigationBarTitle("NavigationView")

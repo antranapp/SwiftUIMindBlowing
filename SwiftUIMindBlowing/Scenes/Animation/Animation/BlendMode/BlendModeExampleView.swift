@@ -8,9 +8,7 @@ struct BlendModeExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> BlendModeExampleDemoView in
-                BlendModeExampleDemoView()
-            },
+            demoContentView: BlendModeExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Animation/BlendMode/BlendModeExampleDemoView.swift"
         )
         .navigationBarTitle("BlendMode")

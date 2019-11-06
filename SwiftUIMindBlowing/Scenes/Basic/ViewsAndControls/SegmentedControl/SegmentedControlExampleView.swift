@@ -8,9 +8,7 @@ struct SegmentedControlExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> SegmentedControlExampleDemoView in
-                SegmentedControlExampleDemoView()
-            },
+            demoContentView: SegmentedControlExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/SegmentedControl/SegmentedControlExampleView.swift"
         )
         .navigationBarTitle(Text("SegmentedControl"))

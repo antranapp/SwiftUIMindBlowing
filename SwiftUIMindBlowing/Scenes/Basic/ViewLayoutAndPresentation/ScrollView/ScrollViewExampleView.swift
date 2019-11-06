@@ -8,9 +8,7 @@ struct ScrollViewExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> ScrollViewExampleDemoView in
-                ScrollViewExampleDemoView()
-            },
+            demoContentView: ScrollViewExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/ScrollView/ScrollViewExampleDemoView.swift"
             )
             .navigationBarTitle("ScrollView")

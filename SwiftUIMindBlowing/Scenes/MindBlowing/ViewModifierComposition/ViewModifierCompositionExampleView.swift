@@ -8,9 +8,7 @@ struct ViewModifierCompositionExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> ViewModifierCompositionExampleDemoView in
-                ViewModifierCompositionExampleDemoView()
-            },
+            demoContentView: ViewModifierCompositionExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/MindBlowing/ViewModifierComposition/ViewModifierCompositionExampleDemoView.swift"
         )
         .navigationBarTitle("ViewModifier Composition")

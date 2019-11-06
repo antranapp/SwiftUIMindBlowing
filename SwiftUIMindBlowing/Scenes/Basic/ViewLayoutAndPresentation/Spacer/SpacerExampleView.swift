@@ -8,9 +8,7 @@ struct SpacerExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> SpacerExampleDemoView in
-                SpacerExampleDemoView()
-            },
+            demoContentView: SpacerExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/Spacer/SpacerExampleDemoView.swift"
         )
         .navigationBarTitle("Spacer")

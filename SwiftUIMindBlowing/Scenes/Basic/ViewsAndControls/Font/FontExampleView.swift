@@ -8,9 +8,7 @@ struct FontExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> FontExampleDemoView in
-                FontExampleDemoView()
-            },
+            demoContentView: FontExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Font/FontExampleDemoView.swift"
         )
         .navigationBarTitle("Font")

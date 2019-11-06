@@ -8,9 +8,7 @@ struct RotationEffectExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> RotationEffectExampleDemoView in
-                RotationEffectExampleDemoView(flipped: false)
-            },
+            demoContentView: RotationEffectExampleDemoView(flipped: false),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Animation/RotationEffect/RotationEffectExampleDemoView.swift"
         )
         .navigationBarTitle("RotationEffect")

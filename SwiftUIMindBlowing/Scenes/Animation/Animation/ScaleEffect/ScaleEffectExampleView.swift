@@ -8,9 +8,7 @@ struct ScaleEffectExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> ScaleEffectExampleDemoView in
-                ScaleEffectExampleDemoView()
-            },
+            demoContentView: ScaleEffectExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Animation/ScaleEffect/ScaleEffectExampleDemoView.swift"
         )
         .navigationBarTitle("ScaleEffect")

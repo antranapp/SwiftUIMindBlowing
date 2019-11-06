@@ -8,9 +8,7 @@ struct EditButtonExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> EditButtonExampleDemoView in
-                EditButtonExampleDemoView()
-            },
+            demoContentView: EditButtonExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/EditButton/EditButtonExampleView.swift"
         )
         .navigationBarTitle("Edit Button")

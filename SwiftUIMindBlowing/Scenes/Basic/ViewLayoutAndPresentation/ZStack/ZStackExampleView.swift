@@ -8,9 +8,7 @@ struct ZStackExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> ZStackExampleDemoView in
-                ZStackExampleDemoView()
-            },
+            demoContentView: ZStackExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/ZStack/ZStackExampleDemoView.swift"
         )
             .navigationBarTitle("VStack")

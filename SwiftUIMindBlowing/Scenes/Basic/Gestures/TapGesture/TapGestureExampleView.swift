@@ -8,12 +8,10 @@ struct TapGestureExampleView: View {
 
     var body: some View {
         ExampleView(
-            demoContentView: { () -> TapGestureExampleDemoView in
-                TapGestureExampleDemoView()
-        },
+            demoContentView:TapGestureExampleDemoView(),
             remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/Gestures/TapGesture/TapGestureExampleDemoView.swift"
         )
-            .navigationBarTitle("TapGesture")
+        .navigationBarTitle("TapGesture")
     }
 }
 
