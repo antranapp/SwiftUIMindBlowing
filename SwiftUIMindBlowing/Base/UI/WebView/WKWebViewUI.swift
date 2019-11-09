@@ -6,28 +6,26 @@ import SwiftUI
 import WebKit
 import UIKit
 
-public struct WKWebViewUI: UIViewRepresentable {
+struct WKWebViewUI: UIViewRepresentable {
 
-    public typealias UIViewType = WKWebView
+    typealias UIViewType = WKWebView
 
     let remoteSourcePath: String
-    let delegate: WKWebViewUIDelegate
-
-    init(remoteSourcePath: String) {
-        self.remoteSourcePath = remoteSourcePath
-        delegate = WKWebViewUIDelegate(remoteSourcePath: remoteSourcePath)
-    }
+    let shouldWrapWord: Bool
 
     // MARK: Public
 
-    public func makeUIView(context: UIViewRepresentableContext<WKWebViewUI>) -> WKWebViewUI.UIViewType {
-
+    func makeUIView(context: UIViewRepresentableContext<WKWebViewUI>) -> WKWebViewUI.UIViewType {
         let webView = WKWebView(frame: .zero)
-        webView.navigationDelegate = delegate
+        webView.navigationDelegate = context.coordinator
         return webView
     }
 
-    public func updateUIView(_ uiView: WKWebViewUI.UIViewType, context: UIViewRepresentableContext<WKWebViewUI>) {
+    func makeCoordinator() -> WKWebViewUICoordinator {
+        WKWebViewUICoordinator()
+    }
+
+    func updateUIView(_ uiView: WKWebViewUI.UIViewType, context: UIViewRepresentableContext<WKWebViewUI>) {
         guard let url = URL(string: remoteSourcePath), let data = try? Data.init(contentsOf: url), let dataString = String(data: data, encoding: .utf8) else {
             showError(in: uiView)
             return
@@ -40,10 +38,19 @@ public struct WKWebViewUI: UIViewRepresentable {
                 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
                 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/swift.min.js"></script>
                 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/a11y-dark.min.css">
+                <style>
+                    .wrap-word {
+                        overflow-wrap: break-word;
+                        word-wrap: break-word;
+                        hyphens: auto;
+                    }
+                </style>
             </head>
-            <body>
+            <body class="\(shouldWrapWord ? "wrap-word" : "")">
                 <pre><code class="swift">\(dataString.trimmingCharacters(in: .whitespaces))</code></pre>
-                <script>hljs.initHighlightingOnLoad();</script>
+                <script>
+                    hljs.initHighlightingOnLoad();
+                </script>
             </body>
         </html>
         """
@@ -64,7 +71,7 @@ public struct WKWebViewUI: UIViewRepresentable {
 #if DEBUG
 struct WKWebViewUI_Previews: PreviewProvider {
     static var previews: some View {
-        WKWebViewUI(remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Text/TextExampleView.swift")
+        WKWebViewUI(remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Text/TextExampleView.swift", shouldWrapWord: true)
     }
 }
 #endif

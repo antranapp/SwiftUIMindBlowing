@@ -6,6 +6,7 @@ import SwiftUI
 
 struct ExampleView<Content>: View where Content: View {
 
+    @ObservedObject var store = WKWebViewStore.shared
     @State private var viewIndex = 0
 
     private var title: String
@@ -33,7 +34,13 @@ struct ExampleView<Content>: View where Content: View {
                     }
                 }
             } else if self.viewIndex == 1 {
-                WKWebViewUI(remoteSourcePath: self.remoteSourcePath)
+                VStack {
+                    Toggle(isOn: $store.shouldWrapWord) {
+                        Text("Wrap words")
+                    }
+                    .padding(EdgeInsets(top: 0.0, leading: 8.0, bottom: 0.0, trailing: 8.0))
+                    WKWebViewUI(remoteSourcePath: self.remoteSourcePath, shouldWrapWord: store.shouldWrapWord)
+                }
             }
         }
         .navigationBarTitle(title)

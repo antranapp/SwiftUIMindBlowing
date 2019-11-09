@@ -9,7 +9,7 @@ struct ToggleExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: ToggleExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Toggle/ToggleExampleView.swift"
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Toggle/ToggleExampleDemoView.swift"
         )
         .navigationBarTitle("Toggle")
     }
