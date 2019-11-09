@@ -11,15 +11,33 @@ struct AnimationContentView: View {
             List {
                 Section(header: Text("Shapes")) {
                     Group {
-                        ExampleCellView(
-                            title: "Rectangle",
-                            subtitle: "A rectangular shape aligned inside the frame of the view containing it.")
-                        ExampleCellView(
-                            title: "RoundedRectangle",
-                            subtitle: "A rectangular shape with rounded corners, aligned inside the frame of the view containing it.")
-                        ExampleCellView(
-                            title: "Circle",
-                            subtitle: "A circle centered on the frame of the view containing it.")
+                        NavigationLink(destination:
+                            ExampleView(
+                                title: "Rectangle",
+                                demoContentView: RectangleExampleView(),
+                                remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Shapes/RectangleExampleView.swift")) {
+                            ExampleCellView(
+                                title: "Rectangle",
+                                subtitle: "A rectangular shape aligned inside the frame of the view containing it.")
+                        }
+                        NavigationLink(destination:
+                            ExampleView(
+                                title: "RoundedRectangle",
+                                demoContentView: RoundedRectangleExampleView(),
+                                remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Shapes/RoundedRectangleExampleView.swift")) {
+                            ExampleCellView(
+                                title: "RoundedRectangle",
+                                subtitle: "A rectangular shape with rounded corners, aligned inside the frame of the view containing it.")
+                        }
+                        NavigationLink(destination:
+                            ExampleView(
+                                title: "Circle",
+                                demoContentView: CircleExampleView(),
+                                remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Shapes/CircleExampleView.swift")) {
+                            ExampleCellView(
+                                title: "Circle",
+                                subtitle: "A circle centered on the frame of the view containing it.")
+                        }
                         ExampleCellView(
                             title: "Ellipse",
                             subtitle: "An ellipse aligned inside the frame of the view containing it.")
