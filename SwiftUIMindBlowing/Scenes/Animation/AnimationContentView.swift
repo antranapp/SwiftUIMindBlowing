@@ -44,9 +44,15 @@ struct AnimationContentView: View {
                         ExampleCellView(
                             title: "Capsule",
                             subtitle: "A capsule shape aligned inside the frame of the view containing it.")
-                        ExampleCellView(
-                            title: "Path",
-                            subtitle: "The outline of a 2D shape.")
+                        NavigationLink(destination:
+                            ExampleView(
+                                title: "Path",
+                                demoContentView: PathExampleView(),
+                                remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Shapes/PathExampleView.swift")) {
+                            ExampleCellView(
+                                title: "Path",
+                                subtitle: "The outline of a 2D shape.")
+                        }
                     }
                 }
                 Section(header: Text("Transformed Shapes")) {
@@ -76,9 +82,15 @@ struct AnimationContentView: View {
                         ExampleCellView(
                             title: "Gradient",
                             subtitle: "A color gradient represented as an array of color stops, each having a parametric location value.")
-                        ExampleCellView(
-                            title: "LinearGradient",
-                            subtitle: "A linear gradient.")
+                        NavigationLink(destination:
+                            ExampleView(
+                                title: "LinearGradient",
+                                demoContentView: LinearGradientExampleView(),
+                                remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Gradients/LinearGradientExampleView.swift")) {
+                            ExampleCellView(
+                                title: "LinearGradient",
+                                subtitle: "A linear gradient.")
+                        }
                         ExampleCellView(
                             title: "AngularGradient",
                             subtitle: "An angular gradient.")

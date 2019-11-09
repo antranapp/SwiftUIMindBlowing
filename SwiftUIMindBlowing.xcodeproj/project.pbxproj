@@ -13,6 +13,8 @@
 		F60ED6A72376C01000E3E3B9 /* CircleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ED6A62376C01000E3E3B9 /* CircleExampleView.swift */; };
 		F60ED6A92376C0F100E3E3B9 /* RoundedRectangleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ED6A82376C0F100E3E3B9 /* RoundedRectangleExampleView.swift */; };
 		F60ED6AB2376CE6400E3E3B9 /* WKWebViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ED6AA2376CE6400E3E3B9 /* WKWebViewStore.swift */; };
+		F60ED6AD2376EA6300E3E3B9 /* PathExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ED6AC2376EA6300E3E3B9 /* PathExampleView.swift */; };
+		F60ED6B02376EB3800E3E3B9 /* LinearGradientExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ED6AF2376EB3800E3E3B9 /* LinearGradientExampleView.swift */; };
 		F6180F1E236A41C000C5354A /* error.html in Resources */ = {isa = PBXBuildFile; fileRef = F6180F1D236A41C000C5354A /* error.html */; };
 		F65FD42A237376F500521CDD /* FloatingActionButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65FD429237376F500521CDD /* FloatingActionButtonExampleView.swift */; };
 		F65FD42E2373796E00521CDD /* StretchyHeaderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65FD42D2373796E00521CDD /* StretchyHeaderExampleView.swift */; };
@@ -129,6 +131,8 @@
 		F60ED6A62376C01000E3E3B9 /* CircleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleExampleView.swift; sourceTree = "<group>"; };
 		F60ED6A82376C0F100E3E3B9 /* RoundedRectangleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleExampleView.swift; sourceTree = "<group>"; };
 		F60ED6AA2376CE6400E3E3B9 /* WKWebViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewStore.swift; sourceTree = "<group>"; };
+		F60ED6AC2376EA6300E3E3B9 /* PathExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathExampleView.swift; sourceTree = "<group>"; };
+		F60ED6AF2376EB3800E3E3B9 /* LinearGradientExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientExampleView.swift; sourceTree = "<group>"; };
 		F6180F1D236A41C000C5354A /* error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = error.html; sourceTree = "<group>"; };
 		F65FD429237376F500521CDD /* FloatingActionButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButtonExampleView.swift; sourceTree = "<group>"; };
 		F65FD42D2373796E00521CDD /* StretchyHeaderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderExampleView.swift; sourceTree = "<group>"; };
@@ -250,6 +254,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F60ED6AE2376EB2600E3E3B9 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				F60ED6AF2376EB3800E3E3B9 /* LinearGradientExampleView.swift */,
+			);
+			path = Gradients;
+			sourceTree = "<group>";
+		};
 		F677948922BE3F5D005F1D0C /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +396,7 @@
 				F6E5A9CB236E1FA100BC0852 /* Shapes */,
 				F6E5A9CA236E1F9500BC0852 /* Geometry */,
 				F67794C422BE3F7C005F1D0C /* Animation */,
+				F60ED6AE2376EB2600E3E3B9 /* Gradients */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -785,6 +798,7 @@
 				F60ED6A42375F59800E3E3B9 /* RectangleExampleView.swift */,
 				F60ED6A62376C01000E3E3B9 /* CircleExampleView.swift */,
 				F60ED6A82376C0F100E3E3B9 /* RoundedRectangleExampleView.swift */,
+				F60ED6AC2376EA6300E3E3B9 /* PathExampleView.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -1006,6 +1020,7 @@
 				F6ACE15B236B7A7500BFAB98 /* ToggleExampleDemoView.swift in Sources */,
 				F6ACE16B236B7FA800BFAB98 /* ActionSheetExampleDemoView.swift in Sources */,
 				F69E4008236C854E00B44D67 /* RotationGestureExampleDemoView.swift in Sources */,
+				F60ED6AD2376EA6300E3E3B9 /* PathExampleView.swift in Sources */,
 				F6ACE15E236B7A9500BFAB98 /* EditButtonExampleDemoView.swift in Sources */,
 				F65FD42A237376F500521CDD /* FloatingActionButtonExampleView.swift in Sources */,
 				F6E5A9A6236DAFC400BC0852 /* GeometryReaderExampleView.swift in Sources */,
@@ -1016,6 +1031,7 @@
 				F67794F122BE3F7C005F1D0C /* BasicContentView.swift in Sources */,
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
 				F67794DC22BE3F7C005F1D0C /* FontExampleView.swift in Sources */,
+				F60ED6B02376EB3800E3E3B9 /* LinearGradientExampleView.swift in Sources */,
 				F67794E422BE3F7C005F1D0C /* ToggleExampleView.swift in Sources */,
 				F6E5A9A1236DAD4300BC0852 /* ZStackExampleView.swift in Sources */,
 				F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */,

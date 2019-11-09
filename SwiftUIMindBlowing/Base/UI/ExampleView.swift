@@ -36,10 +36,11 @@ struct ExampleView<Content>: View where Content: View {
             } else if self.viewIndex == 1 {
                 VStack {
                     Toggle(isOn: $store.shouldWrapWord) {
-                        Text("Wrap words")
+                        Text("Wrap text")
                     }
                     .padding(EdgeInsets(top: 0.0, leading: 8.0, bottom: 0.0, trailing: 8.0))
                     WKWebViewUI(remoteSourcePath: self.remoteSourcePath, shouldWrapWord: store.shouldWrapWord)
+                        .edgesIgnoringSafeArea(.all)
                 }
             }
         }

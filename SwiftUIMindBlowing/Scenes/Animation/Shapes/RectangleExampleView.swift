@@ -7,7 +7,7 @@ import SwiftUI
 // https://github.com/fzhlee/SwiftUI-Guide/blob/master/README_English.md#-31-shape-rectangle-
 struct RectangleExampleView: View {
     var body: some View {
-        VStack{
+        VStack {
 
             Rectangle()
             Rectangle()
