@@ -18,11 +18,11 @@ struct TextFieldExampleDemoView: View {
                 text: $textValue,
                 onEditingChanged: { isChanged in
                     print("onEditingChanged: \(self.textValue)")
-            },
+                },
                 onCommit:  {
                     self.finalTextValue = self.textValue
                     print("onEditingChanged: \(self.finalTextValue)")
-            }
+                }
             )
         }
         .navigationBarTitle("TextField")

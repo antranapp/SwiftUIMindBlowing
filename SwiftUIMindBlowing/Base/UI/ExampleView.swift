@@ -10,10 +10,10 @@ struct ExampleView<Content>: View where Content: View {
     @State private var viewIndex = 0
 
     private var title: String
-    private var demoContentView: Content
+    private var demoContentView: () -> Content
     private let remoteSourcePath: String
 
-    public init(title: String = "", demoContentView: Content, remoteSourcePath: String) {
+    public init(title: String = "", demoContentView: @autoclosure @escaping () -> Content, remoteSourcePath: String) {
         self.title = title
         self.demoContentView = demoContentView
         self.remoteSourcePath = remoteSourcePath
@@ -30,7 +30,7 @@ struct ExampleView<Content>: View where Content: View {
             if self.viewIndex == 0 {
                 GeometryReader { geometry in
                     VStack {
-                        self.demoContentView
+                        self.demoContentView()
                     }
                 }
             } else if self.viewIndex == 1 {
