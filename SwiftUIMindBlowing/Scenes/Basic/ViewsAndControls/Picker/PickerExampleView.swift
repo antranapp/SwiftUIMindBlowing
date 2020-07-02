@@ -9,7 +9,7 @@ struct PickerExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: PickerExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Picker/PickerExampleView.swift"
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Picker/PickerExampleDemoView.swift"
         )
         .navigationBarTitle("Picker")
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */; };
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
 		F60ED6A52375F59800E3E3B9 /* RectangleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ED6A42375F59800E3E3B9 /* RectangleExampleView.swift */; };
@@ -124,6 +125,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEqualWidthColumnsExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareExampleView.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */,
 				F6F41F5B22BF86AF004696C0 /* HorizontalCollectionExampleView.swift */,
 				F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */,
+				7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */,
 			);
 			path = Cookbook;
 			sourceTree = "<group>";
@@ -1036,6 +1039,7 @@
 				F6E5A9A1236DAD4300BC0852 /* ZStackExampleView.swift in Sources */,
 				F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */,
 				F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */,
+				7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */,
 				F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */,
 				F6ACE14F236B795E00BFAB98 /* NavigationLinkExampleDemoView.swift in Sources */,
 				F69E400E236C8CED00B44D67 /* SequenceGestureExampleDemoView.swift in Sources */,

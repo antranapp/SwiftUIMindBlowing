@@ -9,7 +9,7 @@ struct NavigationLinkExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: NavigationLinkExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/NavigationLink/NavigationLinkExampleView.swift"
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/NavigationLink/NavigationLinkExampleDemoView.swift"
         )
         .navigationBarTitle("NavigationLink")
     }

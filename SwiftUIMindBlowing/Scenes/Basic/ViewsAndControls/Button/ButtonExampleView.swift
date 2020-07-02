@@ -9,7 +9,7 @@ struct ButtonExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: ButtonExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Button/ButtonExampleView.swift"
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Button/ButtonExampleDemoView.swift"
         )
         .navigationBarTitle("Button")
     }

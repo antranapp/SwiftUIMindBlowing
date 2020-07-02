@@ -50,6 +50,12 @@ struct CookbookContentView: View {
                                 title: "How to make TextField become first responder?",
                                 subtitle: "")
                         }
+
+                        NavigationLink(destination: TwoEqualWidthColumnsExampleView()) {
+                            ExampleCellView(
+                                title: "How to make two equal width columns?",
+                                subtitle: "")
+                        }
                     }
                 }
             } // List

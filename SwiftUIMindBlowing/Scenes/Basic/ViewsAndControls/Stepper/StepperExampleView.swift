@@ -9,7 +9,7 @@ struct StepperExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: StepperExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Stepper/StepperExampleView.swift"
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Stepper/StepperExampleDemoView.swift"
         )
         .navigationBarTitle("Stepper")
     }
