@@ -42,6 +42,7 @@ struct MindBlowingContentView: View {
                             sourceCodeURL: "https://gist.github.com/beliy/f46a34b03827b2a8238b6daa2a356bef")
                     }
                 }
+                Text("Chose a topic in Mind Blowing")
             }
             .navigationBarTitle("Mind Blowing")
         }

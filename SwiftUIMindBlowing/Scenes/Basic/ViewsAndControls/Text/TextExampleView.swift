@@ -8,10 +8,10 @@ struct TextExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "Text",
             demoContentView: TextExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Text/TextExampleDemoView.swift"
+            remoteSourcePath: Constants.repositoryPrefix + "Scenes/Basic/ViewsAndControls/Text/TextExampleDemoView.swift"
         )
-        .navigationBarTitle("Text")
     }
 }
 

@@ -204,16 +204,24 @@ struct BasicContentView: View {
                         }
                     }
                 }
+                Text("Chose a topic in Basic")
             }
             .navigationBarTitle("Basic")
         }
+//        .ifOS(.iOS) { view -> AnyView in
+//            let isLandscape = UIApplication.shared.windows.first?.windowScene?.interfaceOrientation.isLandscape ?? false
+//            if UIDevice.current.userInterfaceIdiom == .phone {
+//                return AnyView(view.navigationViewStyle(StackNavigationViewStyle()))
+//            } else if isLandscape {
+//                return AnyView(view)
+//            }
+//            return AnyView(view.navigationViewStyle(DoubleColumnNavigationViewStyle()).padding(0.25))
+//        }
     }
 }
 
-#if DEBUG
 struct BasicContentView_Previews: PreviewProvider {
     static var previews: some View {
         BasicContentView()
     }
 }
-#endif

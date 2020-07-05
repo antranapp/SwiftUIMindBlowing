@@ -5,7 +5,6 @@
 import SwiftUI
 
 struct TwoEqualWidthColumnsExampleView: View {
-
     var body: some View {
         HStack(alignment: .top, spacing: 0) {
             Rectangle()
@@ -14,7 +13,8 @@ struct TwoEqualWidthColumnsExampleView: View {
             Rectangle()
                 .fill(Color.red)
                 .frame(minWidth: 0, maxWidth: .infinity)
-        }.padding().background(Color.white)
+        }
+        .navigationBarTitle("2 equal width columns", displayMode: .inline)
     }
 }
 

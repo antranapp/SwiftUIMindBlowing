@@ -7,8 +7,7 @@ import SwiftUI
 // https://github.com/fzhlee/SwiftUI-Guide/blob/master/README_English.md#-31-shape-rectangle-
 struct RectangleExampleView: View {
     var body: some View {
-        VStack {
-
+        ScrollView {
             Rectangle()
             Rectangle()
                 .fill(Color.orange)
@@ -33,8 +32,8 @@ struct RectangleExampleView: View {
             RoundedRectangle(cornerSize: CGSize(width: 100, height: 40)).frame(width: 300, height: 200)
 
             RoundedRectangle(cornerRadius: 100, style: RoundedCornerStyle.continuous)
-
         }
+        .navigationBarTitle("Rectangle", displayMode: .inline)
     }
 }
 

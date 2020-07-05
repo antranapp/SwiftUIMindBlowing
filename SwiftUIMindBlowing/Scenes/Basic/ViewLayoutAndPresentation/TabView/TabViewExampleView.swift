@@ -9,7 +9,7 @@ struct TabViewExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: Text("Example for TabView"),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Dashboard/DashboardView.swift"
+            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/TabView/TabViewExampleView.swift"
         )
         .navigationBarTitle("TabView")
     }

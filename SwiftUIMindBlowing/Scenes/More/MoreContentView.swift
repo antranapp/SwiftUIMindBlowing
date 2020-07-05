@@ -8,16 +8,19 @@ struct MoreContentView: View {
 
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink(destination: SFSymbolsContentView()) {
-                    Text("SFSymbols")
-                }
+            Group {
+                List {
+                    NavigationLink(destination: SFSymbolsContentView()) {
+                        Text("SFSymbols")
+                    }
 
-                NavigationLink(destination: CookbookContentView()) {
-                    Text("Cookbook - How to do X?")
+                    NavigationLink(destination: CookbookContentView()) {
+                        Text("Cookbook - How to do X?")
+                    }
                 }
+                Text("Chose a topic in More")
             }
-            .navigationBarTitle(Text("More"))
+            .navigationBarTitle("More")
         }
     }
 }

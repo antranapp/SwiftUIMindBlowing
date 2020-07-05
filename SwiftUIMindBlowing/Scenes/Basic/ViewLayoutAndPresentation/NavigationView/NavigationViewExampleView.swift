@@ -14,6 +14,7 @@ struct NavigationViewExampleView: View {
             )
             .navigationBarTitle("NavigationView")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
