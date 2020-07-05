@@ -8,7 +8,7 @@ import SwiftUI
 struct BasicContentView: View {
 
     var body: some View {
-        NavigationView {
+        MainView(title: "Basic") {
             ModalPresenter() {
                 List {
                     Section(header: Text("Views and Controls")) {
@@ -206,17 +206,7 @@ struct BasicContentView: View {
                 }
                 Text("Chose a topic in Basic")
             }
-            .navigationBarTitle("Basic")
         }
-//        .ifOS(.iOS) { view -> AnyView in
-//            let isLandscape = UIApplication.shared.windows.first?.windowScene?.interfaceOrientation.isLandscape ?? false
-//            if UIDevice.current.userInterfaceIdiom == .phone {
-//                return AnyView(view.navigationViewStyle(StackNavigationViewStyle()))
-//            } else if isLandscape {
-//                return AnyView(view)
-//            }
-//            return AnyView(view.navigationViewStyle(DoubleColumnNavigationViewStyle()).padding(0.25))
-//        }
     }
 }
 

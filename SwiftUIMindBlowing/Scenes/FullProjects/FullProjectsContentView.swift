@@ -6,7 +6,7 @@ import SwiftUI
 
 struct FullProjectsContentView: View {
     var body: some View {
-        NavigationView {
+        MainView(title: "Full Projects") {
             List{
                 Section(header: Text("Custom Views")) {
                     Group {
@@ -19,7 +19,6 @@ struct FullProjectsContentView: View {
                     }
                 }
             }
-            .navigationBarTitle("Full Projects")
         }
     }
 }

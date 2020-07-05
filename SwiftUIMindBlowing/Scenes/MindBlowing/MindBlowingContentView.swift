@@ -8,7 +8,7 @@ import SwiftUI
 struct MindBlowingContentView: View {
 
     var body: some View {
-        NavigationView {
+        MainView(title: "Mind Blowing") {
             ModalPresenter() {
                 List {
                     NavigationLink(destination:
@@ -44,7 +44,6 @@ struct MindBlowingContentView: View {
                 }
                 Text("Chose a topic in Mind Blowing")
             }
-            .navigationBarTitle("Mind Blowing")
         }
     }
 }

@@ -43,15 +43,26 @@ extension View {
         }
     }
 
-    // Conditionally apply modifiers depending on the target operating system.
+//    // Conditionally apply modifiers depending on the target operating system.
+//    @ViewBuilder
+//    func ifOS<Content: View>(
+//        _ operatingSystems: OperatingSystem...,
+//        modifier: @escaping (Self) -> Content
+//    ) -> some View {
+//        return self.if(
+//            operatingSystems.contains(OperatingSystem.current),
+//            modifier: modifier
+//        )
+//    }
     @ViewBuilder
     func ifOS<Content: View>(
         _ operatingSystems: OperatingSystem...,
         modifier: @escaping (Self) -> Content
     ) -> some View {
-        return self.if(
-            operatingSystems.contains(OperatingSystem.current),
-            modifier: modifier
-        )
+        if operatingSystems.contains(OperatingSystem.current) {
+            modifier(self)
+        } else {
+            self
+        }
     }
 }

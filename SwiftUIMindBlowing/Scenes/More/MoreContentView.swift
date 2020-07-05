@@ -7,7 +7,7 @@ import SwiftUI
 struct MoreContentView: View {
 
     var body: some View {
-        NavigationView {
+        MainView(title: "More") {
             Group {
                 List {
                     NavigationLink(destination: SFSymbolsContentView()) {
@@ -20,7 +20,6 @@ struct MoreContentView: View {
                 }
                 Text("Chose a topic in More")
             }
-            .navigationBarTitle("More")
         }
     }
 }

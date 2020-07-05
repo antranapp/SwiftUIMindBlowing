@@ -7,7 +7,7 @@ import SwiftUI
 struct AnimationContentView: View {
 
     var body: some View {
-        NavigationView {
+        MainView(title: "Drawing & Animation") {
             Group {
                 List {
                     Section(header: Text("Shapes")) {
@@ -136,7 +136,6 @@ struct AnimationContentView: View {
                 }
                 Text("Chose a topic in Drawing & Animation")
             }
-            .navigationBarTitle("Drawing & Animation")
         }
     }
 }
