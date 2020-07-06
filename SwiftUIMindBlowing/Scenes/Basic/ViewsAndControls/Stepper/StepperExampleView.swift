@@ -8,18 +8,18 @@ struct StepperExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "Stepper",
             demoContentView: StepperExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Stepper/StepperExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewsAndControls/Stepper/StepperExampleDemoView.swift"
         )
-        .navigationBarTitle("Stepper")
     }
 }
 
 
-#if DEBUG
+
 struct StepperExampleView_Previews: PreviewProvider {
     static var previews: some View {
         StepperExampleView()
     }
 }
-#endif
+

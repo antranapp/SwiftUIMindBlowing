@@ -68,10 +68,10 @@ struct WKWebViewUI: UIViewRepresentable {
     }
 }
 
-#if DEBUG
+
 struct WKWebViewUI_Previews: PreviewProvider {
     static var previews: some View {
-        WKWebViewUI(remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Text/TextExampleView.swift", shouldWrapWord: true)
+        WKWebViewUI(remoteSourcePath: "Basic/ViewsAndControls/Text/TextExampleView.swift", shouldWrapWord: true)
     }
 }
-#endif
+

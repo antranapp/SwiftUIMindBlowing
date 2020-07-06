@@ -8,17 +8,16 @@ struct ScrollViewExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "ScrollView",
             demoContentView: ScrollViewExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/ScrollView/ScrollViewExampleDemoView.swift"
-            )
-            .navigationBarTitle("ScrollView")
+            remoteSourcePath: "Basic/ViewLayoutAndPresentation/ScrollView/ScrollViewExampleDemoView.swift"
+        )
     }
 }
 
-#if DEBUG
 struct ScrollViewExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ScrollViewExampleView()
     }
 }
-#endif
+

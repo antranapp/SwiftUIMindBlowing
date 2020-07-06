@@ -23,10 +23,10 @@ struct NavigationBarButtonView: View {
     }
 }
 
-#if DEBUG
+
 struct NavigationBarButtonView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationBarButtonView()
     }
 }
-#endif
+

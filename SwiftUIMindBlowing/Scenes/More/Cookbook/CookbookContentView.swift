@@ -64,10 +64,10 @@ struct CookbookContentView: View {
     }
 }
 
-#if DEBUG
+
 struct MiscContentView_Previews: PreviewProvider {
     static var previews: some View {
         CookbookContentView()
     }
 }
-#endif
+

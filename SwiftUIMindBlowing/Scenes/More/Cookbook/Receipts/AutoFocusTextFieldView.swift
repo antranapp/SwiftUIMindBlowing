@@ -10,15 +10,13 @@ struct AutoFocusTextFieldView: View {
         ExampleView(
             title: "Autofocus TextField",
             demoContentView: AutoFocusTextFieldDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/More/Cookbook/Receipts/AutoFocusTextFieldDemoView.swift"
+            remoteSourcePath: "More/Cookbook/Receipts/AutoFocusTextFieldDemoView.swift"
         )
     }
 }
 
-#if DEBUG
 struct AutoFocusTextFieldView_Previews: PreviewProvider {
     static var previews: some View {
         AutoFocusTextFieldView()
     }
 }
-#endif

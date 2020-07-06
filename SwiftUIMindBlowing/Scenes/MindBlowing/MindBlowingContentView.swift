@@ -15,7 +15,7 @@ struct MindBlowingContentView: View {
                         ExampleView(
                             title: "View Modifier composition",
                             demoContentView: ViewModifierCompositionExampleDemoView(),
-                            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/MindBlowing/ViewModifierCompositionExampleView.swift")) {
+                            remoteSourcePath: "MindBlowing/ViewModifierCompositionExampleView.swift")) {
                         ExampleCellView(
                             title: "View Modifier composition",
                             subtitle: "View and Modifier composition",
@@ -25,7 +25,7 @@ struct MindBlowingContentView: View {
                         ExampleView(
                             title: "Floating Action Button",
                             demoContentView: FloatingActionButtonExampleView(),
-                            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/MindBlowing/FloatingActionButtonExampleView.swift")) {
+                            remoteSourcePath: "MindBlowing/FloatingActionButtonExampleView.swift")) {
                         ExampleCellView(
                             title: "Floating Action Button",
                             subtitle: "",
@@ -35,7 +35,7 @@ struct MindBlowingContentView: View {
                         ExampleView(
                             title: "Stretchy Header",
                             demoContentView: StretchyHeaderExampleView(),
-                            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/MindBlowing/StretchyHeaderExampleView.swift")) {
+                            remoteSourcePath: "MindBlowing/StretchyHeaderExampleView.swift")) {
                         ExampleCellView(
                             title: "Stretchy Header",
                             subtitle: "",
@@ -48,10 +48,10 @@ struct MindBlowingContentView: View {
     }
 }
 
-#if DEBUG
+
 struct MindBlowingContentView_Previews: PreviewProvider {
     static var previews: some View {
         MindBlowingContentView()
     }
 }
-#endif
+

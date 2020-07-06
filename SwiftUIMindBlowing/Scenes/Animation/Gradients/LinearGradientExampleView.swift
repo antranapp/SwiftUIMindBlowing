@@ -15,10 +15,10 @@ struct LinearGradientExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct LinearGradientExampleView_Previews: PreviewProvider {
     static var previews: some View {
         LinearGradientExampleView()
     }
 }
-#endif
+

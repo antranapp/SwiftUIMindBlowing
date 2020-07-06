@@ -10,15 +10,15 @@ struct TextExampleView: View {
         ExampleView(
             title: "Text",
             demoContentView: TextExampleDemoView(),
-            remoteSourcePath: Constants.repositoryPrefix + "Scenes/Basic/ViewsAndControls/Text/TextExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewsAndControls/Text/TextExampleDemoView.swift"
         )
     }
 }
 
-#if DEBUG
+
 struct TextExampleView_Previews: PreviewProvider {
     static var previews: some View {
         TextExampleView()
     }
 }
-#endif
+

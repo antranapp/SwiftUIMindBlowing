@@ -47,10 +47,10 @@ struct HorizontalCollectionExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct HorizontalCollectionExampleView_Previews: PreviewProvider {
     static var previews: some View {
         HorizontalCollectionExampleView()
     }
 }
-#endif
+

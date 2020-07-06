@@ -9,16 +9,16 @@ struct AlertExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: AlertExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/Alert/AlertExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewLayoutAndPresentation/Alert/AlertExampleDemoView.swift"
         )
         .navigationBarTitle("Alert")
     }
 }
 
-#if DEBUG
+
 struct AlertExampleView_Previews: PreviewProvider {
     static var previews: some View {
         AlertExampleView()
     }
 }
-#endif
+

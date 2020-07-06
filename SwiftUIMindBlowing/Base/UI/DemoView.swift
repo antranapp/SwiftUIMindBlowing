@@ -1,23 +1,26 @@
 //
-//  Copyright © 2019 An Tran. All rights reserved.
+//  Copyright © 2020 An Tran. All rights reserved.
 //
 
 import SwiftUI
 
-struct ExampleView<Content>: View where Content: View {
+struct DemoView<Content: View>: View {
 
     @ObservedObject var store = WKWebViewStore.shared
     @State private var viewIndex = 0
 
     private var title: String
-    private var demoContentView: Content
     private let remoteSourcePath: String?
+    private var content: Content
 
-    @available(*, deprecated, message: "Please use DemoView instead of this ExampleView")
-    public init(title: String = "", demoContentView: @autoclosure @escaping () -> Content, remoteSourcePath: String? = nil) {
+    public init(
+        title: String = "",
+        remoteSourcePath: String? = nil,
+        @ViewBuilder content: () -> Content
+    ) {
         self.title = title
-        self.demoContentView = demoContentView()
         self.remoteSourcePath = remoteSourcePath
+        self.content = content()
     }
 
     var body: some View {
@@ -30,7 +33,7 @@ struct ExampleView<Content>: View where Content: View {
                 .pickerStyle(SegmentedPickerStyle())
 
                 if self.viewIndex == 0 {
-                    self.demoContentView
+                    self.content
                 } else if self.viewIndex == 1 {
                     VStack {
                         Toggle(isOn: $store.shouldWrapWord) {
@@ -42,7 +45,7 @@ struct ExampleView<Content>: View where Content: View {
                     }
                 }
             } else {
-                self.demoContentView
+                self.content
             }
 
             Spacer()
@@ -51,12 +54,12 @@ struct ExampleView<Content>: View where Content: View {
     }
 }
 
-struct ExampleView_Previews: PreviewProvider {
+struct DemoView_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleView(
+        DemoView(
             title: "Demo",
-            demoContentView: Text("Demo"),
-            remoteSourcePath: "Basic/ViewsAndControls/Text/TextExampleView.swift"
-        )
+            remoteSourcePath: "Basic/ViewsAndControls/Text/TextExampleView.swift") {
+                Text("Demo")
+        }
     }
 }

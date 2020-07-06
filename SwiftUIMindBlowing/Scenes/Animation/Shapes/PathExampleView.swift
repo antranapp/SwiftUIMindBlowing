@@ -17,10 +17,10 @@ struct PathExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct PathExampleView_Previews: PreviewProvider {
     static var previews: some View {
         PathExampleView()
     }
 }
-#endif
+

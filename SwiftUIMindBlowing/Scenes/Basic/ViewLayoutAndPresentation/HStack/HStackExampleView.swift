@@ -9,16 +9,16 @@ struct HStackExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: HStackExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/HStack/HStackExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewLayoutAndPresentation/HStack/HStackExampleDemoView.swift"
         )
         .navigationBarTitle("HStack")
     }
 }
 
-#if DEBUG
+
 struct HStackExampleView_Previews: PreviewProvider {
     static var previews: some View {
         HStackExampleView()
     }
 }
-#endif
+

@@ -23,10 +23,10 @@ struct FullProjectsContentView: View {
     }
 }
 
-#if DEBUG
+
 struct FullProjectsContentView_Previews: PreviewProvider {
     static var previews: some View {
         FullProjectsContentView()
     }
 }
-#endif
+

@@ -8,17 +8,15 @@ struct SecureFieldExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "SecureField",
             demoContentView: SecureFieldExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/SecureField/SecureFieldExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewsAndControls/SecureField/SecureFieldExampleDemoView.swift"
         )
-        .navigationBarTitle("SecureField")
     }
 }
 
-#if DEBUG
 struct SecureFieldExampleView_Previews: PreviewProvider {
     static var previews: some View {
         SecureFieldExampleView()
     }
 }
-#endif

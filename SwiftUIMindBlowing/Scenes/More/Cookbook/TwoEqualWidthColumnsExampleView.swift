@@ -18,10 +18,10 @@ struct TwoEqualWidthColumnsExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct TwoEqualWidthColumnsExampleView_Previews: PreviewProvider {
     static var previews: some View {
         TwoEqualWidthColumnsExampleView()
     }
 }
-#endif
+

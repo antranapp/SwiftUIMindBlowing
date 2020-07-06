@@ -37,10 +37,10 @@ struct RectangleExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct RectangleExampleView_Previews: PreviewProvider {
     static var previews: some View {
         RectangleExampleView()
     }
 }
-#endif
+

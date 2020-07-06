@@ -5,5 +5,5 @@
 import Foundation
 
 enum Constants {
-    static let repositoryPrefix = "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/"
+    static let repositoryPrefix = "https://raw.githubusercontent.com/antranapp/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/"
 }

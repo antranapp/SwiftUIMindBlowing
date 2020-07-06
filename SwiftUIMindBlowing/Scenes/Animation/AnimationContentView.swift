@@ -16,7 +16,7 @@ struct AnimationContentView: View {
                                 ExampleView(
                                     title: "Rectangle",
                                     demoContentView: RectangleExampleView(),
-                                    remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Shapes/RectangleExampleView.swift")) {
+                                    remoteSourcePath: "Animation/Shapes/RectangleExampleView.swift")) {
                                         ExampleCellView(
                                             title: "Rectangle",
                                             subtitle: "A rectangular shape aligned inside the frame of the view containing it.")
@@ -25,7 +25,7 @@ struct AnimationContentView: View {
                                 ExampleView(
                                     title: "RoundedRectangle",
                                     demoContentView: RoundedRectangleExampleView(),
-                                    remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Shapes/RoundedRectangleExampleView.swift")) {
+                                    remoteSourcePath: "Animation/Shapes/RoundedRectangleExampleView.swift")) {
                                         ExampleCellView(
                                             title: "RoundedRectangle",
                                             subtitle: "A rectangular shape with rounded corners, aligned inside the frame of the view containing it.")
@@ -34,7 +34,7 @@ struct AnimationContentView: View {
                                 ExampleView(
                                     title: "Circle",
                                     demoContentView: CircleExampleView(),
-                                    remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Shapes/CircleExampleView.swift")) {
+                                    remoteSourcePath: "Animation/Shapes/CircleExampleView.swift")) {
                                         ExampleCellView(
                                             title: "Circle",
                                             subtitle: "A circle centered on the frame of the view containing it.")
@@ -49,7 +49,7 @@ struct AnimationContentView: View {
                                 ExampleView(
                                     title: "Path",
                                     demoContentView: PathExampleView(),
-                                    remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Shapes/PathExampleView.swift")) {
+                                    remoteSourcePath: "Animation/Shapes/PathExampleView.swift")) {
                                         ExampleCellView(
                                             title: "Path",
                                             subtitle: "The outline of a 2D shape.")
@@ -87,7 +87,7 @@ struct AnimationContentView: View {
                                 ExampleView(
                                     title: "LinearGradient",
                                     demoContentView: LinearGradientExampleView(),
-                                    remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Gradients/LinearGradientExampleView.swift")) {
+                                    remoteSourcePath: "Animation/Gradients/LinearGradientExampleView.swift")) {
                                         ExampleCellView(
                                             title: "LinearGradient",
                                             subtitle: "A linear gradient.")
@@ -140,10 +140,10 @@ struct AnimationContentView: View {
     }
 }
 
-#if DEBUG
+
 struct AnimationContentView_Previews: PreviewProvider {
     static var previews: some View {
         AnimationContentView()
     }
 }
-#endif
+

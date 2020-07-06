@@ -24,10 +24,10 @@ struct MoreContentView: View {
     }
 }
 
-#if DEBUG
+
 struct MoreContentView_Previews: PreviewProvider {
     static var previews: some View {
         MoreContentView()
     }
 }
-#endif
+

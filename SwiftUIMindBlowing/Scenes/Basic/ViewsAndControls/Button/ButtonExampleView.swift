@@ -8,18 +8,18 @@ struct ButtonExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "Button",
             demoContentView: ButtonExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Button/ButtonExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewsAndControls/Button/ButtonExampleDemoView.swift"
         )
-        .navigationBarTitle("Button")
     }
 }
 
 
-#if DEBUG
+
 struct ButtonExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ButtonExampleView()
     }
 }
-#endif
+

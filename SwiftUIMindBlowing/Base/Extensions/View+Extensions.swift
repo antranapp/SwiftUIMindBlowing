@@ -14,11 +14,11 @@ enum OperatingSystem {
     #if os(macOS)
     static let current = macOS
     #elseif os(iOS)
-    #if targetEnvironment(macCatalyst)
-    static let current = macCatalyst
-    #else
-    static let current = iOS
-    #endif
+        #if targetEnvironment(macCatalyst)
+        static let current = macCatalyst
+        #else
+        static let current = iOS
+        #endif
     #elseif os(tvOS)
     static let current = tvOS
     #elseif os(watchOS)
@@ -43,17 +43,6 @@ extension View {
         }
     }
 
-//    // Conditionally apply modifiers depending on the target operating system.
-//    @ViewBuilder
-//    func ifOS<Content: View>(
-//        _ operatingSystems: OperatingSystem...,
-//        modifier: @escaping (Self) -> Content
-//    ) -> some View {
-//        return self.if(
-//            operatingSystems.contains(OperatingSystem.current),
-//            modifier: modifier
-//        )
-//    }
     @ViewBuilder
     func ifOS<Content: View>(
         _ operatingSystems: OperatingSystem...,
