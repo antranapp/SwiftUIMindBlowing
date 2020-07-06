@@ -26,10 +26,10 @@ struct SFSafariViewControllerExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct SFSafariViewControllerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         SFSafariViewControllerExampleView()
     }
 }
-#endif
+

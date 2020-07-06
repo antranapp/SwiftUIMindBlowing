@@ -9,16 +9,16 @@ struct BlendModeExampleView: View {
     var body: some View {
         ExampleView(
             demoContentView: BlendModeExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Animation/Animation/BlendMode/BlendModeExampleDemoView.swift"
+            remoteSourcePath: "Animation/Animation/BlendMode/BlendModeExampleDemoView.swift"
         )
         .navigationBarTitle("BlendMode")
     }
 }
 
-#if DEBUG
+
 struct BlendModeExampleView_Previews: PreviewProvider {
     static var previews: some View {
         BlendModeExampleView()
     }
 }
-#endif
+

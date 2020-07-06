@@ -8,17 +8,17 @@ struct ZStackExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "VStack",
             demoContentView: ZStackExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/ZStack/ZStackExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewLayoutAndPresentation/ZStack/ZStackExampleDemoView.swift"
         )
-            .navigationBarTitle("VStack")
     }
 }
 
-#if DEBUG
+
 struct ZStackExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ZStackExampleView()
     }
 }
-#endif
+

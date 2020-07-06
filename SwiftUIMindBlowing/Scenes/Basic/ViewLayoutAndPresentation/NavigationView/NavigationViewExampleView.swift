@@ -10,10 +10,11 @@ struct NavigationViewExampleView: View {
         NavigationView {
             ExampleView(
                 demoContentView: Text("Example for NavigationView"),
-                remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewLayoutAndPresentation/NavigationView/NavigationViewExampleView.swift"
+                remoteSourcePath: "Basic/ViewLayoutAndPresentation/NavigationView/NavigationViewExampleView.swift"
             )
             .navigationBarTitle("NavigationView")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

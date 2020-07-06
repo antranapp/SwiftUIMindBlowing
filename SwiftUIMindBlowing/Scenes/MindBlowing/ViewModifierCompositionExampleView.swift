@@ -16,7 +16,8 @@ struct ViewModifierCompositionExampleDemoView: View {
             }
         }
 
-        return Text("🤯🤯")
+        return VStack {
+            Text("🤯🤯")
             .padding()
             .background(Color.green)
             .cornerRadius(10)
@@ -46,7 +47,8 @@ struct ViewModifierCompositionExampleDemoView: View {
             .background(Color.red)
             .cornerRadius(10)
             .animation(.spring())
-            .rotationEffect(.degrees(12.0 * Double(self.value)))
-
+                .rotationEffect(.degrees(12.0 * Double(self.value)))
+        }
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
     }
 }

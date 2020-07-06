@@ -8,18 +8,18 @@ struct DatePickerExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "DatePicker",
             demoContentView: DatePickerExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/DatePicker/DatePickerExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewsAndControls/DatePicker/DatePickerExampleDemoView.swift"
         )
-        .navigationBarTitle("DatePicker")
     }
 }
 
 
-#if DEBUG
+
 struct DatePickerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         DatePickerExampleView()
     }
 }
-#endif
+

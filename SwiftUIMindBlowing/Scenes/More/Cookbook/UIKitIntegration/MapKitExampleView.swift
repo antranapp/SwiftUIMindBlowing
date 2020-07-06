@@ -24,8 +24,10 @@ struct MKMapViewUI: UIViewRepresentable {
 
 struct MapKitExampleView: View {
     var body: some View {
-        MKMapViewUI()
-            .navigationBarTitle(Text("MapKit Integration"))
+        ExampleView(
+            title: "MapKit Integration",
+            demoContentView: MKMapViewUI()
+        )
     }
 }
 

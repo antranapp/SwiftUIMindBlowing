@@ -31,10 +31,10 @@ struct RoundedRectangleExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct RoundedRectangleExampleView_Previews: PreviewProvider {
     static var previews: some View {
         RoundedRectangleExampleView()
     }
 }
-#endif
+

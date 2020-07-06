@@ -59,10 +59,10 @@ struct SFSymbolsContentView: View {
     }
 }
 
-#if DEBUG
+
 struct SFSymbolsContentView_Previews: PreviewProvider {
     static var previews: some View {
         SFSymbolsContentView()
     }
 }
-#endif
+

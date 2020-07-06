@@ -8,18 +8,15 @@ struct SegmentedControlExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "SegmentedControl",
             demoContentView: SegmentedControlExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/SegmentedControl/SegmentedControlExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewsAndControls/SegmentedControl/SegmentedControlExampleDemoView.swift"
         )
-        .navigationBarTitle(Text("SegmentedControl"))
     }
 }
 
-
-#if DEBUG
 struct SegmentedControlExampleView_Previews: PreviewProvider {
     static var previews: some View {
         SegmentedControlExampleView()
     }
 }
-#endif

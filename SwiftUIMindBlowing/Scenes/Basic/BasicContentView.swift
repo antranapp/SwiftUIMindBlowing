@@ -8,7 +8,7 @@ import SwiftUI
 struct BasicContentView: View {
 
     var body: some View {
-        NavigationView {
+        MainView(title: "Basic") {
             ModalPresenter() {
                 List {
                     Section(header: Text("Views and Controls")) {
@@ -204,16 +204,14 @@ struct BasicContentView: View {
                         }
                     }
                 }
+                Text("Chose a topic in Basic")
             }
-            .navigationBarTitle("Basic")
         }
     }
 }
 
-#if DEBUG
 struct BasicContentView_Previews: PreviewProvider {
     static var previews: some View {
         BasicContentView()
     }
 }
-#endif

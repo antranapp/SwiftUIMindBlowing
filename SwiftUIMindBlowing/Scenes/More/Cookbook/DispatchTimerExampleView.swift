@@ -17,10 +17,10 @@ struct DispatchTimerExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct DispatchTimerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         DispatchTimerExampleView()
     }
 }
-#endif
+

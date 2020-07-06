@@ -7,25 +7,27 @@ import SwiftUI
 struct MoreContentView: View {
 
     var body: some View {
-        NavigationView {
-            List {
-                NavigationLink(destination: SFSymbolsContentView()) {
-                    Text("SFSymbols")
-                }
+        MainView(title: "More") {
+            Group {
+                List {
+                    NavigationLink(destination: SFSymbolsContentView()) {
+                        Text("SFSymbols")
+                    }
 
-                NavigationLink(destination: CookbookContentView()) {
-                    Text("Cookbook - How to do X?")
+                    NavigationLink(destination: CookbookContentView()) {
+                        Text("Cookbook - How to do X?")
+                    }
                 }
+                Text("Chose a topic in More")
             }
-            .navigationBarTitle(Text("More"))
         }
     }
 }
 
-#if DEBUG
+
 struct MoreContentView_Previews: PreviewProvider {
     static var previews: some View {
         MoreContentView()
     }
 }
-#endif
+

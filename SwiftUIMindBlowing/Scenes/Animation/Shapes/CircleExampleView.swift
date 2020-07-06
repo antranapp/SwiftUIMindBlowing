@@ -21,10 +21,10 @@ struct CircleExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct CircleExampleView_Previews: PreviewProvider {
     static var previews: some View {
         CircleExampleView()
     }
 }
-#endif
+

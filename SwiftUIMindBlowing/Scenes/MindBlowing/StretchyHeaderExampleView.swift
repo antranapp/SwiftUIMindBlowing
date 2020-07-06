@@ -54,10 +54,10 @@ struct StretchyHeaderExampleView: View {
     }
 }
 
-#if DEBUG
+
 struct StretchyHeaderExampleView_Previews: PreviewProvider {
     static var previews: some View {
         StretchyHeaderExampleView()
     }
 }
-#endif
+

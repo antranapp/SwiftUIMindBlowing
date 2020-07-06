@@ -8,18 +8,18 @@ struct PickerExampleView: View {
 
     var body: some View {
         ExampleView(
+            title: "Picker",
             demoContentView: PickerExampleDemoView(),
-            remoteSourcePath: "https://raw.githubusercontent.com/peacemoon/SwiftUIMindBlowing/master/SwiftUIMindBlowing/Scenes/Basic/ViewsAndControls/Picker/PickerExampleDemoView.swift"
+            remoteSourcePath: "Basic/ViewsAndControls/Picker/PickerExampleDemoView.swift"
         )
-        .navigationBarTitle("Picker")
     }
 }
 
 
-#if DEBUG
+
 struct PickerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         PickerExampleView()
     }
 }
-#endif
+

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F337C9224AEF68A004ED5CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F337C9124AEF68A004ED5CE /* Constants.swift */; };
+		7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */; };
+		7FC5FD6424B2046B00BF4464 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6324B2046B00BF4464 /* MainView.swift */; };
+		7FC5FD6624B2DD4500BF4464 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6524B2DD4500BF4464 /* DemoView.swift */; };
 		7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */; };
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
@@ -125,6 +129,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F337C9124AEF68A004ED5CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		7FC5FD6324B2046B00BF4464 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7FC5FD6524B2DD4500BF4464 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEqualWidthColumnsExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
@@ -256,6 +264,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FC5FD5E24B1FB1900BF4464 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F60ED6AE2376EB2600E3E3B9 /* Gradients */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +283,7 @@
 		F677948922BE3F5D005F1D0C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				7FC5FD5E24B1FB1900BF4464 /* Extensions */,
 				F677948A22BE3F5D005F1D0C /* UI */,
 			);
 			name = Base;
@@ -280,6 +297,8 @@
 				F677948C22BE3F5D005F1D0C /* ExampleView.swift */,
 				F677948D22BE3F5D005F1D0C /* ExampleCellView.swift */,
 				F60D9B7922C161FA002891EE /* SearchBarView.swift */,
+				7FC5FD6324B2046B00BF4464 /* MainView.swift */,
+				7FC5FD6524B2DD4500BF4464 /* DemoView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -862,6 +881,7 @@
 				F6F47C8D22BABEF8009E3C48 /* LaunchScreen.storyboard */,
 				F6F47C9022BABEF8009E3C48 /* Info.plist */,
 				F6F47C8A22BABEF8009E3C48 /* Preview Content */,
+				7F337C9124AEF68A004ED5CE /* Constants.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -1010,6 +1030,7 @@
 				F6E5A9BF236DE8BD00BC0852 /* SpacerExampleDemoView.swift in Sources */,
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F6E5A9B7236DE66700BC0852 /* ForEachExampleDemoView.swift in Sources */,
+				7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
 				F6E5A9CE236E228600BC0852 /* RotationEffectExampleDemoView.swift in Sources */,
 				F6E5A9D4236E246C00BC0852 /* ScaleEffectExampleDemoView.swift in Sources */,
@@ -1017,7 +1038,9 @@
 				F67794DF22BE3F7C005F1D0C /* SegmentedControlExampleView.swift in Sources */,
 				F69E4016236CACDC00B44D67 /* SimultanousGestureExampleView.swift in Sources */,
 				F6ACE161236B7AF700BFAB98 /* ButtonExampleDemoView.swift in Sources */,
+				7F337C9224AEF68A004ED5CE /* Constants.swift in Sources */,
 				F6F92B3D236304C5000CCC4D /* NavigationBarButtonView.swift in Sources */,
+				7FC5FD6624B2DD4500BF4464 /* DemoView.swift in Sources */,
 				F6ACE158236B7A1200BFAB98 /* DatePickerExampleDemoView.swift in Sources */,
 				F6ACE16F236B7FFE00BFAB98 /* AlertExampleDemoView.swift in Sources */,
 				F6ACE15B236B7A7500BFAB98 /* ToggleExampleDemoView.swift in Sources */,
@@ -1032,6 +1055,7 @@
 				F67794E022BE3F7C005F1D0C /* NavigationLinkExampleView.swift in Sources */,
 				F6E5A99F236DACD300BC0852 /* ListExampleView.swift in Sources */,
 				F67794F122BE3F7C005F1D0C /* BasicContentView.swift in Sources */,
+				7FC5FD6424B2046B00BF4464 /* MainView.swift in Sources */,
 				F6F47C8322BABEF7009E3C48 /* AppDelegate.swift in Sources */,
 				F67794DC22BE3F7C005F1D0C /* FontExampleView.swift in Sources */,
 				F60ED6B02376EB3800E3E3B9 /* LinearGradientExampleView.swift in Sources */,
