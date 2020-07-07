@@ -18,15 +18,14 @@ struct FullProjectsContentView: View {
                                 title: "Simple Carousel",
                                 subtitle: "A simple implementation for a carousel",
                                 sourceCodeURL: "https://github.com/markwinton/carousel")
-                        }
-                        .contextMenu {
-                            Button(action: {
-                                store.send(.save(scenario: .fullproject_twitter))
-                            }) {
-                                Text("Pin")
-                                Image(systemName: "pin.fill")
-                            }
-
+                                .contextMenu {
+                                    Button(action: {
+                                        store.send(.save(scenario: .fullproject_twitter))
+                                    }) {
+                                        Text("Pin")
+                                        Image(systemName: "pin.fill")
+                                    }
+                                }
                         }
                     }
                 }

@@ -29,6 +29,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.window = window
             window.makeKeyAndVisible()
         }
+
+        if let shortcutItem = connectionOptions.shortcutItem {
+            store.send(.reset)
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -59,6 +63,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
+    func windowScene(_ windowScene: UIWindowScene, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
+        store.send(.reset)
+    }
 
 }
 
