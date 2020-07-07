@@ -5,6 +5,9 @@
 import SwiftUI
 
 struct DashboardView: View {
+
+    @EnvironmentObject var store: AppStore
+
     var body: some View {
         TabView {
             BasicContentView()
@@ -29,6 +32,7 @@ struct DashboardView: View {
                 .tag(2)
 
             FullProjectsContentView()
+                .environmentObject(store)
                 .tabItem {
                     Image("ios-journal")
                     Text("Projects")

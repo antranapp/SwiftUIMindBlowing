@@ -10,10 +10,11 @@ struct RootView: View {
 
     @ViewBuilder
     var body: some View {
-        if store.state.scenario == .dashboard {
-            AnyView(DashboardView())
-        } else {
-            AnyView(Text("This is a scenario"))
+        switch store.state.scenario {
+            case .default:
+                AnyView(DashboardView().environmentObject(store))
+            case .fullproject_twitter:
+                AnyView(Text("This is a scenario"))
         }
     }
 }

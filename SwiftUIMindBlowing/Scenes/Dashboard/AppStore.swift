@@ -11,14 +11,18 @@ typealias AppStore = Store<AppState, AppAction, AppEnvironment>
 
 class AppEnvironment {}
 
-enum AppAction {}
-
-struct AppState {
-    let scenario: Scenario = .dashboard
+enum AppAction {
+    case reset
+    case save(scenario: Scenario)
 }
 
-enum Scenario: Equatable {
-    case dashboard
+struct AppState {
+    @AppStorage("scenario")
+    var scenario: Scenario = .default
+}
+
+enum Scenario: String, Equatable {
+    case `default`
     case fullproject_twitter
 }
 
@@ -26,6 +30,14 @@ func appReducer(
     state: inout AppState,
     action: AppAction,
     environment: AppEnvironment) -> AnyPublisher<AppAction, Never>? {
+
+    switch action {
+        case .reset:
+            state.scenario = .default
+        case .save(let scenario):
+            state.scenario = scenario
+    }
+
     return nil
 }
 
