@@ -7,11 +7,12 @@ import SwiftUI
 struct StepperExampleView: View {
 
     var body: some View {
-        ExampleView(
+        DemoView(
             title: "Stepper",
-            demoContentView: StepperExampleDemoView(),
             remoteSourcePath: "Basic/ViewsAndControls/Stepper/StepperExampleDemoView.swift"
-        )
+        ) {
+            StepperExampleDemoView()
+        }
     }
 }
 

@@ -7,11 +7,12 @@ import SwiftUI
 struct ImageExampleView: View {
 
     var body: some View {
-        ExampleView(
+        DemoView (
             title: "Image",
-            demoContentView: ImageExampleDemoView(),
             remoteSourcePath: "Basic/ViewsAndControls/Image/ImageExampleDemoView.swift"
-        )
+        ) {
+            ImageExampleDemoView()
+        }
     }
 }
 
