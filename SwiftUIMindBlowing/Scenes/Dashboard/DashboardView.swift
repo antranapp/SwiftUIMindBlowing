@@ -4,7 +4,10 @@
 
 import SwiftUI
 
-struct DasboardView: View {
+struct DashboardView: View {
+
+    @EnvironmentObject var store: AppStore
+
     var body: some View {
         TabView {
             BasicContentView()
@@ -29,6 +32,7 @@ struct DasboardView: View {
                 .tag(2)
 
             FullProjectsContentView()
+                .environmentObject(store)
                 .tabItem {
                     Image("ios-journal")
                     Text("Projects")
@@ -47,6 +51,6 @@ struct DasboardView: View {
 
 struct DasboardView_Previews: PreviewProvider {
     static var previews: some View {
-        DasboardView()
+        DashboardView()
     }
 }

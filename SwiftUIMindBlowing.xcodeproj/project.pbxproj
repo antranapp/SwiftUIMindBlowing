@@ -11,6 +11,8 @@
 		7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */; };
 		7FC5FD6424B2046B00BF4464 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6324B2046B00BF4464 /* MainView.swift */; };
 		7FC5FD6624B2DD4500BF4464 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6524B2DD4500BF4464 /* DemoView.swift */; };
+		7FC5FD6C24B2E79B00BF4464 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6B24B2E79B00BF4464 /* AppStore.swift */; };
+		7FC5FD6E24B2E7BA00BF4464 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6D24B2E7BA00BF4464 /* RootView.swift */; };
 		7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */; };
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
@@ -53,7 +55,7 @@
 		F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794C522BE3F7C005F1D0C /* ScaleEffectExampleView.swift */; };
 		F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794C622BE3F7C005F1D0C /* RotationEffectExampleView.swift */; };
 		F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794C822BE3F7C005F1D0C /* MoreContentView.swift */; };
-		F67794F722BE3F7C005F1D0C /* DasboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CB22BE3F7C005F1D0C /* DasboardView.swift */; };
+		F67794F722BE3F7C005F1D0C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CB22BE3F7C005F1D0C /* DashboardView.swift */; };
 		F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */; };
 		F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */; };
 		F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679D070236C45A200C67666 /* LongPressGestureExampleView.swift */; };
@@ -133,6 +135,8 @@
 		7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		7FC5FD6324B2046B00BF4464 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7FC5FD6524B2DD4500BF4464 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		7FC5FD6B24B2E79B00BF4464 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		7FC5FD6D24B2E7BA00BF4464 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEqualWidthColumnsExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
@@ -176,7 +180,7 @@
 		F67794C522BE3F7C005F1D0C /* ScaleEffectExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleEffectExampleView.swift; sourceTree = "<group>"; };
 		F67794C622BE3F7C005F1D0C /* RotationEffectExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationEffectExampleView.swift; sourceTree = "<group>"; };
 		F67794C822BE3F7C005F1D0C /* MoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreContentView.swift; sourceTree = "<group>"; };
-		F67794CB22BE3F7C005F1D0C /* DasboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DasboardView.swift; sourceTree = "<group>"; };
+		F67794CB22BE3F7C005F1D0C /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		F67794CD22BE3F7C005F1D0C /* SFSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		F67794CE22BE3F7C005F1D0C /* SFSymbolsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsContentView.swift; sourceTree = "<group>"; };
 		F679D070236C45A200C67666 /* LongPressGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureExampleView.swift; sourceTree = "<group>"; };
@@ -446,7 +450,9 @@
 		F67794CA22BE3F7C005F1D0C /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				F67794CB22BE3F7C005F1D0C /* DasboardView.swift */,
+				F67794CB22BE3F7C005F1D0C /* DashboardView.swift */,
+				7FC5FD6B24B2E79B00BF4464 /* AppStore.swift */,
+				7FC5FD6D24B2E7BA00BF4464 /* RootView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -1013,8 +1019,10 @@
 				F6E5A9C9236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift in Sources */,
 				F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */,
 				F67794EA22BE3F7C005F1D0C /* PickerExampleView.swift in Sources */,
+				7FC5FD6C24B2E79B00BF4464 /* AppStore.swift in Sources */,
 				F67794CF22BE3F7C005F1D0C /* CookbookContentView.swift in Sources */,
 				F60ED6A52375F59800E3E3B9 /* RectangleExampleView.swift in Sources */,
+				7FC5FD6E24B2E7BA00BF4464 /* RootView.swift in Sources */,
 				F60ED6AB2376CE6400E3E3B9 /* WKWebViewStore.swift in Sources */,
 				F6E5A9A3236DAD6800BC0852 /* ZStackExampleDemoView.swift in Sources */,
 				F6E5A9BA236DE76F00BC0852 /* TabViewExampleView.swift in Sources */,
@@ -1100,7 +1108,7 @@
 				F69551A1236A388800B81712 /* WKWebViewUICoordinator.swift in Sources */,
 				F67794E222BE3F7C005F1D0C /* StepperExampleView.swift in Sources */,
 				F67794E522BE3F7C005F1D0C /* EditButtonExampleView.swift in Sources */,
-				F67794F722BE3F7C005F1D0C /* DasboardView.swift in Sources */,
+				F67794F722BE3F7C005F1D0C /* DashboardView.swift in Sources */,
 				F6F92B292361AA82000CCC4D /* ReceiptVStackFullScreenView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
 				F67794DD22BE3F7C005F1D0C /* ImageExampleView.swift in Sources */,
@@ -1173,7 +1181,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1228,7 +1236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
