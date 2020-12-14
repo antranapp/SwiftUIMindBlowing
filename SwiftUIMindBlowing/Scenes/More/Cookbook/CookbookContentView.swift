@@ -56,6 +56,14 @@ struct CookbookContentView: View {
                                 title: "How to make two equal width columns?",
                                 subtitle: "")
                         }
+
+                        NavigationLink(destination: OpenURLInDefaultBrowserView()) {
+                            ExampleCellView(
+                                title: "How to open an url in the default browser?",
+                                subtitle: "")
+                        }
+
+                    
                     }
                 }
             } // List

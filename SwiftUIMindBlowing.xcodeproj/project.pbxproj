@@ -62,7 +62,7 @@
 		F679D073236C481600C67666 /* LongPressGestureExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679D072236C481600C67666 /* LongPressGestureExampleDemoView.swift */; };
 		F68C9F1222BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */; };
 		F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */; };
-		F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */; };
+		F695518323683EA800B81712 /* OpenURLInDefaultBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695518223683EA800B81712 /* OpenURLInDefaultBrowserView.swift */; };
 		F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551972369E27E00B81712 /* HStackExampleDemoView.swift */; };
 		F69551A1236A388800B81712 /* WKWebViewUICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69551A0236A388800B81712 /* WKWebViewUICoordinator.swift */; };
 		F69E4001236C80D200B44D67 /* MagnificationGestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */; };
@@ -187,7 +187,7 @@
 		F679D072236C481600C67666 /* LongPressGestureExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureExampleDemoView.swift; sourceTree = "<group>"; };
 		F68C9F1122BFC96A000B6B9D /* SFSafariViewControllerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewControllerExampleView.swift; sourceTree = "<group>"; };
 		F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldView.swift; sourceTree = "<group>"; };
-		F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFocusTextFieldDemoView.swift; sourceTree = "<group>"; };
+		F695518223683EA800B81712 /* OpenURLInDefaultBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenURLInDefaultBrowserView.swift; sourceTree = "<group>"; };
 		F69551972369E27E00B81712 /* HStackExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExampleDemoView.swift; sourceTree = "<group>"; };
 		F69551A0236A388800B81712 /* WKWebViewUICoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewUICoordinator.swift; sourceTree = "<group>"; };
 		F69E4000236C80D200B44D67 /* MagnificationGestureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExampleView.swift; sourceTree = "<group>"; };
@@ -906,7 +906,7 @@
 				F6F92B282361AA82000CCC4D /* ReceiptVStackFullScreenView.swift */,
 				F6F92B3C236304C5000CCC4D /* NavigationBarButtonView.swift */,
 				F695518023683E5F00B81712 /* AutoFocusTextFieldView.swift */,
-				F695518223683EA800B81712 /* AutoFocusTextFieldDemoView.swift */,
+				F695518223683EA800B81712 /* OpenURLInDefaultBrowserView.swift */,
 			);
 			path = Receipts;
 			sourceTree = "<group>";
@@ -1087,7 +1087,7 @@
 				F69E4001236C80D200B44D67 /* MagnificationGestureExampleView.swift in Sources */,
 				F6E5A9C7236E141C00BC0852 /* ExclusiveGestureExampleView.swift in Sources */,
 				F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */,
-				F695518323683EA800B81712 /* AutoFocusTextFieldDemoView.swift in Sources */,
+				F695518323683EA800B81712 /* OpenURLInDefaultBrowserView.swift in Sources */,
 				F67794D922BE3F7C005F1D0C /* FullProjectsContentView.swift in Sources */,
 				F6E5A9A8236DB03500BC0852 /* GeometryReaderExampleDemoView.swift in Sources */,
 				F6E5A9C2236E133500BC0852 /* DividerExampleView.swift in Sources */,
